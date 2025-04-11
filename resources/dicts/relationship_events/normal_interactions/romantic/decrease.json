@@ -7,7 +7,8 @@
 			"m_c gave a gift to r_c, but {PRONOUN/r_c/subject} turned up {PRONOUN/r_c/poss} nose at the offering.",
 			"m_c heard r_c express an ideal {PRONOUN/m_c/subject} cannot agree with.",
 			"m_c heard r_c talking badly about {PRONOUN/m_c/object}.",
-			"m_c catches r_c staring at another cat."
+			"m_c catches r_c staring at another cat.",
+			"m_c feels that r_c's path is diverging from {PRONOUN/m_c/poss} own."
 		]
 	},
 	{
@@ -43,11 +44,20 @@
 		"interactions": [
 			"m_c is starting to have doubts about {PRONOUN/m_c/poss} feelings for r_c.",
 			"m_c heard a rumor that r_c likes someone else.",
-			"m_c worries that r_c will never feel the same way {PRONOUN/m_c/subject} {VERB/m_c/do/does}.",
 			"m_c noticed r_c flirting with someone else.",
-			"m_c heard r_c discussing potential mates but {PRONOUN/m_c/poss} name never came up.",
 			"m_c thinks {PRONOUN/m_c/poss} dreams might not come true with r_c.",
 			"r_c was seen tossing out a gift m_c gave {PRONOUN/r_c/object}."
+		]
+	},
+	{
+		"id": "rom_dec_medium4",
+		"intensity": "medium",
+		"interactions": [
+			"m_c worries that r_c will never feel the same way {PRONOUN/m_c/subject} {VERB/m_c/do/does}.",
+			"m_c heard r_c discussing potential mates but {PRONOUN/m_c/poss} name never came up."
+		],
+		"relationship_constraint": [
+			"not_mates"
 		]
 	},
 	{
@@ -55,10 +65,36 @@
 		"intensity": "low",
 		"interactions": [
 			"m_c feels ignored by r_c.",
-			"m_c didn't get the joke r_c was telling.",
-			"m_c and r_c had a conversation where they realized they didn't have much in common.",
-			"m_c didn't realize r_c was flirting with {PRONOUN/m_c/object}."
+			"r_c didn't get the joke m_c was telling.",
+			"r_c didn't realize m_c was flirting with {PRONOUN/r_c/object}."
 		]
+	},
+	{
+		"id": "rom_dec_low4",
+		"intensity": "low",
+		"interactions": [
+			"m_c and r_c had a conversation where they realized they didn't have much in common."
+		],
+		"reaction_random_cat": {
+			"romantic": "decrease",
+			"comfortable": "decrease"
+		},
+		"also_influences": {
+			"comfortable": "decrease"
+		}
+	},
+	{
+		"id": "rom_dec_medium4",
+		"intensity": "medium",
+		"interactions": [
+			"m_c is less attracted to r_c than {PRONOUN/m_c/subject} used to be."
+		],
+		"relationship_constraint": [
+			"mates"
+		],
+		"also_influences": {
+			"comfortable": "decrease"
+		}
 	},
 	{
 		"id": "rom_dec_medium4",
@@ -66,10 +102,18 @@
 		"interactions": [
 			"m_c had a disagreement with r_c over kits.",
 			"m_c and r_c had a disagreement on how to raise kits.",
-            		"m_c and r_c had a fight over if they would take a new mate if one of them died or went missing."
+            "m_c and r_c had a fight over if they would take a new mate if one of them died or went missing.",
+			"m_c is less attracted to r_c than {PRONOUN/m_c/subject} used to be."
 		],
 		"relationship_constraint": [
 			"mates"
-		]
+		],
+		"reaction_random_cat": {
+			"romantic": "decrease",
+			"comfortable": "decrease"
+		},
+		"also_influences": {
+			"comfortable": "decrease"
+		}
 	}
 ]

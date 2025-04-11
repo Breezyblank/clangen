@@ -36,7 +36,11 @@
 			"When a Clanmate passes by holding stinking herbs, both m_c and r_c gag.",
 			"m_c and r_c work together to make sense of something a Clanmate said.",
 			"m_c and r_c realize they were the only ones that saw a shooting star.",
-			"m_c acknowledges r_c with a twitch of {PRONOUN/m_c/poss} whiskers."
+			"m_c acknowledges r_c with a twitch of {PRONOUN/m_c/poss} whiskers.",
+            "m_c offered some fresh-kill to r_c, but {PRONOUN/r_c/subject} {VERB/r_c/weren't/wasn't} hungry.",
+            "m_c watches r_c mill about camp.",
+            "m_c was so busy {PRONOUN/m_c/subject} didn't have a chance to see r_c.",
+            "m_c wonders what r_c is up to now."
 		]
 	},
 	{
@@ -137,7 +141,9 @@
 			"m_c forgets r_c's name.",
 			"m_c can't tell r_c is upset with {PRONOUN/m_c/object}.",
 			"m_c guesses r_c's age, but is wayyyy off.",
-			"m_c doesn't notice r_c twitching {PRONOUN/r_c/poss} whiskers at {PRONOUN/m_c/object}."
+			"m_c doesn't notice r_c twitching {PRONOUN/r_c/poss} whiskers at {PRONOUN/m_c/object}.",
+			"m_c doesn't notice r_c nearly bumping into {PRONOUN/m_c/object}.",
+            "m_c doesn't notice r_c call out to {PRONOUN/m_c/object}."
 		],
 		"main_trait_constraint": [
 			"oblivious"
@@ -152,7 +158,9 @@
 			"r_c tries to comfort m_c, but has no idea what happened to make {PRONOUN/m_c/object} so gloomy.",
 			"r_c gives up on trying to reassure m_c.",
 			"r_c asks how m_c's day is, but m_c's reply is kind of a bummer.",
-			"r_c meows hello to m_c, but {PRONOUN/m_c/subject} {VERB/m_c/look/looks} pretty glum still."
+			"r_c meows hello to m_c, but {PRONOUN/m_c/subject} {VERB/m_c/look/looks} pretty glum still.",
+			"m_c sits quietly by r_c.",
+            "r_c offers to share tongues with m_c, but {PRONOUN/m_c/subject} {VERB/m_c/decline/declines}."
 		],
 		"main_trait_constraint": [
 			"gloomy",

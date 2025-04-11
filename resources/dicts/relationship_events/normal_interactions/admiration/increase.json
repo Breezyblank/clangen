@@ -34,7 +34,8 @@
 			"m_c and r_c come up with a catchy song together.",
 			"m_c listens to r_c's big plans for the day.",
 			"r_c points out to m_c that a spider is in {PRONOUN/m_c/poss} nest before {PRONOUN/m_c/subject} {VERB/m_c/sit/sits} in it.",
-			"m_c and r_c work together to lead a scary bug out of the camp."
+			"m_c and r_c work together to lead a scary bug out of the camp.",
+			"m_c talks up r_c."
 		],
 		"reaction_random_cat": {
 			"admiration": "increase"
@@ -52,7 +53,8 @@
 			"m_c dreams about being like m_c in the future.",
 			"m_c works extra hard after seeing how skilled r_c is.",
 			"m_c tells {PRONOUN/m_c/poss} friend that r_c is {PRONOUN/m_c/poss} hero.",
-			"m_c daydreams about sharing a suffix with r_c."
+			"m_c daydreams about sharing a suffix with r_c.",
+			"m_c wonders how r_c became the cat {PRONOUN/r_c/subject} {VERB/r_c/are/is} today."
 		],
 		"main_status_constraint": [
 			"apprentice",
@@ -81,7 +83,8 @@
 			"m_c is inspired by r_c's passion.",
 			"m_c didn't know that r_c was so talented.",
 			"m_c thinks that r_c is very creative.",
-			"m_c is told about r_c's bravery during a recent time of struggle."
+			"m_c is told about r_c's bravery during a recent time of struggle.",
+			"m_c watches and tries to follow what r_c does each day to be more like {PRONOUN/r_c/object}."
 		]
 	},
 	{
@@ -170,7 +173,8 @@
 			"m_c tries to tell jokes as funny as r_c's, but they make little sense.",
 			"r_c lets m_c make a wish on a shooting star, even though {PRONOUN/r_c/subject} saw it first.",
 			"r_c shows m_c that bugs aren't that scary.",
-			"m_c always looks at r_c with wonder."
+			"m_c always looks at r_c with wonder.",
+			"m_c keeps asking when {PRONOUN/m_c/subject} can be made r_c's apprentice."
 		],
 		"main_status_constraint": [
 			"kitten"
@@ -379,7 +383,9 @@
 		"id": "admire_kit_inc_high1",
 		"intensity": "high",
 		"interactions": [
-			"m_c asks r_c if {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} really going to be the leader someday."
+			"m_c asks r_c if {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} really going to be the leader someday.",
+			"m_c asks if {PRONOUN/m_c/subject} could be r_c's deputy when {PRONOUN/r_c/subject} {VERB/r_c/become/becomes} leader.",
+            "r_c plays as m_c's deputy."
 		],
 		"main_status_constraint": [
 			"kitten"
@@ -389,6 +395,20 @@
 		],
 		"reaction_random_cat": {
 			"platonic": "increase"
+		}
+	},
+	{
+		"id": "admire_mates_inc_high1",
+		"intensity": "high",
+		"interactions": [
+			"r_c creates an elaborate work of art to show m_c how much {PRONOUN/r_c/subject} {VERB/r_c/love/loves} {PRONOUN/m_c/object}.",
+			"m_c is amazed to find {PRONOUN/m_c/poss} shared nest with r_c completely decked out in flowers and goosedown."
+		],
+		"relationship_constraint": [
+			"mates"
+		],
+		"reaction_random_cat": {
+			"romantic": "increase"
 		}
 	}
 ]
