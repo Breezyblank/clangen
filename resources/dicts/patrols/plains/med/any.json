@@ -305,7 +305,7 @@
                 "text": "The keen-eyed s_c spots herbs quickly, and the cats harvest them and retreat back to the camp where it's nice and dry. No point in lingering for a heartbeat more than they need to with the weather like this!",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "random_herbs"],
                 "relationships": [
                     {
@@ -524,7 +524,7 @@
                 "text": "With {PRONOUN/s_c/poss} keen eyes, s_c has a knack for spotting the gossamer-thin strands of cobwebs. The patrol follows {PRONOUN/s_c/poss} lead, and it's a very successful gathering mission.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "cobwebs"],
                 "relationships": [
                     {
@@ -603,7 +603,7 @@
                 "text": "s_c deftly picks out an entire horsetail shoot, bringing back quite the addition to the Clan's herb stores.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "horsetail"]
             }
         ],
@@ -684,7 +684,7 @@
                 "text": "s_c deftly picks out an entire horsetail shoot, bringing back quite the addition to the Clan's herb stores as {PRONOUN/s_c/subject} {VERB/s_c/describe/describes} the plant's uses to app1.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "horsetail"],
                 "relationships": [
                     {
@@ -794,7 +794,7 @@
                 "text": "s_c deftly picks out an entire horsetail shoot, bringing back quite the addition to the Clan's herb stores with the help of the warriors.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "horsetail"],
                 "relationships": [
                     {

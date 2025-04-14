@@ -1613,7 +1613,7 @@
                 "text": "Sometimes, it's not finding plants to harvest that is the problem, it's finding plants to <i>safely</i> harvest. s_c finds a juniper tree on a slope, with easily accessible lower branches to harvest from without needing to risk {PRONOUN/s_c/poss} neck climbing in leaf-bare.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "SENSE,2", "TRACKER,2"],
                 "herbs": ["juniper"]
             }
         ],
@@ -1710,7 +1710,7 @@
                 "text": "Sometimes, it's not finding plants to harvest that is the problem, it's finding plants to <i>safely</i> harvest. s_c finds a juniper tree on a slope, with easily accessible lower branches to harvest from without s_c or app1 needing to risk their neck climbing in leaf-bare.",
                 "exp": 40,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "SENSE,2", "TRACKER,2"],
                 "can_have_stat": ["adult"],
                 "herbs": ["juniper"],
                 "relationships": [
@@ -1854,7 +1854,7 @@
                 "text": "Sometimes, it's not finding plants to harvest that is the problem, it's finding plants to <i>safely</i> harvest. s_c finds a juniper tree on a slope, with easily accessible lower branches to harvest from without any cat needing to risk their neck climbing in leaf-bare.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "SENSE,2", "TRACKER,2"],
                 "herbs": ["juniper"],
                 "relationships": [
                     {

@@ -1832,7 +1832,7 @@
                 "text": "s_c has discovered with time and experience that elder-leaf-picking is best handled by chewing off several low-hanging, thin branches and carrying those back to camp instead.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "CLEVER,2", "INSIGHTFUL,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
+                "stat_skill": ["CLIMBER,1", "CLEVER,1"],
                 "herbs": ["many_herbs", "elder_leaves"]
             }
         ],
@@ -1925,7 +1925,7 @@
                 "text": "s_c has discovered with time and experience that elder-leaf-picking is best handled by chewing off several low-hanging, thin branches and carrying those back to camp instead. {PRONOUN/p_l/subject/CAP} {VERB/p_l/pass/passes} on the trick to app1, and once they're back at camp both medicine cats strip off the leaves and give them a quick wash.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "CLEVER,2", "INSIGHTFUL,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
+                "stat_skill": ["TEACHER,1", "CLIMBER,1", "CLEVER,1", "INSIGHTFUL,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "elder_leaves"],
                 "relationships": [
@@ -2064,7 +2064,7 @@
                 "text": "s_c has discovered with time and experience that elder-leaf-picking is best handled by chewing off several low-hanging, thin branches and carrying those back to camp instead. With so many assistants {PRONOUN/p_l/subject} can bring a truly massive haul home, where the rest of the patrol helps {PRONOUN/p_l/object} strip the leaves and carefully store them.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "CLEVER,2", "INSIGHTFUL,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
+                "stat_skill": ["CLIMBER,1", "CLEVER,1"],
                 "herbs": ["many_herbs", "elder_leaves"],
                 "relationships": [
                     {
@@ -2253,7 +2253,7 @@
                 "text": "s_c has a good eye for these things, snipping off the best, lushest goldenrod to take back for the Clan's stores. As {PRONOUN/s_c/subject} {VERB/s_c/do/does}, {PRONOUN/s_c/subject} {VERB/s_c/instruct/instructs} app1 in how to judge the quality of each stem. Each plant will contain both ideal and bad examples, either of which could be harvested, and it's important app1 has this knowledge, too.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["TEACHER,2", "INSIGHTFUL,2", "SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
+                "stat_skill": ["TEACHER,1", "INSIGHTFUL,1", "SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "goldenrod"],
                 "relationships": [
@@ -3894,7 +3894,7 @@
                 "text": "s_c spots an oak tree valiantly trying to sprout leaves from a half-fallen branch - one of the casualties of last leaf-bare - and heads to harvest from that. It's safest to pluck leaves from the ground rather than clambering up into the towering branches.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "CLEVER,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
+                "stat_skill": ["CLIMBER,1", "CLEVER,1", "SENSE,2", "GARDENER,3"],
                 "herbs": ["many_herbs", "oak_leaves"]
             }
         ],
@@ -3975,7 +3975,7 @@
                 "text": "s_c spots an oak tree valiantly trying to sprout leaves from a half-fallen branch - one of the casualties of last leaf-bare - and heads to pluck its leaves from the comfort of the ground. app1 asks if the leaves are any less potent, but s_c doesn't think so - if they're growing here at all, they should be the same.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "CLEVER,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
+                "stat_skill": ["CLIMBER,1", "CLEVER,1", "SENSE,2", "GARDENER,3"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "oak_leaves"],
                 "relationships": [
@@ -4086,7 +4086,7 @@
                 "text": "s_c spots an oak tree valiantly trying to sprout leaves from a half-fallen branch - one of the casualties of last leaf-bare - and heads to pluck its leaves from the comfort of the ground. It's less entertaining for the warriors helping {PRONOUN/s_c/object}, but the cats still make a nice, easy afternoon of it.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "CLEVER,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
+                "stat_skill": ["CLIMBER,1", "CLEVER,1", "SENSE,2", "GARDENER,3"],
                 "herbs": ["many_herbs", "oak_leaves"],
                 "relationships": [
                     {
@@ -4789,7 +4789,7 @@
                 "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using {PRONOUN/s_c/poss} claws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult, but doable, if only just, and app1 is desperately grateful to learn the trick.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1", "SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
+                "stat_skill": ["TEACHER,1", "CLEVER,1", "INSIGHTFUL,1", "SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "ragwort"],
                 "relationships": [
