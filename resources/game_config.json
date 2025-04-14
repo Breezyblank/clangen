@@ -21,7 +21,7 @@
 		]
 	},
 	"mates":{
-		"age_range": 40,
+		"age_range": 30,
 		"override_same_age_group": false,
 		"chance_fulfilled_condition": 5,
 		"chance_friends_to_lovers": 170,
@@ -200,8 +200,8 @@
 		]
 	},
 	"accessory_generation": {
-		"base_acc_chance": 150,
-		"med_modifier": -80,
+		"base_acc_chance": 120,
+		"med_modifier": -50,
 		"baby_modifier": -20,
 		"elder_modifier": 20,
 		"happy_trait_modifier": -30,
@@ -214,10 +214,10 @@
 		"visual_fading_speed": 5
 	},
 	"roles": {
-		"mediator_app_chance": 50,
+		"mediator_app_chance": 41,
 		"base_medicine_app_chance": 41,
 		"become_mediator_chances": {
-			"warrior": 5000,
+			"warrior": 600,
 			"elder": 400
 		}
 	},
@@ -444,7 +444,7 @@
 		"dark_mode_event_alternate": [87, 76, 55],
 		"light_mode_event_alternate": [167, 148, 111]
 	},
-	"disable_audio": true,
+	"disable_audio": false,
 	"lock_season": false, 
 	"comment": "Forces the season to be locked at the Clan's starting_season"
 }
