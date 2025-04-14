@@ -32,7 +32,7 @@
                 "text": "s_c immediately leaps to protect {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/poss} ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and run.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,2"],
+                "stat_skill": ["FIGHTER,2", "GUARDIAN,2"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -141,7 +141,7 @@
                 "text": "s_c snarls at the rogues, outnumbered but not cowed. {PRONOUN/s_c/subject/CAP} {VERB/s_c/throw/throws} {PRONOUN/s_c/self} at the intruders with such ferocity that the rogues are taken aback. Alarmed by the lack of fear and self-preservation from the Clan cat, the rogues freeze. s_c sees {PRONOUN/s_c/poss} opportunity to run and takes it, racing back to the camp to gather more warriors and return.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,2"],
+                "stat_skill": ["FIGHTER,2", "GUARDIAN,2"],
                 "relationships": [
                     {
                         "cats_to": ["s_c"],
@@ -237,7 +237,7 @@
                 "text": "s_c takes the lead, confronting the gang with confidence. Eventually the rogues admit that they've been struggling to find enough prey and were looking to steal richer territory from the Clan. Tensions are eased when s_c informs the rogues of prey-rich plains outside of c_n territory.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "COMFORTER,1"],
                 "relationships": [
                     {
                         "cats_to": ["s_c"],
@@ -351,7 +351,7 @@
                 "text": "Worried about {PRONOUN/s_c/poss} Clanmates, s_c sets out to try to solve the problem on {PRONOUN/s_c/poss} own. Once {PRONOUN/s_c/subject} {VERB/s_c/find/finds} the sett, {PRONOUN/s_c/subject} {VERB/s_c/hurl/hurls} challenges at the beast to come out and fight, kicking up a racket until the badger emerges, grumbling and blinking in the sunlight. While s_c manages to get several good swipes in, the badger holds its ground, and {PRONOUN/s_c/subject} {VERB/s_c/return/returns} to camp deflated.",
                 "exp": 40,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,2"]
+                "stat_skill": ["FIGHTER,2", "GUARDIAN,2"]
             },
             {
                 "text": "s_c sets out to separate truth from rumor. There are fresh tracks in the mud under the canopy, but they're smaller than s_c expected. To confirm {PRONOUN/s_c/poss} theory, {PRONOUN/s_c/subject} {VERB/s_c/stake/stakes} out the sett itself, and when the beast pokes its head out at night, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} able to confirm it's a juvenile - young and inexperienced. s_c pads quietly back to camp with the intel.",
@@ -765,13 +765,13 @@
                 "text": "The pawprints lead to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, hissing furiously, and drives them off c_n territory.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"]
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"]
             },
             {
                 "text": "The pawprints lead to a trespassing rogue. s_c climbs into the trees to set up a trap, rigging a branch to fall on the rogue's head - and it works, sending the startled intruder yowling as they flee c_n territory.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"]
+                "stat_skill": ["CLEVER,1", "STEALTHY,1"]
             },
             {
                 "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} the rogue leave c_n territory. Intimidated by {PRONOUN/s_c/poss} confidence, the rogue gives in and leaves without a fight.",
@@ -807,13 +807,13 @@
                 "text": "The pawprints lead to a trespassing rogue. s_c climbs into the trees to set up a trap, aiming to rig a branch to fall on the rogue's head, but {PRONOUN/s_c/subject} {VERB/s_c/aren't/isn't} as smart as {PRONOUN/s_c/subject} {VERB/s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. The trap fails, and the rogue wanders on.",
                 "exp": 0,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"]
+                "stat_skill": ["CLEVER,1", "STEALTHY,1"]
             },
             {
                 "text": "The pawprints lead to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, hissing furiously, but this is one battle-hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN/s_c/subject}'d like to think. The rogue escapes {PRONOUN/s_c/poss} grasp and runs off further into c_n territory.",
                 "exp": 0,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"]
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"]
             },
             {
                 "text": "Following the trail with {PRONOUN/r_c/poss} nose to the ground, r_c doesn't see the blow that kills {PRONOUN/r_c/object}.",
@@ -980,7 +980,7 @@
                 "text": "The pawprints lead to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue with a furious hiss and, together with r_c, drives them off c_n territory.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "can_have_stat": ["p_l"],
                 "relationships": [
                     {
@@ -996,7 +996,7 @@
                 "text": "The pawprints lead to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue with a furious hiss and, together with p_l, drives them off c_n territory.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "can_have_stat": ["r_c"],
                 "relationships": [
                     {
@@ -1012,7 +1012,7 @@
                 "text": "The pawprints lead to a trespassing rogue. s_c climbs into the trees with r_c to set up a trap, rigging a branch to fall on the rogue's head - and it works, sending the startled intruder yowling as they flee c_n territory.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "STEALTHY,1"],
                 "can_have_stat": ["p_l"],
                 "relationships": [
                     {
@@ -1028,7 +1028,7 @@
                 "text": "The pawprints lead to a trespassing rogue. s_c climbs into the trees with p_l to set up a trap, rigging a branch to fall on the rogue's head - and it works, sending the startled intruder yowling as they flee c_n territory.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "STEALTHY,1"],
                 "can_have_stat": ["r_c"],
                 "relationships": [
                     {
@@ -1126,7 +1126,7 @@
                 "text": "The pawprints lead to a trespassing rogue. s_c climbs into the trees to set up a trap, aiming to rig a branch to fall on the rogue's head, but {PRONOUN/s_c/subject} {VERB/s_c/aren't/isn't} as smart as {PRONOUN/s_c/subject} {VERB/s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. The trap fails, and the rogue wanders on.",
                 "exp": 0,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "STEALTHY,1"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1141,7 +1141,7 @@
                 "text": "The pawprints lead to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, hissing furiously, but this is one battle-hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN/s_c/subject}'d like to think. The rogue escapes {PRONOUN/s_c/poss} grasp and runs off further into c_n territory.",
                 "exp": 0,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1382,7 +1382,7 @@
                 "text": "The pawprints lead to a trespassing rogue. With a furious hiss, s_c throws {PRONOUN/s_c/self} at the rogue and, together with the rest of the patrol, drives them off c_n territory.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "can_have_stat": ["any"],
                 "relationships": [
                     {
@@ -1398,7 +1398,7 @@
                 "text": "The pawprints lead to a trespassing rogue. s_c climbs into the trees with {PRONOUN/s_c/poss} Clanmates to set up a trap, rigging a branch to fall on the rogue's head - and it works, sending the startled intruder yowling as they flee c_n territory.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "STEALTHY,1"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1462,7 +1462,7 @@
                 "text": "The pawprints lead to a trespassing rogue. s_c climbs into the trees to set up a trap, aiming to rig a branch to fall on the rogue's head, but {PRONOUN/s_c/subject} {VERB/s_c/are/is}n't as smart as {PRONOUN/s_c/subject} {VERB/s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. The trap fails, and the rogue wanders on.",
                 "exp": 0,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "STEALTHY,1"],
                 "can_have_stat": ["any"],
                 "relationships": [
                     {
@@ -1478,7 +1478,7 @@
                 "text": "The pawprints lead to a trespassing rogue. s_c throws {PRONOUN/s_c/self} at the rogue, hissing furiously, but this is one battle-hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN/s_c/subject}'d like to think. The rogue escapes {PRONOUN/s_c/poss} grasp and runs off further into c_n territory.",
                 "exp": 0,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1620,7 +1620,7 @@
                 "text": "s_c spins a vivid, engaging tale of a massive war their ancestors fought over the border the patrol is headed to mark. Not only does it keep every cat entertained, but it also emphasizes the importance of the patrol and motivates everyone.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "STORY,1", "LORE,1"],
                 "relationships": [
                     {
                         "cats_to": ["s_c", "patrol"],
@@ -1835,7 +1835,8 @@
                 "exp": 40,
                 "weight": 20,
                 "stat_skill": [
-                    "FIGHTER,3"
+                    "FIGHTER,3",
+                    "GUARDIAN,3"
                 ],
                 "relationships": [
                     {
@@ -2023,7 +2024,10 @@
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
-                    "FIGHTER,3"
+                    "FIGHTER,3",
+                    "INSIGHTFUL,3",
+                    "GUARDIAN,3",
+                    "STEALTHY,2"
                 ],
                 "relationships": [
                     {
@@ -2258,7 +2262,8 @@
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
-                    "FIGHTER,3"
+                    "FIGHTER,3",
+                    "GUARDIAN,3"
                 ],
                 "relationships": [
                     {
@@ -2458,7 +2463,8 @@
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
-                    "FIGHTER,1"
+                    "FIGHTER,1",
+                    "GUARDIAN,1"
                 ]
             }
         ],
@@ -2570,7 +2576,9 @@
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
-                    "FIGHTER,1"
+                    "FIGHTER,1",
+                    "INSIGHTFUL,1",
+                    "GUARDIAN,1"
                 ],
                 "relationships": [
                     {
@@ -2683,7 +2691,9 @@
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
-                    "FIGHTER,1"
+                    "FIGHTER,1",
+                    "INSIGHTFUL,1",
+                    "GUARDIAN,1"
                 ],
                 "relationships": [
                     {

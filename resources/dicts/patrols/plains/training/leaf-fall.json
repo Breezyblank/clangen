@@ -30,7 +30,7 @@
                 "text": "s_c pounces, flipping the beetle with soft paws and flopping over onto {PRONOUN/s_c/poss} back, watching the insect scurry from one paw to the other, so completely entranced by its color and tiny, perfect legs that {PRONOUN/s_c/subject} {VERB/s_c/don't/doesn't} notice {PRONOUN/s_c/poss} own skill catching and keeping the bug.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,0"]
+                "stat_skill": ["HUNTER,0", "STEALTHY,0"]
             }
         ],
         "fail_outcomes": [

@@ -428,7 +428,7 @@
                 "text": "Without letting {PRONOUN/s_c/self} panic, s_c carefully assesses the branches trapping {PRONOUN/s_c/poss} Clanmate, then throws {PRONOUN/s_c/poss} weight onto one. It acts as a lever, forcing the entire pile up and allowing r_c to scrabble free, shaken but grateful.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "NAVIGATOR,1"],
                 "relationships": [
                     {
                         "cats_to": ["s_c", "p_l", "p_l", "s_c"],
@@ -672,7 +672,7 @@
                 "text": "Without letting {PRONOUN/s_c/self} panic, s_c carefully assesses the branches trapping {PRONOUN/s_c/poss} Clanmate, then throws {PRONOUN/s_c/poss} weight onto one. It acts as a lever, forcing the entire pile up and allowing r_c to scrabble free, shaken but grateful.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "NAVIGATOR,1"],
                 "relationships": [
                     {
                         "cats_to": ["s_c", "p_l", "p_l", "s_c"],
@@ -849,7 +849,7 @@
                 "text": "Without letting {PRONOUN/s_c/self} panic, s_c carefully assesses the branches trapping {PRONOUN/s_c/poss} Clanmate, then throws {PRONOUN/s_c/poss} weight onto one. It acts as a lever, forcing the entire pile up and allowing r_c to scrabble free, shaken but grateful. r_c is impressed by s_c's wits.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "NAVIGATOR,1"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -1001,7 +1001,7 @@
                 "text": "s_c takes a breath and tries to remain calm. Looking around to try to find a way out, {PRONOUN/r_c/subject} {VERB/r_c/spot/spots} a place where all the branches are seemingly resting on one. With a surge of energy, {PRONOUN/r_c/subject} {VERB/r_c/crash/crashes} {PRONOUN/r_c/poss} way out through the weak point, twig-covered but free.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "NAVIGATOR,1"],
                 "art": "fst_train_stuck_outcome"
             }
         ],
@@ -1147,7 +1147,7 @@
                 "text": "s_c rounds a corner and stumbles across a tiny, sparkling waterfall! Further investigation shows that it emerges from an equally tiny spring, and s_c purrs. This reliable water source could be important during times of drought.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"]
+                "stat_skill": ["CLEVER,1", "SENSE,1", "TRACKER,1"]
             },
             {
                 "text": "s_c pads confidently through c_n territory. There's a particular peace in exploring {PRONOUN/s_c/poss} beloved home, ears pricked up curiously whenever {PRONOUN/s_c/subject} {VERB/s_c/spot/spots} how the seasons and weather have reshaped it since {PRONOUN/s_c/subject} last passed this way.",
@@ -1210,7 +1210,7 @@
                 "text": "s_c rounds a corner and stumbles across a tiny, sparkling waterfall! Further investigation shows that it emerges from an equally tiny spring, and s_c purrs. This reliable water source could be important during times of drought, and its discovery helps to ease one of the many worries on the deputy's mind.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"]
+                "stat_skill": ["CLEVER,1", "SENSE,1", "TRACKER,1"]
             },
             {
                 "text": "s_c pads confidently through c_n territory. There's a particular peace in exploring {PRONOUN/s_c/poss} beloved home, ears pricked up curiously whenever {PRONOUN/s_c/subject} {VERB/s_c/spot/spots} how the seasons and weather have reshaped it since {PRONOUN/s_c/subject} last passed this way.",
@@ -1273,7 +1273,7 @@
                 "text": "s_c rounds a corner and stumbles across a tiny, sparkling waterfall! Further investigation shows that it emerges from an equally tiny spring, and s_c purrs. This reliable water source could be important during times of drought, and its discovery helps to ease one of the many worries on the leader's mind.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"]
+                "stat_skill": ["CLEVER,1", "SENSE,1", "TRACKER,1"]
             },
             {
                 "text": "s_c pads confidently through c_n territory. There's a particular peace in exploring {PRONOUN/s_c/poss} beloved home, ears pricked up curiously whenever {PRONOUN/s_c/subject} {VERB/s_c/spot/spots} how the seasons and weather have reshaped it since {PRONOUN/s_c/subject} last passed this way.",
@@ -1392,7 +1392,7 @@
                 "text": "s_c points out the dangers of the creature, finding some spines the porcupine has dropped and showing app1 exactly how they hook into a pelt, or worse, the flesh beneath. It's dangerous, s_c teaches, but it can also be used to defend the Clan - this is why porcupine spines are so valuable for reinforcing c_n's defenses.",
                 "exp": 15,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1"],
+                "stat_skill": ["TEACHER,1", "INSIGHTFUL,1", "CAMP,1", "GUARDIAN,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -1545,7 +1545,7 @@
                 "text": "s_c points out the dangers of the creature, finding some spines the porcupine has dropped and showing app1 and app2 exactly how they hook into a pelt, or worse, the flesh beneath. It's dangerous, s_c teaches, but it can also be used to defend the Clan - this is why porcupine spines are so valuable for reinforcing c_n's defenses.",
                 "exp": 15,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1"],
+                "stat_skill": ["TEACHER,1", "INSIGHTFUL,1", "CAMP,1", "GUARDIAN,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -1764,7 +1764,7 @@
                 "text": "s_c is a fantastic hunter, and r_c isn't shy about telling {PRONOUN/s_c/object} so. {PRONOUN/s_c/subject/CAP} {VERB/s_c/blush/blushes}, but {VERB/s_c/work/works} through it, showing r_c how to hold {PRONOUN/r_c/poss} balance on a branch so stably {PRONOUN/r_c/subject}'ll be able to nap while waiting to ambush prey below.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,3"],
+                "stat_skill": ["HUNTER,3", "STEALTHY,3"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -2148,7 +2148,7 @@
             },
         "weight": 40,
         "chance_of_success": 50,
-        "pl_skill_constraint": ["LORE,1"],
+        "pl_skill_constraint": ["LORE,1", "INSIGHTFUL,1"],
         "intro_text": "app1 watches the shrew scurry below {PRONOUN/app1/object}, lining up a flawless pounce from the tree branches. {PRONOUN/app1/subject/CAP} {VERB/app1/purr/purrs} with amusement towards {PRONOUN/app1/poss} hapless prey.",
         "decline_text": "This is too easy - app1 declines to chase it, wanting harder prey.",
         "success_outcomes": [

@@ -33,7 +33,7 @@
                 "text": "Everyone looks admiringly at s_c by the end of the afternoon. Every cat carries something home, but nearly all of it was caught by s_c.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,2"],
+                "stat_skill": ["HUNTER,2", "STEALTHY,2"],
                 "prey": ["small"],
                 "relationships": [
                     {
@@ -130,7 +130,7 @@
                 "text": "s_c really shows {PRONOUN/r_c/poss} talent, bringing a clutch of mice back to camp for the fresh-kill pile.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,2"],
+                "stat_skill": ["HUNTER,2", "STEALTHY,2"],
                 "prey": ["medium"]
             }
         ],
@@ -190,7 +190,7 @@
                 "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. s_c keeps everyone's spirits up as the patrol hides inside a hollow log, until everyone is talking, shaky and unhappy, but determined not to lose hope.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,2"],
+                "stat_skill": ["SPEAKER,2", "COMFORTER,1", "COOPERATIVE,2"],
                 "prey": ["small"],
                 "relationships": [
                     {
@@ -300,7 +300,7 @@
                 "text": "s_c immediately drops into a practiced crouch, shimmying flawlessly along the ground and taking the perfectly plump mouse completely by surprise.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "STEALTHY,1"],
                 "prey": ["medium"]
             }
         ],
@@ -453,7 +453,7 @@
                 "text": "Of course s_c is unconcerned, s_c knows {PRONOUN/s_c/poss} own skills well, and mice? Not a challenge. After {PRONOUN/s_c/poss} fifth catch, the rest of the patrol is forced to admit {PRONOUN/s_c/subject} might have a point about not needing to worry.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "STEALTHY,1"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -559,7 +559,7 @@
                 "text": "These are the times that it really pays to have a hunter of s_c's caliber on the patrol - {PRONOUN/s_c/subject} really {VERB/s_c/go/goes} above and beyond, impressing everyone and leaving a trail of terror among the local mice.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "STEALTHY,1"],
                 "prey": ["large"],
                 "relationships": [
                     {
@@ -623,7 +623,7 @@
                 "text": "s_c slinks through the underbrush, undetected until {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} pounced - and by then it's far too late for the squirrel to do anything about it.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "STEALTHY,1"],
                 "prey": ["medium"]
             }
         ],
@@ -900,7 +900,7 @@
                 "text": "r_c suggests baiting the squirrels with food and picking them off when they come out to eat. All the patrol has to do is set the trap - with s_c on the patrol, they rarely have to lift a paw, and each cat carries multiple squirrels home.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1", "CLEVER,1"],
+                "stat_skill": ["HUNTER,1", "CLEVER,1", "STEALTHY,1"],
                 "prey": ["large"],
                 "relationships": [
                     {
@@ -1625,7 +1625,7 @@
                 "text": "s_c manages to figure it out - a brumating lizard! If they hadn't all had their faces in the snow already, they'd never have found it, what with it giving off such little scent.",
                 "exp": 15,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "SENSE,1", "TRACKER,1"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -1689,7 +1689,7 @@
                 "text": "The f_mp_p {PRONOUN/s_c/subject} {VERB/s_c/catch/catches} will be sorely appreciated back at camp, though the combination of fresh snow powder and more compacted stuff makes it difficult for s_c to keep {PRONOUN/s_c/poss} footing. Still, slipping over while carrying prey is <i>far</i> better than slipping over while pouncing on it!",
                 "exp": 25,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "STEALTHY,1"],
                 "prey": ["large"]
             },
             {
@@ -1777,7 +1777,7 @@
                 "text": "Everyone looks admiringly at s_c by the end of the afternoon. Every cat carries something home, but nearly all of it was caught by s_c.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,2"],
+                "stat_skill": ["HUNTER,2", "STEALTHY,2"],
                 "prey": ["small"],
                 "relationships": [
                     {
@@ -1977,7 +1977,7 @@
                 "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. s_c keeps everyone's spirits up as the patrol hides inside a hollow log, until everyone is talking, shaky and unhappy, but determined not to lose hope.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,2"],
+                "stat_skill": ["SPEAKER,2", "COMFORTER,1", "COOPERATIVE,2"],
                 "prey": ["small"],
                 "relationships": [
                     {
@@ -2088,7 +2088,7 @@
                 "text": "s_c shows {PRONOUN/s_c/poss} strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until it gives up and runs.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -2232,7 +2232,7 @@
                 "text": "s_c shows {PRONOUN/s_c/poss} strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hindlegs. The fox runs, but there's no way it'll live long with such a debilitating injury.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -2376,7 +2376,7 @@
                 "text": "s_c uses every trick in {PRONOUN/s_c/poss} fighting skillset to attack the fox with no one to watch {PRONOUN/s_c/poss} flank, biding {PRONOUN/s_c/poss} time until the perfect opportunity opens up. Then, {PRONOUN/s_c/subject} {VERB/s_c/pounce/pounces} onto the fox's back, digging in {PRONOUN/s_c/poss} claws. It's a wild ride through the forest until the fox bucks {PRONOUN/s_c/object} off, but it wins {PRONOUN/s_c/object} the fawn carcass.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,2"],
+                "stat_skill": ["FIGHTER,2", "GUARDIAN,2"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -2538,7 +2538,7 @@
                 "text": "s_c shows {PRONOUN/s_c/poss} strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until it gives up and runs.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -2671,7 +2671,7 @@
                 "text": "s_c shows {PRONOUN/s_c/poss} strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hindlegs. The fox runs, but there's no way it'll live long with such a debilitating injury.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -2776,7 +2776,7 @@
                 "text": "s_c uses every trick in {PRONOUN/s_c/poss} fighting skillset to attack the fox with no one to watch {PRONOUN/s_c/poss} flank, biding {PRONOUN/s_c/poss} time until the perfect opportunity opens up. Then, {PRONOUN/s_c/subject} {VERB/s_c/pounce/pounces} onto the fox's back, digging in {PRONOUN/s_c/poss} claws. It's a wild ride through the forest until the fox bucks {PRONOUN/s_c/object} off, but it wins {PRONOUN/s_c/object} the fawn carcass.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,2"],
+                "stat_skill": ["FIGHTER,2", "GUARDIAN,2"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -2935,7 +2935,7 @@
                 "text": "s_c immediately drops into a practiced crouch, shimmying flawlessly along the ground and taking the perfectly plump mouse completely by surprise.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "STEALTHY,1"],
                 "prey": ["medium"]
             }
         ],
@@ -3088,7 +3088,7 @@
                 "text": "Of course s_c is unconcerned, s_c knows {PRONOUN/s_c/poss} own skills well, and mice? Not a challenge. After {PRONOUN/s_c/poss} fifth catch, the rest of the patrol is forced to admit {PRONOUN/s_c/subject} might have a point about not needing to worry.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "STEALTHY,1"],
                 "can_have_stat": ["r_c"],
                 "prey": ["medium"],
                 "relationships": [
@@ -3195,7 +3195,7 @@
                 "text": "These are the times that it really pays to have a hunter of s_c's caliber on the patrol - {PRONOUN/s_c/subject} really {VERB/s_c/go/goes} above and beyond, impressing everyone and leaving a trail of terror among the local mice.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "STEALTHY,1"],
                 "prey": ["large"],
                 "relationships": [
                     {
@@ -3265,7 +3265,7 @@
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
-                "stat_skill": ["HUNTER,0"],
+                "stat_skill": ["HUNTER,0", "STEALTHY,0"],
                 "can_have_stat": ["p_l"],
                 "relationships": [
                     {
@@ -3356,7 +3356,7 @@
                 "text": "It turns out s_c has really been listening to {PRONOUN/s_c/poss} mentor's tips for hunting - and {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} willing to pass it on!",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,0"],
+                "stat_skill": ["HUNTER,0", "INSIGHTFUL,0", "STEALTHY,0"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -3476,7 +3476,7 @@
                 "text": "s_c catches a great f_mp_s, and two f_tp_p! But their siblings come up empty-pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["HUNTER,0"],
+                "stat_skill": ["HUNTER,0", "STEALTHY,0"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -3567,7 +3567,7 @@
                 "text": "It turns out s_c has really been listening to {PRONOUN/s_c/poss} mentor's tips for hunting - and {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} willing to pass it on!",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["HUNTER,0"],
+                "stat_skill": ["HUNTER,0", "INSIGHTFUL,0", "STEALTHY,0"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -3687,7 +3687,7 @@
                 "text": "s_c catches a great f_mp_s, and two f_tp_p! But their siblings come up empty-pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["HUNTER,0"],
+                "stat_skill": ["HUNTER,0", "STEALTHY,0"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -3778,7 +3778,7 @@
                 "text": "It turns out s_c has really been listening to {PRONOUN/s_c/poss} mentor's tips for hunting - and {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} willing to pass it on!",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["HUNTER,0"],
+                "stat_skill": ["HUNTER,0", "INSIGHTFUL,0", "STEALTHY,0"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -3898,7 +3898,7 @@
                 "text": "s_c catches a great f_mp_s, and two f_tp_p! But their siblings come up empty-pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["HUNTER,0"],
+                "stat_skill": ["HUNTER,0", "STEALTHY,0"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -3989,7 +3989,7 @@
                 "text": "It turns out s_c has really been listening to {PRONOUN/s_c/poss} mentor's tips for hunting - and {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} willing to pass it on!",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["HUNTER,0"],
+                "stat_skill": ["HUNTER,0", "INSIGHTFUL,0", "STEALTHY,0"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -4110,7 +4110,7 @@
                 "text": "s_c catches a great f_mp_s, and two f_tp_p! But their siblings come up empty-pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["HUNTER,0"],
+                "stat_skill": ["HUNTER,0", "STEALTHY,0"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -4201,7 +4201,7 @@
                 "text": "It turns out s_c has really been listening to {PRONOUN/s_c/poss} mentor's tips for hunting - and {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} willing to pass it on!",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["HUNTER,0"],
+                "stat_skill": ["HUNTER,0", "INSIGHTFUL,0", "STEALTHY,0"],
                 "prey": ["medium"],
                 "relationships": [
                     {
@@ -4322,7 +4322,7 @@
                 "text": "Watching s_c's displays of atheticism makes app1 feel small - surely {PRONOUN/app1/subject}'ll never be able to do that?",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1"],
+                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1", "FISHER,1"],
                 "can_have_stat": ["adult"],
                 "prey": ["medium"],
                 "relationships": [
@@ -4384,7 +4384,7 @@
                 "text": "If app1 ever wanted help - s_c knows they're not littermates, but they're still siblings, and s_c is totally here for {PRONOUN/app1/object} if app1 ever wants extra training. It's still an awkward offer. But it's nice.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1"],
+                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1", "STEALTHY,1", "FISHER,1"],
                 "can_have_stat": ["adult"],
                 "prey": ["medium"],
                 "relationships": [
@@ -4455,7 +4455,7 @@
                 "text": "s_c, so physically strong and impressive, shows app1 exactly how to pull off one of {PRONOUN/s_c/poss} moves, and app1 trots back to camp with a f_mp_s to prove it!",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1"],
+                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1", "FISHER,1"],
                 "can_have_stat": ["adult"],
                 "prey": ["medium"],
                 "relationships": [
@@ -4526,7 +4526,7 @@
                 "text": "Watching s_c's displays of atheticism makes app1 feel small - surely {PRONOUN/app1/subject}'ll never be able to do that?",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1"],
+                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1", "FISHER,1"],
                 "can_have_stat": ["adult"],
                 "prey": ["medium"],
                 "relationships": [
@@ -4588,7 +4588,7 @@
                 "text": "s_c, so physically strong and impressive, shows app1 exactly how to pull off one of {PRONOUN/s_c/poss} moves, and app1 trots back to camp with a f_mp_s to prove it!",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1"],
+                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1", "FISHER,1"],
                 "can_have_stat": ["adult"],
                 "prey": ["medium"],
                 "relationships": [
@@ -4672,7 +4672,7 @@
                 "text": "s_c nets them a healthy f_mp_s to take back to camp, but it only irritates {PRONOUN/s_c/poss} sibling. r_c never even got the chance to even try for a pounce - {VERB/r_c/are/is} {PRONOUN/r_c/subject} only there to carry around s_c's prey?",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1"],
+                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1", "STEALTHY,1", "FISHER,1"],
                 "prey": ["small"],
                 "relationships": [
                     {
@@ -5088,7 +5088,7 @@
                 "text": "s_c nets them two healthy f_mp_p to take back to camp, but it only irritates {PRONOUN/s_c/poss} siblings. r_c never even got the chance to even try for a pounce - {VERB/r_c/are/is} {PRONOUN/r_c/subject} only there to carry around s_c's prey?",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1"],
+                "stat_skill": ["CLIMBER,1", "HUNTER,1", "RUNNER,1", "SWIMMER,1", "STEALTHY,1", "FISHER,1"],
                 "prey": ["small"],
                 "relationships": [
                     {
@@ -5519,8 +5519,8 @@
                 "text": "{PRONOUN/app1/subject/CAP}{VERB/app1/'ve/'s} been tracking a night bird, app1 explains, and - look could p_l just help {PRONOUN/app1/object}? Which is how p_l finds {PRONOUN/p_l/self} setting up an ambush for the kiwi on a forest trail, at midnight, like a hare-brain. Even worse, it <i>works,</i> both deeply impressing and worrying p_l. {PRONOUN/p_l/subject/CAP} {VERB/p_l/do/does}n't want app1 encouraged to attempt these adventures.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,0"],
-                "can_have_stat": ["app"],
+                "stat_skill": ["HUNTER,0", "STEALTHY,0"],
+                "can_have_stat": ["app1"],
                 "prey": ["large"],
                 "relationships": [
                     {
@@ -5649,8 +5649,8 @@
             },
         "weight": 20,
         "chance_of_success": 40,
-        "pl_skill_constraint": ["STORY,1", "LORE,1", "HUNTER,2", "CLIMBER,2", "TEACHER,1"],
-        "intro_text": "Amid the drab leaf-bare shaded world, a flash of brillint color above a big stream catches app1's attention.",
+        "pl_skill_constraint": ["STORY,1", "LORE,1", "HUNTER,2", "RUNNER,2", "CLIMBER,2", "SWIMMER,2", "TEACHER,1", "FISHER,2"],
+        "intro_text": "Amid the drab leaf-bare shaded world, a flash of brilliant color above a big stream catches app1's attention.",
         "decline_text": "It's out of the ordinary... and might be dangerous. app1 ignores it.",
         "success_outcomes": [
             {
@@ -5659,7 +5659,7 @@
                 "weight": 20,
                 "art": "gen_train_sneakprey",
                 "prey": ["medium"],
-                "stat_skill": ["HUNTER,2"],
+                "stat_skill": ["HUNTER,2", "RUNNER,2"],
                 "can_have_stat": ["p_l"],
                 "relationships": [
                     {
@@ -5709,7 +5709,7 @@
                 "weight": 20,
                 "art": "gen_train_sunny6",
                 "prey": ["small"],
-                "stat_skill": ["TEACHER,1"],
+                "stat_skill": ["SWIMMER,2", "TEACHER,1", "FISHER,2"],
                 "can_have_stat": ["p_l"],
                 "relationships": [
                     {

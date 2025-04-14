@@ -24,7 +24,7 @@
                 "text": "s_c is quick to strike up conversation with the other patrol, trying to get to the root of their rudeness. Eventually the problem is smoothed over, nothing but a misunderstanding and unfounded assumptions.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -122,7 +122,7 @@
                 "text": "s_c postures right back at the o_c_n cats, drawing {PRONOUN/s_c/self} up to {PRONOUN/s_c/poss} full height and baring {PRONOUN/s_c/poss} teeth. The other patrol backs down a bit, they seem to know of s_c's reputation in battle.  The o_c_n cats eventually leave, cowed by the display but with begrudging respect for s_c's strength.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,2"],
                 "other_clan_rep": 2
             },
             {
@@ -257,7 +257,7 @@
                 "text": "s_c leaps for the rabbit, making a swift kill just before a o_c_n patrol comes into view. The o_c_n cats screech at the trespass and rush at the patrol. s_c barely manages to talk them down from a fight, begrudgingly handing over the rabbit, and the patrols part ways without any cat getting hurt.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "COMFORTER,1"],
                 "prey": ["small"]
             },
             {
@@ -434,7 +434,7 @@
                 "text": "It doesn't take long to find the o_c_n apprentice that left the scent. The young cat is aggressive and hostile, but s_c is quick to deescalate the situation. After a gentle conversation, the apprentice begrudgingly apologizes for the trespass.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -533,7 +533,7 @@
                 "text": "It doesn't take long to find the o_c_n apprentice that left the scent. The young cat is aggressive and hostile, but s_c is quick to deescalate the situation. After a gentle conversation, the apprentice begrudgingly apologizes for the trespass.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -639,7 +639,7 @@
                 "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["STEALTHY,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -783,7 +783,7 @@
                 "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["STEALTHY,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -939,7 +939,7 @@
                 "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["STEALTHY,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1364,7 +1364,7 @@
                 "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["STEALTHY,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1508,7 +1508,7 @@
                 "text": "s_c is marking along the territory line when {PRONOUN/s_c/object} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/object/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["STEALTHY,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1664,7 +1664,7 @@
                 "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["STEALTHY,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -2089,7 +2089,7 @@
                 "text": "s_c is marking along the territory line when {PRONOUN/s_c/poss} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["STEALTHY,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -2233,7 +2233,7 @@
                 "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["STEALTHY,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -2389,7 +2389,7 @@
                 "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["STEALTHY,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -2815,7 +2815,7 @@
                 "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["STEALTHY,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -2959,7 +2959,7 @@
                 "text": "s_c is marking along the territory line when {PRONOUN/s_c/object} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/object/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["STEALTHY,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -3115,7 +3115,7 @@
                 "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["STEALTHY,1", "COMFORTER,1"],
                 "other_clan_rep": 2
             },
             {
@@ -3672,7 +3672,7 @@
                 "text": "This smacks of a setup to s_c. If {PRONOUN/s_c/subject} were trying to get away with attacking c_n, this is how {PRONOUN/s_c/subject}'d do it, tempt some mouse-brain with an opportunity that looked too good to resist. So, assuming cunning eyes are already watching {PRONOUN/s_c/object}, {PRONOUN/s_c/subject} {VERB/s_c/lay/lies} down to bask in front of the border instead. Good old psychological warfare.",
                 "exp": 50,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,2", "MEDIATOR,2"]
+                "stat_skill": ["CLEVER,1", "SENSE,2", "GUARDIAN,2"]
             },
             {
                 "text": "It's quiet. Too quiet, the high strung s_c decides, backpedaling rapidly - and not a moment too soon. Soundlessly, the thwarted o_c_n patrol drops out of cover, tails lashing furiously as s_c, shivering, digs {PRONOUN/s_c/poss} claws in and runs for home.",
@@ -3758,7 +3758,7 @@
                 "text": "This smacks of a setup to s_c. If {PRONOUN/s_c/subject} were trying to get away with attacking c_n, this is how {PRONOUN/s_c/subject}'d do it, tempt some mouse-brain with an opportunity that looked too good to resist. So, assuming cunning eyes are already watching {PRONOUN/s_c/object}, {PRONOUN/s_c/subject} {VERB/s_c/lay/lies} down to bask in front of the border instead, talking loudly with {PRONOUN/s_c/poss} patrolmates. Good old psychological warfare.",
                 "exp": 50,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,2", "MEDIATOR,2"]
+                "stat_skill": ["CLEVER,1", "SENSE,2", "GUARDIAN,2"]
             },
             {
                 "text": "It's quiet. Too quiet, the high strung s_c decides, backpedaling rapidly - and not a moment too soon. Soundlessly, the thwarted o_c_n patrol drops out of cover, their tails lashing furiously. The rest of the patrol breaks and follow s_c, as s_c, shivering, digs {PRONOUN/s_c/poss} claws in and runs for home.",
@@ -3870,7 +3870,7 @@
                 "text": "This smacks of a setup to s_c. If {PRONOUN/s_c/subject} were trying to get away with attacking c_n, this is how {PRONOUN/s_c/subject}'d do it, tempt some mouse-brain with an opportunity that looked too good to resist. So, assuming cunning eyes are already watching {PRONOUN/s_c/object}, {PRONOUN/s_c/subject} {VERB/s_c/lay/lies} down to bask in front of the border instead, talking loudly with {PRONOUN/s_c/poss} patrolmates. Good old psychological warfare.",
                 "exp": 50,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,2", "MEDIATOR,2"]
+                "stat_skill": ["CLEVER,1", "SENSE,2", "GUARDIAN,2"]
             },
             {
                 "text": "It's quiet. Too quiet, the high strung s_c decides, backpedaling rapidly - and not a moment too soon. Soundlessly, the thwarted o_c_n patrol drops out of cover, their tails lashing furiously. The two patrols, equal in numbers and fury now that the element of surprise is gone, exchange cutting remarks - but no claw blows.",

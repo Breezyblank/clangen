@@ -1213,7 +1213,7 @@
                 "text": "s_c leaps into action, pelting towards the dog with a yowl rising in {PRONOUN/s_c/poss} throat. The dog looks alarmed by this newcomer and abandons the chase as s_c swipes at it. The loner, ruffled but unharmed, is amazed by this display. After some chatting, they decide to join the Clan.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "new_cat": [
                     ["loner"]
                 ],
@@ -2161,7 +2161,7 @@
                 "text": "s_c cautiously checks the bush, only to be surprised by a weight slamming into {PRONOUN/p_l/poss}! {PRONOUN/p_l/subject/CAP} {VERB/p_l/recover/recovers}, only to see a young loner snarling at the patrol. Impressed with the cat's bravery, s_c invites them to join the Clan, to which the young cat agrees.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "new_cat": [
                     ["status:apprentice"]
                 ],
@@ -2686,7 +2686,7 @@
                 "text": "The patrol follows the noise and comes upon a kittypet that's sniffing around. The kittypet turns and bristles, hissing at the patrol. s_c calls out a greeting to them and engages them in conversation, which seems to calm them down. They even agree when s_c asks if they'd like to join the Clan!",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COMFORTER,1"],
                 "new_cat": [
                     ["kittypet"]
                 ],
@@ -2823,7 +2823,7 @@
                 "text": "The loner hisses defensively as the patrol comes closer. s_c speaks soothingly to the loner, assuring {PRONOUN/n_c:0/object} that {PRONOUN/s_c/subject} {VERB/s_c/mean/means} no harm and simply {VERB/s_c/want/wants} to help. The loner seems distrustful but allows p_l to help {PRONOUN/n_c:0/object} back to camp.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COMFORTER,1"],
                 "new_cat": [
                     ["loner"]
                 ],
@@ -2943,7 +2943,7 @@
                 "text": "The loner hisses defensively as s_c comes closer. {PRONOUN/s_c/subject/CAP} {VERB/s_c/speak/speaks} soothingly to the loner, assuring {PRONOUN/n_c:0/object} that {PRONOUN/s_c/subject} {VERB/s_c/mean/means} no harm and simply {VERB/s_c/mean/means} to help. The loner seems distrustful but allows s_c to help {PRONOUN/n_c:0/object} back to camp.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COMFORTER,1"],
                 "new_cat": [
                     ["loner"]
                 ],

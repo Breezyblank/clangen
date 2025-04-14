@@ -32,7 +32,7 @@
                 "text": "Once the patrols cross paths, s_c is quick to break the awkward atmosphere with a friendly greeting and easy conversation. The two patrols eventually return to their tasks, feeling confident in their good relations with the opposite Clan.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -108,7 +108,7 @@
                 "text": "Once the patrols cross paths, s_c is quick to break the awkward atmosphere with a friendly greeting and easy conversation. {PRONOUN/s_c/subject/CAP} {VERB/s_c/remember/remembers} some of the news that o_c_n shared at a recent Gathering and {VERB/s_c/bring/brings} it up, impressing the other patrol with {PRONOUN/s_c/poss} polite interest.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "MEMORY,1"],
                 "other_clan_rep": 2
             },
             {
@@ -190,7 +190,7 @@
                 "text": "r_c leaps for the rabbit, making a swift kill just before a o_c_n patrol comes into view. The o_c_n cats bristle at the trespass and a fight seems to be brewing. Thankfully, s_c smooths things over with the other patrol by graciously gifting them the rabbit. They part ways without damaging the relationship between Clans.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "MEDIATOR,1"],
 				"prey" : ["small"]
             },
             {
@@ -296,7 +296,7 @@
                 "text": "Once the patrols cross paths, s_c is quick to break the awkward atmosphere with a friendly greeting and easy conversation. The two patrols eventually return to their tasks, feeling confident in their good relations with the opposite Clan.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -372,7 +372,7 @@
                 "text": "Once the patrols cross paths, s_c is quick to break the awkward atmosphere with a friendly greeting and easy conversation. {PRONOUN/s_c/subject/CAP} {VERB/s_c/remember/remembers} some of the news that o_c_n shared at a recent Gathering and bring it up, impressing the other patrol with {PRONOUN/s_c/poss} polite interest.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "MEMORY,1"],
                 "other_clan_rep": 2
             },
             {
@@ -525,7 +525,7 @@
                 "text": "The patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat yowls a warning and the patrol scatters when they hear the cry. Just in time, too, as a large dog jumps at the patrol! s_c rallies the patrol to drive the dog away, thankfully avoiding any injuries. The o_c_n cat is grateful for the rescue.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1033,7 +1033,7 @@
                 "text": "s_c comes across a o_c_n patrol, out on a similar mission and being led by their deputy. The deputies strike up a conversation, and the o_c_n warriors eventually wander off. The unexpected opportunity gives the two a chance to privately exchange news about an ongoing problem on the coast.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1107,7 +1107,7 @@
                 "text": "s_c comes across a o_c_n patrol, out on a similar mission and being led by their deputy. The leaders strike up a conversation, and the o_c_n warriors eventually wander off. The unexpected opportunity gives the two a chance to privately exchange news about an ongoing problem on the coast.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1435,7 +1435,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their deputy. How unusual to meet a patrol in person! They strike up a friendly conversation. The unexpected opportunity turns into the perfect chance to casually but purposefully keep each other informed on an ongoing problem in the desert.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1495,7 +1495,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to s_c with their leader. How unusual to meet a patrol in person! They strike up a friendly conversation. The unexpected opportunity turns into the perfect chance to casually but purposefully keep each other informed on an ongoing problem in the desert.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1859,7 +1859,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their deputy. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into the perfect chance to casually but purposefully keep each other informed on an ongoing problem in the forest.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1933,7 +1933,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to s_c with their leader. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into the perfect chance to casually but purposefully keep each other informed on an ongoing problem in the forest.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -2283,7 +2283,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their deputy. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into the perfect chance to casually but purposefully keep each other informed on an ongoing problem in the mountains.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -2343,7 +2343,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to s_c with their leader. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into the perfect chance to casually but purposefully keep each other informed on an ongoing problem in the mountains.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -2702,7 +2702,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their deputy. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into the perfect chance to casually but purposefully keep each other informed on an ongoing problem in the grasslands.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -2776,7 +2776,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to s_c with their leader. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into the perfect chance to casually but purposefully keep each other informed on an ongoing problem in the grasslands.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {

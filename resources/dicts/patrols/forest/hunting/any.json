@@ -28,7 +28,7 @@
                 "text": "s_c sets up an ambush, devising a clever plan to take the porcupine by surprise and attack it before it can whip its quills into anyone's pelt.  The Clan will be impressed by this hefty fresh-kill.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,2", "CLEVER,2"],
+                "stat_skill": ["HUNTER,2", "CLEVER,2", "STEALTHY,2"],
                 "prey": ["huge"]
             },
             {
@@ -109,7 +109,7 @@
                 "text": "s_c sets up an ambush, devising a clever plan to take the porcupine by surprise and attack it before it can whip its quills into anyone's pelt.  The Clan will be impressed by this hefty fresh-kill.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["HUNTER,3", "CLEVER,3"],
+                "stat_skill": ["HUNTER,3", "CLEVER,3", "STEALTHY,3"],
                 "prey": ["huge"]
             },
             {
@@ -318,7 +318,7 @@
                 "text": "s_c is quick on the jump! Though the squirrels notice the cats and begin scampering away, s_c easily cuts them off and kills both squirrels.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "RUNNER,1"],
                 "prey": ["large"]
             }
         ],
@@ -500,7 +500,7 @@
                 "text": "The patrol follows the noise to a coyote who quickly spots them in the brush. A fight ensues and thanks to the skills of s_c, the coyote eventually runs away, deeming the carcass they had been scavenging from to not be worth the hassle. The patrol brings back what meat had still been left.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,3"],
+                "stat_skill": ["FIGHTER,3", "GUARDIAN,3"],
                 "prey": ["large"]
             },
             {
@@ -521,7 +521,7 @@
                 "text": "The noise leads them to a coyote, scavenging from a carcass. s_c instructs them to wait in the brush, downwind from the canine, until it leaves. Eventually the coyote eats its fill and disappears into the forest. When s_c deems it safe, the patrol takes their turn stripping the leftover meat from the bones.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "INSIGHTFUL,1", "STEALTHY,1"],
                 "prey": ["large"]
             }
         ],
@@ -599,7 +599,7 @@
                 "text": "The noise leads them to a coyote, scavenging from a carcass. s_c instructs them to wait in the brush, downwind from the canine, until it leaves. Eventually the coyote eats its fill and disappears into the forest. When s_c deems it safe, the patrol takes their turn stripping the leftover meat from the bones.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "INSIGHTFUL,1", "STEALTHY,1"],
                 "prey": ["large"]
             },
             {
@@ -691,7 +691,7 @@
                 "text": "The noise leads {PRONOUN/s_c/object} to a coyote, scavenging from a carcass. s_c decides to wait in the brush, downwind from the canine, until it leaves. Eventually the coyote eats its fill and disappears into the forest. s_c waits a while longer, ensuring the coyote has truly left, and takes {PRONOUN/s_c/poss} turn stripping the leftover meat from the bones.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "INSIGHTFUL,1", "STEALTHY,1"],
                 "prey": ["large"]
             },
             {
@@ -765,7 +765,7 @@
                 "text": "The noise leads them to a wolf, eating from its kill. s_c instructs them to wait in the brush, downwind from the canine, until it leaves. Eventually the wolf eats its fill and disappears into the forest. When s_c deems it safe, the patrol takes their turn stripping the leftover meat from the bones.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "INSIGHTFUL,1", "STEALTHY,1"],
                 "prey": ["large"]
             },
             {
@@ -857,7 +857,7 @@
                 "text": "The noise leads them to a wolf, scavenging from a carcass. s_c instructs them to wait in the brush, downwind from the canine, until it leaves. Eventually the wolf eats its fill and disappears into the forest. When s_c deems it safe, the patrol takes their turn stripping the leftover meat from the bones.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "INSIGHTFUL,1", "STEALTHY,1"],
                 "prey": ["large"]
             },
             {
@@ -931,7 +931,7 @@
                 "text": "The noise leads {PRONOUN/s_c/object} to a wolf, tearing into the carcass of a deer. s_c decides to wait in the brush, downwind from the canine, until it leaves. Eventually the wolf eats its fill and disappears into the forest. s_c waits a while longer, ensuring the wolf has truly left, and takes {PRONOUN/s_c/poss} turn stripping the leftover meat from the bones.",
                 "exp": 40,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "INSIGHTFUL,1", "STEALTHY,1"],
                 "prey": ["large"]
             },
             {
@@ -1004,7 +1004,7 @@
                 "text": "s_c leads them to some deer droppings in the forest - it's not clean, but it's extremely effective, and the patrol hunts well.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "STEALTHY,2"],
                 "prey": ["large"]
             },
             {
@@ -1053,7 +1053,7 @@
                 "text": "s_c finds some deer droppings in the forest - it's not clean, but it's extremely effective, and the hunt goes well.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "STEALTHY,2"],
                 "prey": ["medium"]
             },
             {
@@ -1198,7 +1198,7 @@
                 "text": "s_c gets the chance to try out an idea {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} been sitting on for a while. There's a rabbit warren that {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} spotted that's particularly badly built: {PRONOUN/s_c/subject} {VERB/s_c/dig/digs} down into one of the dens, fishing baby rabbits out by the pawful.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1", "TUNNELER,1", "NAVIGATOR,1"],
                 "prey": ["large"]
             },
             {
@@ -1267,7 +1267,7 @@
                 "text": "s_c gets the chance to try out an idea {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} been sitting on for a while. There's a rabbit warren that {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} spotted that's particularly badly built: {PRONOUN/s_c/subject} {VERB/s_c/dig/digs} down into one of the dens, fishing a couple baby rabbits out. This is a good spot to remember if c_n hits hard times.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1", "TUNNELER,1", "NAVIGATOR,1"],
                 "prey": ["large"]
             },
             {
@@ -1336,7 +1336,7 @@
                 "text": "s_c gets the chance to try out an idea {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} been sitting on for a while. There's a rabbit warren that {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} spotted that's particularly badly built: {PRONOUN/s_c/subject} {VERB/s_c/dig/digs} down into one of the dens, fishing a couple baby rabbits out. This is a good spot to remember if c_n hits hard times.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1", "TUNNELER,1", "NAVIGATOR,1"],
                 "prey": ["large"]
             },
             {
@@ -1397,7 +1397,7 @@
                 "text": "p_l pads towards the bush to check on the noise when a rabbit bursts out! s_c is quick to react and snags the rabbit before it can disappear.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "RUNNER,1"],
                 "prey": ["large"]
             }
         ],
@@ -1461,7 +1461,7 @@
                 "text": "p_l pads towards the bush to check on the noise when a rabbit bursts out! s_c is quick to react and snags the rabbit before it can disappear.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "RUNNER,1"],
                 "prey": ["large"]
             }
         ],
@@ -1540,7 +1540,7 @@
                 "text": "s_c spots the Twolegs unloading metal boxes from their monsters and abruptly tells the patrol they need to leave. Now.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,3"]
+                "stat_skill": ["CLEVER,3", "INSIGHTFUL,2", "LANGUAGE,2"]
             },
             {
                 "text": "A Twoleg spots s_c and crouches down, clicking softly. s_c hisses and flees.",
@@ -1612,7 +1612,7 @@
                 "text": "s_c spots the Twolegs unloading metal boxes from their monsters and abruptly tells the patrol they need to leave. Now.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,3"]
+                "stat_skill": ["CLEVER,3", "INSIGHTFUL,2", "LANGUAGE,2"]
             },
             {
                 "text": "A Twoleg spots s_c and crouches down, clicking softly. s_c hisses and flees.",
@@ -1683,7 +1683,7 @@
                 "text": "s_c gets distracted from hunting by strange Twoleg activity around one of their dens. They appear to be hauling all their many, many varieties of nest lining out and into a big monster. s_c takes the opportunity to grab a little soft thing, something that's almost shaped like prey. It'll be good for the nursery.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "KIT,1", "DECORATOR,1", "STEALTHY,1", "COMFORTER,2"],
                 "prey": ["medium"]
             },
             {
@@ -1862,7 +1862,7 @@
                 "text": "s_c shows r_c all around the outskirts of the Twoleg dens, showing off how much {PRONOUN/s_c/subject} {VERB/s_c/know/knows} about the weird animals' behavior - and enjoying getting to feel clever.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,3", "INSIGHTFUL,2", "LANGUAGE,2"],
                 "prey": ["small"],
                 "relationships": [
                     {
@@ -2117,7 +2117,7 @@
                 "text": "Something about this situation sets all of s_c's instincts off. {PRONOUN/r_c/subject/CAP} {VERB/r_c/investigate/investigates} carefully and {VERB/r_c/strip/strips} the cover of the bushes away from a Twoleg trap underneath.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"]
+                "stat_skill": ["CLEVER,1", "SENSE,1", "CLAIRVOYANT,1"]
             },
             {
                 "text": "Something isn't right. Nervously pawing at the bushes, s_c thinks that the smell is too good to be true. {PRONOUN/r_c/subject/CAP} {VERB/r_c/leave/leaves} it, deciding to return to camp and report it to the deputy instead.",
@@ -2175,7 +2175,7 @@
                 "text": "Something about this situation sets all of s_c's instincts off. {PRONOUN/r_c/subject/CAP} {VERB/r_c/investigate/investigates} carefully. The patrol helps {PRONOUN/r_c/object} strip the cover of the bushes away from a Twoleg trap underneath.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"]
+                "stat_skill": ["CLEVER,1", "SENSE,1", "CLAIRVOYANT,1"]
             },
             {
                 "text": "Something isn't right. Nervously pawing at the bushes, s_c thinks that the smell is too good to be true. {PRONOUN/r_c/subject/CAP} {VERB/r_c/leave/leaves} it, convincing the patrol to return to camp and report it to the deputy instead.",
@@ -2239,7 +2239,7 @@
                 "text": "The patrol stops on the edge of the Thunderpath. s_c organizes a thorough search that finds a flattened squirrel. It's a reminder of the danger of the Thunderpath, and a good source of scavenged meat.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1"],
                 "prey": ["large"]
             },
             {
@@ -2327,7 +2327,7 @@
                 "text": "The patrol stops on the edge of the Thunderpath. s_c organizes a thorough search that finds a flattened squirrel. It's a reminder of the danger of the Thunderpath, and a good source of scavenged meat.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1"],
                 "prey": ["large"]
             },
             {
@@ -2415,7 +2415,7 @@
                 "text": "The patrol stops on the edge of the Thunderpath. s_c organizes a thorough search that finds several flattened pieces of roadkill. It's a reminder of the danger of the Thunderpath, and a good source of scavenged meat.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1"],
                 "prey": ["large"]
             },
             {
@@ -2498,7 +2498,7 @@
                 "text": "The patrol stops on the edge of the Thunderpath. s_c organizes a thorough search that finds a flattened squirrel. It's a reminder of the danger of the Thunderpath, and a good source of scavenged meat.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1"],
                 "prey": ["large"]
             },
             {
@@ -2586,7 +2586,7 @@
                 "text": "Nothing's going to escape {PRONOUN/r_c/poss} claws! r_c skids to a halt and then leaps into action, claw just barely catching in the tail of the squirrel {PRONOUN/r_c/subject} saw and bringing it down. {PRONOUN/r_c/subject/CAP} {VERB/r_c/purr/purrs} with satisfaction and {VERB/r_c/trot/trots} back to camp with {PRONOUN/r_c/poss} prize.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "RUNNER,1"],
                 "prey": ["medium"]
             }
         ],
@@ -2689,7 +2689,7 @@
                 "text": "Nothing's going to escape {PRONOUN/s_c/poss} claws! s_c skids to a halt and then leaps into action, claw just barely catching in the tail of the squirrel {PRONOUN/s_c/subject} saw and bringing it down. {PRONOUN/s_c/subject/CAP} {VERB/s_c/purr/purrs} with satisfaction and {VERB/s_c/pad/pads} back to r_c, sharing in the excitement of the hunt with {PRONOUN/r_c/object}.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "RUNNER,1"],
                 "can_have_stat": ["p_l"],
                 "prey": ["medium"],
                 "relationships": [
@@ -2837,7 +2837,7 @@
                 "text": "s_c is basically on top of the skittering lizard and does a ridiculous hop to come down on it with claws extended. r_c compliments {PRONOUN/s_c/object} on the catch with a laugh in {PRONOUN/r_c/poss} meow, and s_c has to agree with {PRONOUN/s_c/object}, purring with laughter.",
                 "exp": 15,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "STEALTHY,1"],
                 "prey": ["small"],
                 "relationships": [
                     {
@@ -2981,7 +2981,7 @@
                 "text": "s_c drops into a crouch and has to consciously stop {PRONOUN/s_c/poss} tail from swaying in excitement as {PRONOUN/s_c/subject} {VERB/s_c/stalk/stalks} the prey. Once {PRONOUN/s_c/subject} {VERB/s_c/think/thinks} {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} close enough, {PRONOUN/s_c/subject} {VERB/s_c/give/gives} {PRONOUN/s_c/poss} haunches a little wiggle and {VERB/s_c/leap/leaps}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/catch/catches} the vole squarely between {PRONOUN/s_c/poss} paws and {VERB/s_c/kill/kills} it quickly.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,2"],
+                "stat_skill": ["HUNTER,1", "STEALTHY,1"],
                 "prey": ["medium"]
             }
         ],
@@ -3083,7 +3083,7 @@
             },
         "weight": 40,
         "chance_of_success": 50,
-        "pl_skill_constraint": ["STORY,1", "LORE,1"],
+        "pl_skill_constraint": ["CLEVER,3", "INSIGHTFUL,2", "LANGUAGE,2"],
         "intro_text": "As they wander, searching for prey, p_l finds something far more dangerous, and calls the rest of the patrol over for a lesson.",
         "decline_text": "No one wants to get anywhere near the dangerous traps, not even to learn about them.",
         "success_outcomes": [

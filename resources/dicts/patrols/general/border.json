@@ -34,7 +34,7 @@
                 "exp": 40,
                 "weight": 20,
                 "art": "gen_border_dogscent_clanmember",
-                "stat_skill": ["FIGHTER,3"],
+                "stat_skill": ["FIGHTER,3", "GUARDIAN,3"],
                 "relationships": [
                     {
                         "cats_to": ["s_c"],
@@ -190,7 +190,7 @@
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_coyote_danger2_w2",
-                "stat_skill": ["FIGHTER,3"],
+                "stat_skill": ["FIGHTER,3", "GUARDIAN,3"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -384,7 +384,7 @@
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_coyote_hostile",
-                "stat_skill": ["FIGHTER,3"],
+                "stat_skill": ["FIGHTER,3", "GUARDIAN,3"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -565,7 +565,7 @@
                 "exp": 10,
                 "weight": 20,
                 "art": "gen_angry_cat_warrior",
-                "stat_skill": ["FIGHTER,1"]
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"]
             }
         ],
         "fail_outcomes": [
@@ -654,7 +654,7 @@
                 "text": "s_c calls out a battle plan, and the cats flow into it, carefully covering each other and driving the dog backwards until it loses its nerve, tucks tail, and runs from c_n territory, deep into the wilderness.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -740,7 +740,7 @@
                 "text": "s_c calls out a battle plan, and the cats flow into it, carefully covering each other and driving the dog backwards until it loses its nerve, tucks tail, and runs from c_n territory, deep into the wilderness.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -953,7 +953,7 @@
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_cat_with_kits_warrior",
-                "stat_skill": ["SPEAKER,1", "MEDIATOR,1"],
+                "stat_skill": ["SPEAKER,1", "KIT,1", "COMFORTER,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -1687,7 +1687,7 @@
                 "text": "s_c sneaks up behind the Twoleg. With a mighty roar, s_c leaps onto its back and {PRONOUN/s_c/poss} momentum sends the Twoleg falling to the ground with a giant thump.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,0"]
+                "stat_skill": ["FIGHTER,0", "GUARDIAN,1"]
             },
             {
                 "text": "s_c stops the patrol, narrowing {PRONOUN/s_c/poss} eyes. That isn't a Twoleg! {PRONOUN/s_c/subject/CAP} came across one before during {PRONOUN/s_c/object} time outside the Clan. It's a 'scarecrow', {PRONOUN/s_c/subject} {VERB/s_c/explain/explains}, meant to protect the Twoleg fields from harm. The patrol continues on their way, giving the scarecrow a wide berth.",
@@ -1709,7 +1709,7 @@
                 "text": "s_c sneaks up behind the Twoleg. With a mighty roar, s_c leaps onto its back and {PRONOUN/s_c/poss} momentum sends both of them to the ground. s_c ends up covered in hay, {PRONOUN/s_c/poss} claws sunk into a harmless scarecrow.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,0"]
+                "stat_skill": ["FIGHTER,0", "GUARDIAN,1"]
             }
         ]
     },
@@ -2168,7 +2168,7 @@
                 "text": "app1 calls out a greeting to the other apprentice, {PRONOUN/app1/poss} eyes shining and tail raised. It's exciting to chat with another Clan's apprentice somewhere other than a Gathering, where {PRONOUN/app1/subject}{VERB/app1/'re/'s} supposed to be on {PRONOUN/app1/poss} best behavior. The ice is broken between the patrols, and they stop for a chat before each carrying on their way.",
                 "exp": 15,
                 "weight": 40,
-                "stat_skill": [ "SPEAKER,1", "CLEVER,1", "MEDIATOR,1" ],
+                "stat_skill": [ "SPEAKER,0", "MEDIATOR,0", "COMFORTER,0", "COOPERATIVE,0" ],
                 "stat_trait": [ "childish", "playful", "charismatic", "bold", "compassionate", "confident", "adventurous", "sincere", "flamboyant", "loving", "wise" ],
                 "can_have_stat": [ "app1" ],
                 "art": "gen_happy_cat2",
@@ -2332,7 +2332,7 @@
                 "exp": 15,
                 "weight": 40,
                 "art": "gen_bord_twocat_hostile_app_warrior",
-                "stat_skill": [ "SPEAKER,1" ],
+                "stat_skill": [ "SPEAKER,0" ],
                 "stat_trait": [ "arrogant", "troublesome", "shameless", "charismatic", "confident", "daring", "flamboyant", "sneaky", "daring", "cunning", "rebellious", "vengeful", "bold", "childish", "playful" ],
                 "other_clan_rep": -2
                 }
@@ -2370,7 +2370,7 @@
                 "exp": 0,
                 "weight": 40,
                 "art": "gen_battle_app_other_clan",
-                "stat_skill": [ "MEDIATOR,1", "SPEAKER,1", "TEACHER,1", "INSIGHTFUL,1"],
+                "stat_skill": [ "MEDIATOR,1", "SPEAKER,1", "TEACHER,1", "INSIGHTFUL,1", "COMFORTER,1", "COOPERATIVE,1"],
                 "stat_trait": [ "charismatic", "compassionate", "responsible", "faithful", "loyal", "calm", "wise", "sincere", "thoughtful", "loving" ],
                 "can_have_stat": [ "any", "adult" ],
                 "other_clan_rep": -2,
@@ -3555,7 +3555,7 @@
         "exp": 20,
         "weight": 50,
         "outsider_rep": 4,
-        "stat_skill": [ "MEDIATOR,1"],
+        "stat_skill": [ "MEDIATOR,1", "MATCHMAKER,1", "COOPERATIVE,1"],
     "relationships": [
         {
             "cats_to": [ "n_c:1" ],

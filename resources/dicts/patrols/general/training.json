@@ -48,7 +48,7 @@
                 "text": "Astutely, s_c recognizes the cranberries and carefully chews off a branch laden with them to bring back to camp - the herb stocks can use this odd fruit.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "HEALER,1", "GARDENER,1", "HERBALIST,1"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -195,7 +195,7 @@
                 "text": "Astutely, s_c recognizes the cranberries and carefully chews off a branch laden with them to bring back to camp - the herb stocks can use this odd fruit.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"]
+                "stat_skill": ["CLEVER,2", "HEALER,1", "GARDENER,1", "HERBALIST,1"]
             }
         ],
         "fail_outcomes": [
@@ -396,7 +396,7 @@
             },
             {
                 "text": "No - this is exactly what {PRONOUN/s_c/subject} {VERB/s_c/need/needs} to work on. s_c acknowledges the feeling, letting it pass around {PRONOUN/r_c/object} like water flowing over a stone, not letting it pull {PRONOUN/s_c/object} in or consume {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} determined to be more independent.",
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "COMFORTER,1"],
                 "exp": 15,
                 "weight": 20
             }
@@ -1533,7 +1533,8 @@
                 "stat_skill": [
                     "CLEVER,2",
                     "TEACHER,1",
-                    "INSIGHTFUL,1"
+                    "INSIGHTFUL,1",
+                    "COOPERATIVE,2"
                 ],
                 "relationships": [
                     {
@@ -1729,7 +1730,8 @@
                 "weight": 20,
                 "can_have_stat":["any"],
                 "stat_skill": [
-                    "FIGHTER,3"
+                    "FIGHTER,3",
+                    "GUARDIAN,3"
                 ],
                 "relationships": [
                     {
@@ -2326,7 +2328,7 @@
                 "text": "Talking everyone down, p_l encourages the patrol to focus on their work collecting nesting material.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,2"],
+                "stat_skill": ["SPEAKER,2", "MEDIATOR,1", "COMFORTER,1"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -2511,7 +2513,7 @@
                 "text": "p_l defuses the moment with a joke and sneaks in a quiet remark that has app1 rethinking things. Still, it's not the most fun training session.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,2"],
+                "stat_skill": ["SPEAKER,2", "COOPERATIVE,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -2703,7 +2705,7 @@
                 "exp": 20,
                 "weight": 20,
                 "can_have_stat": ["p_l"],
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "COMFORTER,1", "COOPERATIVE,1"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -2772,7 +2774,7 @@
                 "exp": 20,
                 "weight": 20,
                 "can_have_stat": ["p_l"],
-                "stat_skill": ["INSIGHTFUL,1"],
+                "stat_skill": ["MEDIATOR,1", "INSIGHTFUL,1", "COMFORTER,1"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -3016,7 +3018,7 @@
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["faithful"],
-                "stat_skill": ["STAR,2"],
+                "stat_skill": ["STAR,2", "GHOST,2"],
                 "relationships": [
                     {
                         "cats_to": ["s_c"],
@@ -3108,7 +3110,7 @@
             {
                 "text": "s_c often feels like StarClan walks with {PRONOUN/s_c/object}, and this is just another instance on the path. {PRONOUN/s_c/subject/CAP} {VERB/s_c/use/uses} the solo patrol to collect {PRONOUN/s_c/poss} thoughts, and by the time {PRONOUN/s_c/subject} {VERB/s_c/pad/pads} home with a hard day's training done, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} ready for the next step {PRONOUN/s_c/poss} vision hinted at.",
                 "stat_trait": ["faithful"],
-                "stat_skill": ["STAR,2"],
+                "stat_skill": ["STAR,2", "GHOST,2"],
                 "exp": 20,
                 "weight": 20
             }
@@ -3265,7 +3267,7 @@
                 "text": "s_c listens to app1 talk with a deep sense of deja vu, in addition to {PRONOUN/s_c/poss} shock. This sounds like the trouble {PRONOUN/s_c/subject} had when {PRONOUN/s_c/subject} {VERB/s_c/were/was} young, plagued by contact with StarClan regardless of whether {PRONOUN/s_c/subject} wanted it or not. {PRONOUN/s_c/subject/CAP} immediately {VERB/s_c/take/takes} app1 aside to give them {PRONOUN/s_c/poss} full attention and support.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["DREAM,2", "STAR,1", "CLAIRVOYANT,2", "PROPHET,2"],
+                "stat_skill": ["DREAM,2", "STAR,1", "CLAIRVOYANT,2", "PROPHET,2", "GHOST,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -3404,7 +3406,7 @@
                 "text": "s_c sees the patrol competing to scare each other and derails it completely. Instead, {PRONOUN/s_c/subject} {VERB/s_c/spin/spins} a tale of truth, bringing the story of one of c_n's warrior ancestors to life. With how clear {PRONOUN/s_c/poss} words are, it's almost like {PRONOUN/s_c/subject} {VERB/s_c/know/knows} the StarClan cat, even though that's impossible.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["STAR,2"],
+                "stat_skill": ["STAR,2", "GHOST,2"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3819,7 +3821,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are using each other as springboards, practicing breaking a Clanmate's fall, and working on treading exactly in each other's pawsteps.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["TEACHER,2"],
+                "stat_skill": ["TEACHER,2", "COOPERATIVE,2"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3848,7 +3850,7 @@
                 "text": "p_l puts s_c in charge of calling out the instructions for the imaginary camp-defense they're all practicing, and s_c not only does a wonderful job, but invents a couple surprises in the training scenario that have the cats cursing in surprise at the time and purring in appreciation afterwards.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["CLEVER,1"],
                 "can_have_stat": ["r_c"],
                 "relationships": [
                     {
@@ -3908,7 +3910,7 @@
                 "text": "s_c suggests they form two teams to fight each other - claws sheathed, of course. p_l takes {PRONOUN/s_c/object} up on the good idea!",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["COOPERATIVE,1"],
                 "can_have_stat": ["r_c"],
                 "relationships": [
                     {
@@ -3931,7 +3933,7 @@
                 "text": "Quietly, s_c takes p_l aside and suggests how best to group cats who don't normally work together. It's a valuable perspective to consider, and one p_l takes into consideration for the team exercises.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["INSIGHTFUL,1"],
+                "stat_skill": ["CLEVER,1", "INSIGHTFUL,1", "COOPERATIVE,1"],
                 "can_have_stat": ["r_c"],
                 "relationships": [
                     {
@@ -3961,7 +3963,7 @@
                 "text": "Just as they're starting, p_l puts a paw wrong and goes down hard. s_c rushes in and checks {PRONOUN/p_l/object} over, firmly instructing p_l to stay on the sidelines. p_l sits the rest of the session out and avoids further injury, yowling encouragement and instructions to {PRONOUN/p_l/poss} Clanmates.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HEALER,1"],
+                "stat_skill": ["HEALER,1", "GARDENER,2", "HERBALIST,1"],
                 "can_have_stat": ["r_c"],
                 "injury": [
                     {
@@ -4274,7 +4276,7 @@
                 "text": "s_c takes charge and coordinates exercises for the duo. They practice mirroring each other, until by the end of the afternoon they can almost act as one cat.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1"],
+                "stat_skill": ["TEACHER,1", "COOPERATIVE,1"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -4403,7 +4405,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are using each other as springboards, practicing breaking a Clanmate's fall, and working on treading exactly in each other's pawsteps.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["TEACHER,2"],
+                "stat_skill": ["TEACHER,2", "COOPERATIVE,2"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -4621,7 +4623,7 @@
                 "text": "s_c takes charge and coordinates exercises for the duo. They practice mirroring each other, until by the end of the afternoon they can almost act as one cat. The warrior praises how quickly app1 picks it up, and the apprentice comes back to camp fluffed up with pride.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["TEACHER,2"],
+                "stat_skill": ["TEACHER,2", "COOPERATIVE,2"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -4731,7 +4733,7 @@
                 "text": "s_c notices the apprentices'... <i>enthusiasm</i> and gently redirects them. They end up having a marvelous afternoon, feeling mature and just as skilled as the warriors around them.",
                 "exp": 20,
                 "weight": 30,
-                "stat_skill": ["TEACHER,2"],
+                "stat_skill": ["TEACHER,2", "COOPERATIVE,2"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -5622,7 +5624,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing their stalking on each other, sharing tips about different terrain types, and discussing prey varieties.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "HUNTER,1"],
+                "stat_skill": ["TEACHER,1", "HUNTER,1", "STEALTHY,1"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -5644,7 +5646,7 @@
                 "text": "As one of the undisputed best hunters in c_n, possibly in generations, s_c is definitely the cat to come to for hunting advice. {PRONOUN/s_c/subject/CAP} {VERB/s_c/do/does}n't mind sharing some of {PRONOUN/s_c/poss} more useful little tricks that any Clanmate could use to top up the fresh-kill pile.",
                 "exp": 40,
                 "weight": 40,
-                "stat_skill": ["HUNTER,3"],
+                "stat_skill": ["HUNTER,3", "STEALTHY,3"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -5881,7 +5883,7 @@
                 "text": "s_c takes charge and coordinates exercises for the duo. They practice how to bring down prey together, their confidence in each other growing.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "HUNTER,1"],
+                "stat_skill": ["TEACHER,1", "HUNTER,1", "STEALTHY,1", "COOPERATIVE,1"],
                 "can_have_stat":["any"],
                 "relationships": [
                     {
@@ -5897,7 +5899,7 @@
                 "text": "As one of the undisputed best hunters in c_n, possibly in generations, s_c is definitely the cat to come to for hunting advice. {PRONOUN/s_c/subject/CAP} {VERB/s_c/do/does}n't mind sharing some of {PRONOUN/s_c/poss} more useful little tricks that could be used to top up the fresh-kill pile.",
                 "exp": 40,
                 "weight": 40,
-                "stat_skill": ["HUNTER,3"],
+                "stat_skill": ["HUNTER,3", "STEALTHY,3"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -6040,7 +6042,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing stalking each other, sharing tips about different terrain types, and discussing prey varieties.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "HUNTER,1"],
+                "stat_skill": ["TEACHER,1", "HUNTER,1", "STEALTHY,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -6144,7 +6146,7 @@
                 "text": "As one of the undisputed best hunters in c_n, possibly in generations, s_c is definitely the cat to come to for hunting advice. {PRONOUN/s_c/subject/CAP} {VERB/s_c/do/does}n't mind sharing some of {PRONOUN/s_c/poss} more useful little tricks that could be used to top up the fresh-kill pile.",
                 "exp": 40,
                 "weight": 40,
-                "stat_skill": ["HUNTER,3"],
+                "stat_skill": ["HUNTER,3", "STEALTHY,3"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -6236,7 +6238,7 @@
                 "text": "s_c takes charge and coordinates exercises for the duo. They practice taking down prey together, their confidence in their team hunting growing. The warrior praises how quickly app1 picks it up, and the apprentice comes back to camp fluffed up with pride.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "HUNTER,1"],
+                "stat_skill": ["TEACHER,1", "HUNTER,1", "STEALTHY,1", "COOPERATIVE,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -6317,7 +6319,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing stalking each other, sharing tips about different terrain types, and discussing prey varieties.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "HUNTER,1"],
+                "stat_skill": ["TEACHER,1", "HUNTER,1", "STEALTHY,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -6384,7 +6386,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing stalking each other, sharing tips about different terrain types, and discussing prey varieties.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "HUNTER,1"],
+                "stat_skill": ["TEACHER,1", "HUNTER,1", "STEALTHY,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -6451,7 +6453,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing stalking each other, sharing tips about different terrain types, and discussing prey varieties.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "HUNTER,1"],
+                "stat_skill": ["TEACHER,1", "HUNTER,1", "STEALTHY,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -6518,7 +6520,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing stalking each other, sharing tips about different terrain types, and discussing prey varieties.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "HUNTER,1"],
+                "stat_skill": ["TEACHER,1", "HUNTER,1", "STEALTHY,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -6583,7 +6585,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing trips, twists, and tumbles.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "FIGHTER,1"],
+                "stat_skill": ["TEACHER,1", "FIGHTER,1", "GUARDIAN,1"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -6645,7 +6647,7 @@
                 "text": "s_c takes charge and coordinates exercises for the duo. They practice how to weave around an opponent, feeling more and more confident in their teamwork.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "FIGHTER,1"],
+                "stat_skill": ["TEACHER,1", "FIGHTER,1", "GUARDIAN,1", "COOPERATIVE,1"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -6711,7 +6713,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing trips, twists, and tumbles.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "FIGHTER,1"],
+                "stat_skill": ["TEACHER,1", "FIGHTER,1", "GUARDIAN,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -6777,7 +6779,7 @@
                 "text": "s_c takes charge and coordinates exercises for the duo. They practice how to weave around an opponent, feeling more and more confident in their teamwork. The warrior praises how quickly app1 picks it up, and the apprentice comes back to camp fluffed up with pride.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "FIGHTER,1"],
+                "stat_skill": ["TEACHER,1", "FIGHTER,1", "GUARDIAN,1", "COOPERATIVE,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -6844,7 +6846,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing trips, twists, and tumbles.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "FIGHTER,1"],
+                "stat_skill": ["TEACHER,1", "FIGHTER,1", "GUARDIAN,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -6911,7 +6913,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing trips, twists, and tumbles.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "FIGHTER,1"],
+                "stat_skill": ["TEACHER,1", "FIGHTER,1", "GUARDIAN,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -6978,7 +6980,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing trips, twists, and tumbles.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "FIGHTER,1"],
+                "stat_skill": ["TEACHER,1", "FIGHTER,1", "GUARDIAN,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -7045,7 +7047,7 @@
                 "text": "s_c takes charge and coordinates exercises for the training patrol. Soon cats are practicing trips, twists, and tumbles.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1", "FIGHTER,1"],
+                "stat_skill": ["TEACHER,1", "FIGHTER,1", "GUARDIAN,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -7124,7 +7126,7 @@
                 "text": "s_c takes charge and coordinates exercises for the duo. They practice how to bring down prey together, their confidence and admiration for each other growing.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "STEALTHY,1", "COOPERATIVE,1"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -7193,7 +7195,7 @@
                 "text": "s_c takes charge and coordinates exercises for the duo. They practice how to weave around an opponent, feeling more and more confident in their teamwork.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1", "COOPERATIVE,1"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -7262,7 +7264,7 @@
                 "text": "s_c knows just what to do, and the smile on r_c's face when {PRONOUN/s_c/subject} {VERB/s_c/present/presents} {PRONOUN/s_c/poss} solution makes all the effort of solving it worth it.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "INSIGHTFUL,1"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -7332,7 +7334,7 @@
                 "text": "s_c talks about how choosing the right words can sometimes feel impossible. But that it's always better to try than to never talk at all, and talking things out can create wonderful connections.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "COMFORTER,1"],
                 "can_have_stat": ["p_l"],
                 "relationships": [
                     {
@@ -7482,7 +7484,7 @@
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["faithful", "wise"],
-                "stat_skill": ["STAR,2"],
+                "stat_skill": ["STAR,2", "GHOST,2"],
                 "can_have_stat": ["p_l"],
                 "relationships": [
                     {
@@ -9025,7 +9027,7 @@
         "intro_text": "p_l looks down at the group they have to try and teach, feeling doubtful. Camp maintenance isn't a glamourous topic, especially in the eyes of younger cats.",
         "decline_text": "p_l calls off the lesson.",
         "chance_of_success": 60,
-        "pl_skill_constraint": ["TEACHER,1", "INSIGHTFUL,1", "KIT,1", "CAMP,1"],
+        "pl_skill_constraint": ["TEACHER,1", "INSIGHTFUL,1", "KIT,1", "CAMP,1", "DECORATOR,1"],
         "success_outcomes": [
             {
                 "text": "When the topic is clawing the rump of an enemy warrior, anyone can get a young hothead's attention, but catching and holding it when the lesson is about gathering materials to reinforce camp? That takes real skill, though p_l doesn't get acknowledged for it often.",
@@ -9484,7 +9486,7 @@
         },
         "weight": 20,
         "chance_of_success": 60,
-        "pl_skill_constraint": ["STORY,1", "LORE,1", "SPEAKER,1", "TEACHER,1"],
+        "pl_skill_constraint": ["STORY,1", "LORE,1", "SPEAKER,1", "TEACHER,1", "INSIGHTFUL,1"],
         "intro_text": "Once upon a time lived a Clan filthy and pathetic, who did nothing but steal from others, never giving thought to the hurt they did, or credit to the hunter's hard work...",
         "decline_text": "No one is interested bringing up that frustrating fable today.",
             "success_outcomes": [
@@ -9693,7 +9695,7 @@
         "intro_text": "Leading the group of cats around {PRONOUN/p_l/object} to a good vantage point, p_l settles down. As the patrol chats among themselves, something sparks p_l's attention. It reminds {PRONOUN/p_l/object} of charming <i>Casanova</i>, and it occurs to {PRONOUN/p_l/object} that maybe not every cat here knows that history.",
         "decline_text": "It's a lovely day - too lovely to be ruined by mentions of that ancient furball.",
         "chance_of_success": 60,
-        "pl_skill_constraint": ["LORE,1"],
+        "pl_skill_constraint": ["LORE,1", "INSIGHTFUL,1"],
         "success_outcomes": [
             {
                 "text": "Casanova was a kittypet, with a long, beautiful coat always combed just-so by his Twolegs, charming, sly, and full of love and attention for any she-cat who'd stand still long enough to accept it. Generations ago, he fathered litters across half a dozen dens, full of promises of help and support before he moved on to the next she-cat without a backward glance. It's not a nice tale, but it's one important to remember.",
@@ -9757,7 +9759,7 @@
         "intro_text": "p_l has a vision for a clever battle move - but {PRONOUN/p_l/subject} {VERB/p_l/need/needs} a couple cats to practice it with.",
         "decline_text": "Today isn't the day for this lesson.",
         "chance_of_success": 60,
-        "pl_skill_constraint": ["FIGHTER,1", "CLEVER,1"],
+        "pl_skill_constraint": ["FIGHTER,1", "CLEVER,1", "GUARDIAN,1"],
         "success_outcomes": [
             {
                 "text": "Pulling the patrol together into a huddle, p_l explains the plan. Together, they're going to practice a coordinated kind of tackle, intended to shove an enemy warrior off a Clanmate, knock them silly, and give enough time to rescue their injured Clanmate. Looking around the determined faces, p_l nods. They can do this!",
@@ -9822,7 +9824,7 @@
         "intro_text": "As the patrol heads out, p_l spots a set of animal tracks and calls the other cats over to give them a tracking demonstration.",
         "decline_text": "Today isn't the day for this lesson.",
         "chance_of_success": 60,
-        "pl_skill_constraint": ["HUNTER,1", "SENSE,1"],
+        "pl_skill_constraint": ["HUNTER,1", "SENSE,1", "STEALTHY,1", "TRACKER,1"],
         "success_outcomes": [
             {
                 "text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/show/shows} app1 how crisp the edges of the pawprints are, how there hasn't been enough time for anything to disturb the evidence of passage. app1 asks if those aren't <i>cat</i> pawprints though? p_l murrps. Yes, good spotting. But the lesson isn't what made these, it's about how to judge how long it's been since they've been made - valuable information if this had been prey or predator, and not a Clanmate.",
@@ -9952,7 +9954,7 @@
         "intro_text": "As the training patrol gossips about the last Gathering while they bask, app1 turns and asks p_l how to talk to cats from other Clans without giving away any of c_n's secrets.",
         "decline_text": "Simple - just don't talk to them.",
         "chance_of_success": 60,
-        "pl_skill_constraint": ["SPEAKER,1", "MEDIATOR,1"],
+        "pl_skill_constraint": ["SPEAKER,1", "MEDIATOR,1", "COMFORTER,1", "COOPERATIVE,1"],
         "success_outcomes": [
             {
                 "text": "There's a difference between being careful and being rude, p_l instructs. Some things are always safe to talk about, like app1's favorite prey, the health of the elders, or the birth of new kits. But {PRONOUN/p_l/subject} {VERB/p_l/caution/cautions} to always remember that if the cat {PRONOUN/app1/subject}{VERB/app1/'re/'s} talking to is worth anything, they'll accept that app1 can't talk about something with grace and understanding, not snappiness and gibes.",
@@ -10082,7 +10084,7 @@
         "intro_text": "While practicing their pounce, app1 goes down hard, falling in exactly the wrong way. {PRONOUN/app1/subject/CAP} {VERB/app1/scramble/scrambles} up with a yelp, one paw held off the ground.",
         "decline_text": "It's only a couple minutes before {PRONOUN/app1/subject}{VERB/app1/'re/'s} bouncing around again - apprentices are made of cotton-fluff.",
         "chance_of_success": 60,
-        "pl_skill_constraint": ["HEALER,1"],
+        "pl_skill_constraint": ["HEALER,1", "GARDENER,2", "HERBALIST,1"],
         "success_outcomes": [
             {
                 "text": "Carefully, p_l has app1 sit back down, where p_l grooms the injured paw all over. By the time {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} finished their assessment, app1 is already feeling a lot better - it was just a jolt of pain, nothing more, and training can continue unimpeded.",
@@ -10610,7 +10612,7 @@
             },
         "weight": 20,
         "chance_of_success": 60,
-        "pl_skill_constraint": ["STORY,1"],
+        "pl_skill_constraint": ["STORY,1", "STAR,1", "GHOST,1", "OMEN,2", "PROPHET,2"],
         "intro_text": "It's been a long day and a hard training session. Dusk slowly settles into night as the cats lie in the training grounds, warriors satisfied, apprentices utterly exhausted. p_l tilts {PRONOUN/p_l/poss} head back to stare up at the stars.",
         "decline_text": "Time to head home for a bite to eat and a well-deserved rest.",
         "success_outcomes": [
@@ -10854,7 +10856,7 @@
                 "text": "app1 knows that app2 isn't well-liked in the den for {PRONOUN/app2/poss} attitude. However, {PRONOUN/app1/subject} {VERB/app1/do/does}n't think app2 is a bad cat. {PRONOUN/app2/subject/CAP} just {VERB/app2/need/needs} someone to believe in {PRONOUN/app2/object}. Well, let app1 be that someone. {PRONOUN/app1/subject/CAP} agrees with app2. app2 is skeptically surprised by app1's vote of confidence but is happy to lead the patrol. app1 comes home with enough prey for the queens and elders and is rewarded with a nod from {PRONOUN/app1/poss} mentor.",
                 "exp": 15,
                 "weight": 20,
-                "stat_skill": ["SENSE,0", "MEDIATOR,0"],
+                "stat_skill": ["SENSE,0", "MEDIATOR,0", "COMFORTER,0"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -11983,7 +11985,7 @@
                "text": "s_c asks app1 why {PRONOUN/app1/subject}{VERB/app1/'re/'s} interested in advanced techniques. app1 replies that s_c is one of the best fighters in the Clan - of course {PRONOUN/app1/subject} {VERB/app1/want/wants} to learn from {PRONOUN/s_c/object}! s_c is flattered and agrees to show {PRONOUN/app1/object} {PRONOUN/s_c/poss} tricks.",
                "exp": 10,
                "can_have_stat": ["p_l"],
-                "stat_skill": [ "FIGHTER,2" ],
+                "stat_skill": [ "FIGHTER,2", "GUARDIAN,2" ],
                "relationships": [
                    {
                        "cats_to": ["p_l"],
@@ -12174,7 +12176,7 @@
             "exp": 10,
             "weight": 40,
             "stat_trait": [ "bloodthirsty", "adventurous", "arrogant", "ambitious", "confident", "fierce", "competitive" ],
-            "stat_skill": [ "FIGHTER,2"],
+            "stat_skill": [ "FIGHTER,2", "GUARDIAN,2"],
             "can_have_stat": ["not_pl_rc"],
             "relationships": [
         {
@@ -12199,7 +12201,7 @@
             "exp": 10,
             "weight": 40,
             "stat_trait": [ "wise", "thoughtful", "calm", "careful", "lonesome" ],
-            "stat_skill": [ "FIGHTER,2"],
+            "stat_skill": [ "FIGHTER,2", "GUARDIAN,1"],
             "can_have_stat": ["not_pl_rc"],
             "relationships": [
         {
@@ -12224,7 +12226,7 @@
             "exp": 10,
             "weight": 40,
             "stat_trait": [ "cunning", "sneaky", "shameless", "flamboyant", "charismatic", "daring", "bold" ],
-            "stat_skill": [ "FIGHTER,1"],
+            "stat_skill": [ "CLEVER,1"],
             "can_have_stat": ["not_pl_rc"],
             "relationships": [
         {
@@ -12249,7 +12251,7 @@
             "exp": 10,
             "weight": 40,
             "stat_trait": [ "charismatic", "loving", "compassionate", "loyal", "faithful", "cunning", "thoughtful", "sincere" ],
-            "stat_skill": [ "FIGHTER,2"],
+            "stat_skill": [ "FIGHTER,2", "GUARDIAN,1"],
             "can_have_stat": ["not_pl_rc"],
             "relationships": [
         {
@@ -12274,7 +12276,7 @@
             "exp": 10,
             "weight": 40,
             "stat_trait": [ "cunning", "sneaky", "cold", "lonesome", "grumpy", "gloomy", "strict", "strange", "insecure", "nervous" ],
-            "stat_skill": [ "FIGHTER,2"],
+            "stat_skill": [ "FIGHTER,2", "GUARDIAN,1"],
             "can_have_stat": ["not_pl_rc"],
             "relationships": [
         {
@@ -12299,7 +12301,7 @@
             "exp": 10,
             "weight": 40,
             "stat_trait": [ "gloomy", "lonesome", "insecure", "nervous" ],
-            "stat_skill": [ "FIGHTER,2"],
+            "stat_skill": [ "FIGHTER,2", "GUARDIAN,2"],
             "can_have_stat": ["not_pl_rc"],
             "relationships": [
         {
@@ -12323,7 +12325,7 @@
             "text": "p_l suggests that {PRONOUN/p_l/subject} and r_c team up against s_c. No matter how hard r_c and p_l try to flank s_c, {PRONOUN/s_c/subject} always {VERB/s_c/seem/seems} to know where they'll strike before they do, wearing them down until r_c and p_l admit defeat, panting and impressed. s_c smiles secretively.",
             "exp": 10,
             "weight": 40,
-            "stat_skill": [ "CLAIRVOYANT,1"],
+            "stat_skill": [ "SENSE,1", "CLAIRVOYANT,1"],
             "can_have_stat": ["not_pl_rc"],
             "relationships": [
         {

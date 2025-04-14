@@ -37,7 +37,7 @@
                 "text": "s_c has always been good at talking, so it isn't a big surprise that p_l finds it so easy to chat with {PRONOUN/s_c/object}. It's just an herb gathering patrol, but p_l feels more relaxed than {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} felt in moons when {PRONOUN/p_l/subject} {VERB/p_l/return/returns} to camp, smiling softly.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "COMFORTER,1"],
                 "can_have_stat": ["r_c"],
                 "herbs": ["random_herbs"],
                 "relationships": [
@@ -123,7 +123,7 @@
                 "text": "s_c has always been good at talking, so it isn't a big surprise that p_l finds it so easy to chat with {PRONOUN/s_c/object}. It's just an herb gathering patrol, but p_l feels more relaxed than {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} felt in moons when {PRONOUN/p_l/subject} {VERB/p_l/return/returns} to camp, smiling softly.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1", "MEDIATOR,1"],
+                "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "COMFORTER,1"],
                 "can_have_stat": ["r_c"],
                 "herbs": ["random_herbs"],
                 "relationships": [
@@ -205,7 +205,7 @@
                 "text": "As ever, s_c's keen eyes pick out {PRONOUN/s_c/poss} target quickly, and {PRONOUN/s_c/subject} {VERB/s_c/bring/brings} back a great haul of betony for the herb stores.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "betony"]
             }
         ],
@@ -286,7 +286,7 @@
                 "text": "As ever, s_c's keen eyes pick out their target quickly. {PRONOUN/s_c/subject/CAP} {VERB/s_c/point/points} it out to app1, and the two bring back a great haul of betony for the herb stores.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "betony"],
                 "relationships": [
@@ -397,7 +397,7 @@
                 "text": "As ever, s_c's keen eyes pick out their target quickly, and {PRONOUN/s_c/subject} {VERB/s_c/organize/organizes} {PRONOUN/s_c/poss} patrol to bring back a great haul of betony for the herb stores.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "betony"],
                 "relationships": [
                     {
@@ -476,7 +476,7 @@
                 "text": "s_c falls into the meditative state that herb-gathering brings, and {PRONOUN/s_c/subject} {VERB/s_c/hum/hums} to {PRONOUN/s_c/self} as {PRONOUN/s_c/subject} {VERB/s_c/work/works}, crisply plucking from the blackberry brambles.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "blackberry"]
             }
         ],
@@ -557,7 +557,7 @@
                 "text": "s_c falls into the meditative state that herb-gathering brings, and {PRONOUN/s_c/subject} {VERB/s_c/hum/hums} to {PRONOUN/s_c/self} as {PRONOUN/s_c/subject} {VERB/s_c/work/works}, crisply plucking from the blackberry brambles. app1 smiles to hear the quiet sound, comforted by the familiar work and tune.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "blackberry"],
                 "relationships": [
@@ -668,7 +668,7 @@
                 "text": "s_c falls into the meditative state that herb-gathering brings, and {PRONOUN/s_c/subject} {VERB/s_c/hum/hums} to {PRONOUN/s_c/self} as {PRONOUN/s_c/subject} {VERB/s_c/work/works}, crisply plucking from the blackberry brambles. The patrol follows {PRONOUN/s_c/poss} lead, and it's a relaxed group that wanders back into camp with a massive haul from the blackberry bushes.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "blackberry"],
                 "relationships": [
                     {
@@ -747,7 +747,7 @@
                 "text": "s_c shows {PRONOUN/s_c/poss} usual talent for spotting herbs, trotting straight over to a burdock plant and digging at its foot.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1", "TUNNELER,1"],
                 "herbs": ["many_herbs", "burdock"]
             }
         ],
@@ -828,7 +828,7 @@
                 "text": "s_c shows {PRONOUN/s_c/poss} usual talent for spotting herbs, trotting straight over to a burdock plant and digging at its foot. app1 asks {PRONOUN/s_c/object} about it, and s_c replies with an explanation of how the distinctive size and shape of burdock leaves helps to quickly identify them from a distance.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["TEACHER,1", "INSIGHTFUL,1", "SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1", "TUNNELER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "burdock"],
                 "relationships": [
@@ -939,7 +939,7 @@
                 "text": "s_c shows {PRONOUN/s_c/poss} usual talent for spotting herbs, trotting straight over to a burdock plant and digging at its foot. {PRONOUN/s_c/poss/CAP} team follows {PRONOUN/s_c/object}, ready to pitch in and provide the muscle needed to bring back an excellent harvest.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1", "TUNNELER,1"],
                 "herbs": ["many_herbs", "burdock"],
                 "relationships": [
                     {
@@ -1018,7 +1018,7 @@
                 "text": "s_c has a few favorite catmint plants, and goes to check whether they've regrown this newleaf. Two haven't, but another two have, and they're enough for a great harvest to take back to camp.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "catmint"]
             }
         ],
@@ -1099,7 +1099,7 @@
                 "text": "s_c has a few favorite catmint plants, and goes to check whether they've regrown this newleaf. Two haven't, but another two have, and they're enough for a great harvest to take back to camp with app1.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "catmint"],
                 "relationships": [
@@ -1211,7 +1211,7 @@
                 "text": "s_c has a few favorite catmint plants, and goes to check whether they've regrown this newleaf. Two haven't, but another two have, and they're enough for a great harvest to take back to camp, though the warriors are fairly unruly about the 'no rolling on the plants' rule.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "catmint"],
                 "relationships": [
                     {
@@ -1290,7 +1290,7 @@
                 "text": "Daisies aren't hard to find in the warmer seasons, and s_c collects enough that {PRONOUN/s_c/subject} {VERB/s_c/have/has} trouble not dropping any on the way back to camp.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "daisy"]
             }
         ],
@@ -1371,7 +1371,7 @@
                 "text": "Daisies aren't hard to find in the warmer seasons, and s_c collects enough that {PRONOUN/s_c/subject} {VERB/s_c/have/has} trouble not dropping any on the way back to camp. At least with app1 here with {PRONOUN/s_c/object} the load is shared, and {PRONOUN/s_c/subject} {VERB/s_c/purr/purrs} in appreciation of the apprentice.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "daisy"],
                 "relationships": [
@@ -1482,7 +1482,7 @@
                 "text": "Daisies aren't hard to find in the warmer seasons, and s_c collects enough that {PRONOUN/s_c/subject} {VERB/s_c/have/has} trouble not dropping any on the way back to camp. The patrol, filled with gossip and chatter on the way out, and daisy leaves on the trip back, makes for an easy, enjoyable afternoon.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "daisy"],
                 "relationships": [
                     {
@@ -1561,7 +1561,7 @@
                 "text": "With warmth in the air and ground, s_c doesn't need to try very hard to find an excellent haul of dandelions to bring back to camp.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "dandelion"]
             }
         ],
@@ -1642,7 +1642,7 @@
                 "text": "With warmth in the air and ground, s_c doesn't need to try very hard to find an excellent haul of dandelions to bring back to camp. Instead, {PRONOUN/s_c/subject} {VERB/s_c/let/lets} app1 take the lead in finding the plants and {VERB/s_c/praise/praises} {PRONOUN/app1/object} for all the progress {PRONOUN/app1/subject}{VERB/app1/'ve/'s} made in herbcraft.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "dandelion"],
                 "relationships": [
@@ -1753,7 +1753,7 @@
                 "text": "With warmth in the air and ground, s_c doesn't need to try very hard to find an excellent haul of dandelions to bring back to camp. {PRONOUN/s_c/subject/CAP} {VERB/s_c/help/helps} the warriors carefully pluck fluffy dandelions heads to bring back for the nursery.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "dandelion"],
                 "relationships": [
                     {
@@ -1832,7 +1832,7 @@
                 "text": "s_c has discovered with time and experience that elder-leaf-picking is best handled by chewing off several low-hanging, thin branches and carrying those back to camp instead.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "CLEVER,2", "INSIGHTFUL,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
                 "herbs": ["many_herbs", "elder_leaves"]
             }
         ],
@@ -1925,7 +1925,7 @@
                 "text": "s_c has discovered with time and experience that elder-leaf-picking is best handled by chewing off several low-hanging, thin branches and carrying those back to camp instead. {PRONOUN/p_l/subject/CAP} {VERB/p_l/pass/passes} on the trick to app1, and once they're back at camp both medicine cats strip off the leaves and give them a quick wash.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "CLEVER,2", "INSIGHTFUL,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "elder_leaves"],
                 "relationships": [
@@ -2064,7 +2064,7 @@
                 "text": "s_c has discovered with time and experience that elder-leaf-picking is best handled by chewing off several low-hanging, thin branches and carrying those back to camp instead. With so many assistants {PRONOUN/p_l/subject} can bring a truly massive haul home, where the rest of the patrol helps {PRONOUN/p_l/object} strip the leaves and carefully store them.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "CLEVER,2", "INSIGHTFUL,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
                 "herbs": ["many_herbs", "elder_leaves"],
                 "relationships": [
                     {
@@ -2172,7 +2172,7 @@
                 "text": "s_c has a good eye for these things, snipping off the best, lushest goldenrod to take back for the Clan's stores.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "goldenrod"]
             }
         ],
@@ -2253,7 +2253,7 @@
                 "text": "s_c has a good eye for these things, snipping off the best, lushest goldenrod to take back for the Clan's stores. As {PRONOUN/s_c/subject} {VERB/s_c/do/does}, {PRONOUN/s_c/subject} {VERB/s_c/instruct/instructs} app1 in how to judge the quality of each stem. Each plant will contain both ideal and bad examples, either of which could be harvested, and it's important app1 has this knowledge, too.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["TEACHER,2", "INSIGHTFUL,2", "SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "goldenrod"],
                 "relationships": [
@@ -2365,7 +2365,7 @@
                 "text": "s_c has a good eye for these things, snipping off the best, lushest goldenrod to take back for the Clan's stores. {PRONOUN/s_c/subject/CAP} {VERB/s_c/control/controls} what is harvested, while {PRONOUN/s_c/poss} team works to efficiently carry the herb back to camp, deferring to s_c's expertise.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "goldenrod"],
                 "relationships": [
                     {
@@ -2444,7 +2444,7 @@
                 "text": "s_c trots off to a good juniper tree, hopping onto a low branch to harvest its needles.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
                 "herbs": ["many_herbs", "juniper"]
             }
         ],
@@ -2525,7 +2525,7 @@
                 "text": "s_c trots off to a good juniper tree, hopping onto a low branch to harvest its needles. As {PRONOUN/s_c/subject} {VERB/s_c/work/works}, {PRONOUN/s_c/subject} {VERB/s_c/chat/chats} with app1 about juniper's calming effects. This is one of the few herbs {PRONOUN/s_c/poss} Clanmates compete to go on patrols to help collect, as everyone enjoys the scent.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["TEACHER,1", "CLIMBER,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "juniper"],
                 "relationships": [
@@ -2636,7 +2636,7 @@
                 "text": "s_c trots off to a good juniper tree, hopping onto a low branch to harvest its needles. {PRONOUN/s_c/poss/CAP} patrol follows {PRONOUN/s_c/poss} lead, pulling twigs off, although a couple times s_c does need to remind them that the carpet of dead needles on the ground wouldn't be useful for the herb stores.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
                 "herbs": ["many_herbs", "juniper"],
                 "relationships": [
                     {
@@ -2749,7 +2749,7 @@
                 "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cats visiting each likely nook and cranny in a carefully planned search pattern until, finally, those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2", "CLEVER,3"],
+                "stat_skill": ["CLEVER,3", "SENSE,2", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["lungwort"],
                 "relationships": [
@@ -2870,7 +2870,7 @@
                 "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders. The medicine cat visits each likely nook and cranny in a carefully planned search pattern until, finally, those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2", "CLEVER,3"],
+                "stat_skill": ["CLEVER,3", "SENSE,2", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["lungwort"],
                 "relationships": [
                     {
@@ -2975,7 +2975,7 @@
                 "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders. The medicine cat visits each likely nook and cranny in a carefully planned search pattern until, finally, those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2", "CLEVER,3"],
+                "stat_skill": ["CLEVER,3", "SENSE,2", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["healer"],
                 "herbs": ["lungwort"],
                 "relationships": [
@@ -3081,7 +3081,7 @@
                 "text": "s_c has a good eye for these things and finds an excellent patch of mallow.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "mallow"]
             }
         ],
@@ -3162,7 +3162,7 @@
                 "text": "s_c has a good eye for these things and finds an excellent patch of mallow. As {PRONOUN/s_c/subject} {VERB/s_c/do/does}, {PRONOUN/s_c/subject} {VERB/s_c/instruct/instructs} app1 in how to judge the quality of each stem. Each plant will contain both ideal and bad examples, either of which could be harvested, and it's important app1 has this knowledge, too.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["TEACHER,1", "INSIGHTFUL,1", "SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "mallow"],
                 "relationships": [
@@ -3273,7 +3273,7 @@
                 "text": "s_c has a good eye for these things and finds an excellent patch of mallow. {PRONOUN/s_c/subject/CAP} {VERB/s_c/control/controls} what is harvested, while {PRONOUN/s_c/poss} team works to efficiently carry the herb back to camp, deferring to s_c's expertise.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "mallow"],
                 "relationships": [
                     {
@@ -3352,7 +3352,7 @@
                 "text": "s_c finds a patch of marigold, harvests its best leaves, and pads home, unaware of how much of {PRONOUN/s_c/poss} success rests on {PRONOUN/s_c/poss} talent for herb gathering.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "marigold"]
             }
         ],
@@ -3433,7 +3433,7 @@
                 "text": "s_c finds a patch of marigold, harvests its best leaves, and pads home, unaware of how much of {PRONOUN/s_c/poss} success rests on {PRONOUN/s_c/poss} talent for herb gathering. app1 watches, trying to soak up {PRONOUN/s_c/poss} skills.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "marigold"],
                 "relationships": [
@@ -3544,7 +3544,7 @@
                 "text": "s_c finds a patch of marigold, harvests its best leaves, and pads home, unaware of how much of {PRONOUN/s_c/poss} success rests on {PRONOUN/s_c/poss} talent for herb gathering. The patrol, too, is unaware, but it certainly bolsters their faith in their medicine cat to see {PRONOUN/s_c/object} succeed so effortlessly.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "marigold"],
                 "relationships": [
                     {
@@ -3623,7 +3623,7 @@
                 "text": "The always-reliable s_c spots mullein plants growing plenty of leaves on their strange central stems, and knocks them over so that the entire bundle can be carried home.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "mullein"]
             }
         ],
@@ -3704,7 +3704,7 @@
                 "text": "The always-reliable s_c spots mullein plants growing plenty of leaves on their strange central stems, and, with app1 helping {PRONOUN/s_c/object}, knocks them over so that the entire bundle can be carried home.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "mullein"],
                 "relationships": [
@@ -3815,7 +3815,7 @@
                 "text": "The always-reliable s_c spots mullein plants growing plenty of leaves on their strange central stems, and knocks them over so that the entire bundle can be carried home by the patrol.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "mullein"],
                 "relationships": [
                     {
@@ -3894,7 +3894,7 @@
                 "text": "s_c spots an oak tree valiantly trying to sprout leaves from a half-fallen branch - one of the casualties of last leaf-bare - and heads to harvest from that. It's safest to pluck leaves from the ground rather than clambering up into the towering branches.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "CLEVER,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
                 "herbs": ["many_herbs", "oak_leaves"]
             }
         ],
@@ -3975,7 +3975,7 @@
                 "text": "s_c spots an oak tree valiantly trying to sprout leaves from a half-fallen branch - one of the casualties of last leaf-bare - and heads to pluck its leaves from the comfort of the ground. app1 asks if the leaves are any less potent, but s_c doesn't think so - if they're growing here at all, they should be the same.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "CLEVER,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "oak_leaves"],
                 "relationships": [
@@ -4086,7 +4086,7 @@
                 "text": "s_c spots an oak tree valiantly trying to sprout leaves from a half-fallen branch - one of the casualties of last leaf-bare - and heads to pluck its leaves from the comfort of the ground. It's less entertaining for the warriors helping {PRONOUN/s_c/object}, but the cats still make a nice, easy afternoon of it.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "CLEVER,1", "SENSE,2", "GARDENER,3", "MEMORY,2", "TRACKER,2"],
                 "herbs": ["many_herbs", "oak_leaves"],
                 "relationships": [
                     {
@@ -4165,7 +4165,7 @@
                 "text": "Go to the trails of other animals who move through c_n's territory; wander around until you bump nose-first into a plantain plant; harvest. Simple.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["CLEVER,2", "SENSE,2", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "plantain"]
             }
         ],
@@ -4246,7 +4246,7 @@
                 "text": "Go to the trails of other animals who move through c_n's territory; wander around until you bump nose-first into a plantain plant; harvest. Simple, p_l teaches app1.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["TEACHER,2", "INSIGHTFUL,1", "CLEVER,2", "SENSE,2", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "plantain"],
                 "relationships": [
@@ -4358,7 +4358,7 @@
                 "text": "Go to the trails of other animals who move through c_n's territory; wander around until you bump nose-first into a plantain plant; harvest. Simple. <i>And</i> the warriors get to tidy their paths through the territory. It's a win-win!",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["CLEVER,2", "SENSE,2", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "plantain"],
                 "relationships": [
                     {
@@ -4437,7 +4437,7 @@
                 "text": "s_c uses the bright flowers to find the plants quickly, determined to bring back as many poppy seeds as possible.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "poppy"]
             }
         ],
@@ -4518,7 +4518,7 @@
                 "text": "s_c uses the bright flowers to find the plants quickly, determined to bring back as many poppy seeds as possible. {PRONOUN/s_c/subject/CAP} {VERB/s_c/pass/passes} on {PRONOUN/s_c/poss} knowledge of poppy herbcraft as they gather, teaching app1 about all the different circumstances that poppy seeds can help with. s_c is careful to warn app1 not to use them on pregnant or nursing queens.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["TEACHER,1", "INSIGHTFUL,1", "SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "poppy"],
                 "relationships": [
@@ -4629,7 +4629,7 @@
                 "text": "s_c uses the bright flowers to find the plants quickly, determined to bring back as many poppy seeds as possible. The rest of the patrol, knowing how important poppy seeds are as a painkiller, work hard, both for s_c and all of c_n.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "poppy"],
                 "relationships": [
                     {
@@ -4708,7 +4708,7 @@
                 "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using {PRONOUN/s_c/poss} claws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult, but doable, if only just.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "ragwort"]
             }
         ],
@@ -4789,7 +4789,7 @@
                 "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using {PRONOUN/s_c/poss} claws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult, but doable, if only just, and app1 is desperately grateful to learn the trick.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "ragwort"],
                 "relationships": [
@@ -4900,7 +4900,7 @@
                 "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using {PRONOUN/s_c/poss} claws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. Some of the warriors are too impatient to follow {PRONOUN/s_c/poss} lead, and end up suffering the taste of ragwort as the patrol brings back loads of the leaves.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "ragwort"],
                 "relationships": [
                     {
@@ -4979,7 +4979,7 @@
                 "text": "Tansy might smell sharp enough to be enjoyed freshening up dens, but it sure tastes... interesting. s_c isn't sure {PRONOUN/s_c/subject}'ll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "tansy"]
             }
         ],
@@ -5060,7 +5060,7 @@
                 "text": "Tansy might smell sharp enough to be enjoyed freshening up dens, but it sure tastes... interesting. s_c isn't sure {PRONOUN/s_c/subject}'ll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb, and app1 thankfully seems to be taking the appropriate amount of care harvesting it.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "tansy"],
                 "relationships": [
@@ -5171,7 +5171,7 @@
                 "text": "Tansy might smell sharp enough to be enjoyed freshening up dens, but it sure tastes... interesting. s_c isn't sure {PRONOUN/s_c/subject}'ll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb, which is extra helpful when gathering with {PRONOUN/s_c/poss} less-experienced Clanmates.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "tansy"],
                 "relationships": [
                     {
@@ -5250,7 +5250,7 @@
                 "text": "Thyme, thyme, thyme, there's never enough thyme. s_c snorts at {PRONOUN/s_c/poss} little joke, mouth crammed full of the herb, as {PRONOUN/s_c/subject} {VERB/s_c/make/makes} {PRONOUN/s_c/poss} way home.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "thyme"]
             }
         ],
@@ -5331,7 +5331,7 @@
                 "text": "Thyme, thyme, thyme, there's never enough thyme. s_c snorts at {PRONOUN/s_c/poss} little joke, putting down the herbs {PRONOUN/s_c/subject} {VERB/s_c/carry/carries} to explain it to app1.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "thyme"],
                 "relationships": [
@@ -5442,7 +5442,7 @@
                 "text": "Thyme, thyme, thyme, there's never enough thyme. s_c snorts at {PRONOUN/s_c/poss} little joke, putting down the herbs {PRONOUN/s_c/subject} {VERB/s_c/carry/carries} to explain it to the rest of the patrol.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "thyme"],
                 "relationships": [
                     {
@@ -5521,7 +5521,7 @@
                 "text": "s_c, ever eagle-eyed, spots grass that looks suspiciously tall, with oddly thick blades. One sniff confirms it as wild garlic, and this patch has heaps to harvest.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "wild_garlic"]
             }
         ],
@@ -5602,7 +5602,7 @@
                 "text": "s_c, ever eagle-eyed, spots grass that looks suspiciously tall, with oddly thick blades. One sniff confirms it as wild garlic, and this patch has heaps to harvest with app1.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "wild_garlic"],
                 "relationships": [
@@ -5713,7 +5713,7 @@
                 "text": "s_c, ever eagle-eyed, spots grass that looks suspiciously tall, with oddly thick blades. One sniff confirms it as wild garlic, and the patch has heaps for {PRONOUN/s_c/poss} patrol to harvest.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "wild_garlic"],
                 "relationships": [
                     {
@@ -5770,7 +5770,7 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["INSIGHTFUL,1", "LORE,1", "STORY,1", "HEALER,2", "GARDENER,2", "HERBALIST,2"],
         "intro_text": "Sniffing for daisies, p_l begins a story. Once, eons ago, during the Long Dawn after the Great Moonrise, cats staggered through the cold wide world, searching for a new home.",
         "decline_text": "Today isn't the time to linger on old history.",
         "chance_of_success": 30,
@@ -5835,7 +5835,7 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1"],
         "intro_text": "p_l ponders one of life's little ironies with a small smile.",
         "decline_text": "The joke remains a private one.",
         "chance_of_success": 60,
@@ -5945,7 +5945,7 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["INSIGHTFUL,1", "LORE,1", "STORY,1", "HEALER,1", "GARDENER,1", "HERBALIST,1", "TRACKER,1"],
         "intro_text": "As the patrol sets out, p_l remembers an old saying about searching for juniper.",
         "decline_text": "The patrol doesn't stop to listen.",
         "chance_of_success": 30,
@@ -6010,7 +6010,7 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["INSIGHTFUL,1", "LORE,1", "STORY,1", "HEALER,1", "GARDENER,1", "HERBALIST,1"],
         "intro_text": "Keeping a supply of lungwort is serious business, p_l instructs.",
         "decline_text": "Yes, the cats all know that, that's why they're here looking for the stuff.",
         "chance_of_success": 30,
@@ -6083,7 +6083,7 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1", "GARDENER,1", "HERBALIST,1"],
         "intro_text": "As they lift their muzzles to try and catch mallow's sweet scent on the wind, p_l asks the patrol if they know how the herb got its name.",
         "decline_text": "Before p_l can continue, a messenger arrives from camp - p_l's presence is needed there.",
         "chance_of_success": 40,
@@ -6153,7 +6153,7 @@
             "healer cats": [2, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,2", "GARDENER,2", "HERBALIST,2"],
         "intro_text": "Heads crane about, looking for marigold. As they work, p_l offers a story.",
         "decline_text": "Herb gathering isn't always compatible with conversation, and p_l trails off before {PRONOUN/p_l/subject} truly {VERB/p_l/start/starts}.",
         "chance_of_success": 30,
@@ -6218,7 +6218,7 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,2", "HERBALIST,2", "GARDENER,3"],
         "intro_text": "Looking up at a powerful old oak tree reminds p_l of an old tale.",
         "decline_text": "Now's not the time to get distracted.",
         "chance_of_success": 30,
@@ -6284,7 +6284,7 @@
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["INSIGHTFUL,1", "LORE,1", "STORY,1", "HEALER,1", "GARDENER,1", "HERBALIST,1", "COMFORTER,1"],
         "intro_text": "app1 is probably not <i>trying</i> to be annoying - but {PRONOUN/app1/poss} complaints about the taste of ragwort help no one, and it's just slowing the entire patrol down.",
         "decline_text": "Toughen up, honestly.",
         "chance_of_success": 30,
@@ -6378,7 +6378,7 @@
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,2", "GARDENER,2", "HERBALIST,2"],
         "intro_text": "It's said that the first queen who lost her life in kitting left a blessing to save those who came after her.",
         "decline_text": "A rainshower disrupts the story, and the herb gathering is called off.",
         "chance_of_success": 30,

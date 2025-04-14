@@ -4,8 +4,18 @@ from typing import Union
 
 
 class SkillPath(Enum):
-    TEACHER = ("quick to help", "good teacher", "great teacher", "excellent teacher")
-    HUNTER = ("moss ball hunter", "good hunter", "great hunter", "renowned hunter")
+    TEACHER = (
+        "quick to help",
+        "good teacher",
+        "great teacher",
+        "excellent teacher"
+    )
+    HUNTER = (
+        "moss ball hunter",
+        "good hunter",
+        "great hunter",
+        "renowned hunter"
+    )
     FIGHTER = (
         "avid play-fighter",
         "good fighter",
@@ -42,14 +52,24 @@ class SkillPath(Enum):
         "great mediator",
         "skilled mediator",
     )
-    CLEVER = ("quick witted", "clever", "very clever", "incredibly clever")
+    CLEVER = (
+        "quick witted",
+        "clever",
+        "very clever",
+        "incredibly clever"
+    )
     INSIGHTFUL = (
         "careful listener",
         "helpful insight",
         "valuable insight",
         "trusted advisor",
     )
-    SENSE = ("oddly observant", "natural intuition", "keen eye", "unnatural senses")
+    SENSE = (
+        "oddly observant",
+        "natural intuition",
+        "keen eye",
+        "unnatural senses"
+    )
     KIT = (
         "active imagination",
         "good kitsitter",
@@ -68,8 +88,18 @@ class SkillPath(Enum):
         "lore keeper",
         "lore master",
     )
-    CAMP = ("picky nest builder", "steady paws", "den builder", "camp keeper")
-    HEALER = ("interested in herbs", "good healer", "great healer", "fantastic healer")
+    CAMP = (
+        "picky nest builder",
+        "steady paws",
+        "den builder",
+        "camp keeper"
+    )
+    HEALER = (
+        "interested in herbs",
+        "good healer",
+        "great healer",
+        "fantastic healer"
+    )
     STAR = (
         "curious about StarClan",
         "connection to StarClan",
@@ -82,8 +112,18 @@ class SkillPath(Enum):
         "deep Dark Forest bond",
         "unshakable Dark Forest link",
     )
-    OMEN = ("interested in oddities", "omen seeker", "omen sense", "omen sight")
-    DREAM = ("restless sleeper", "strange dreamer", "dream walker", "dream shaper")
+    OMEN = (
+        "interested in oddities",
+        "omen seeker",
+        "omen sense",
+        "omen sight"
+    )
+    DREAM = (
+        "restless sleeper",
+        "strange dreamer",
+        "dream walker",
+        "dream shaper"
+    )
     CLAIRVOYANT = (
         "oddly insightful",
         "somewhat clairvoyant",
@@ -96,7 +136,96 @@ class SkillPath(Enum):
         "prophecy interpreter",
         "prophet",
     )
-    GHOST = ("morbid curiosity", "ghost sense", "ghost sight", "ghost speaker")
+    GHOST = (
+        "morbid curiosity",
+        "ghost sense",
+        "ghost sight",
+        "ghost speaker"
+    )
+    GARDENER = (
+        "loves to pick flowers",
+        "grows herbs",
+        "harvester of herbs",
+        "caretaker of the greens"
+    ) 
+    DECORATOR = (
+        "likes to decorate",
+        "good decorator",
+        "great decorator",
+        "decor master"
+    )
+    STEALTHY = (
+        "startles others",
+        "sneaks around",
+        "skilled prowler",
+        "stealth expert"
+    ) 
+    MEMORY = (
+        "remembers little details",
+        "memorious",
+        "great memory",
+        "excellent memory"
+    )
+    HERBALIST = (
+        "curious about remedies",
+        "herbal inventor",
+        "medical innovator",
+        "creator of remedies"
+    )
+    TRACKER = (
+        "tracker instincts",
+        "good tracker",
+        "experienced tracker",
+        "masterful tracker"
+    )
+    GUARDIAN = (
+        "vigilant",
+        "good guard",
+        "great guard",
+        "renowned guardian"
+    )
+    TUNNELER = (
+        "enjoys digging",
+        "burrow maker",
+        "great tunneler",
+        "fantastic tunneler"
+    )
+    NAVIGATOR = (
+        "good with directions",
+        "good navigator",
+        "great navigator",
+        "pathfinder"
+    )
+    COMFORTER = (
+        "gentle voice",
+        "comforting presence",
+        "nightmare soother",
+        "boogeyman-fighter"
+    )
+    MATCHMAKER = (
+        "interested in relationship drama",
+        "relationship advisor",
+        "skilled heart-reader",
+        "masterful matchmaker"
+    )
+    COOPERATIVE = (
+        "lives in groups",
+        "good sport",
+        "team player",
+        "insider"
+    )
+    FISHER = (
+        "bats at rivers", 
+        "grazes fish", 
+        "fish-catcher", 
+        "gold star fishercat"
+    )
+    LANGUAGE = (
+        "other-cat-ly whisperer",
+        "dog-whisperer",
+        "multilingual",
+        "listener of all voices"
+    )
 
     @staticmethod
     def get_random(exclude: list = ()):
@@ -113,6 +242,9 @@ class SkillPath(Enum):
                 SkillPath.STAR,
                 SkillPath.HEALER,
                 SkillPath.DARK,
+                SkillPath.GARDENER,
+                SkillPath.HERBALIST,
+                SkillPath.LANGUAGE,
             ]
             if i not in exclude
         ]
@@ -160,7 +292,7 @@ class Skill:
         SkillPath.MEDIATOR: "mediating",
         SkillPath.CLEVER: "clever",
         SkillPath.INSIGHTFUL: "advising",
-        SkillPath.SENSE: "observing",
+        SkillPath.SENSE: "sensing",
         SkillPath.KIT: "caretaking",
         SkillPath.STORY: "storytelling",
         SkillPath.LORE: "lorekeeping",
@@ -173,6 +305,20 @@ class Skill:
         SkillPath.PROPHET: "prophesying",
         SkillPath.GHOST: "ghosts",
         SkillPath.DARK: "dark forest",
+        SkillPath.GARDENER: "gardening",
+        SkillPath.DECORATOR: "decorating",
+        SkillPath.STEALTHY: "stealth",
+        SkillPath.MEMORY: "memorizing",
+        SkillPath.HERBALIST: "herbalism",
+        SkillPath.TRACKER: "tracking",
+        SkillPath.GUARDIAN: "guarding",
+        SkillPath.TUNNELER: "tunneling",
+        SkillPath.NAVIGATOR: "navigating",
+        SkillPath.COMFORTER: "comforting",
+        SkillPath.MATCHMAKER: "matchmaking",
+        SkillPath.COOPERATIVE: "cooperating",
+        SkillPath.FISHER: "fishing",
+        SkillPath.LANGUAGE: "language",
     }
 
     def __init__(self, path: SkillPath, points: int = 0, interest_only: bool = False):
@@ -322,6 +468,20 @@ class CatSkills:
         SkillPath.PROPHET: SkillTypeFlag.SUPERNATURAL,
         SkillPath.GHOST: SkillTypeFlag.SUPERNATURAL,
         SkillPath.DARK: SkillTypeFlag.SUPERNATURAL,
+        SkillPath.GARDENER: SkillTypeFlag.SMART,
+        SkillPath.DECORATOR: SkillTypeFlag.SMART | SkillTypeFlag.OBSERVANT,
+        SkillPath.STEALTHY: SkillTypeFlag.SMART | SkillTypeFlag.AGILE | SkillTypeFlag.OBSERVANT,
+        SkillPath.MEMORY: SkillTypeFlag.SMART | SkillTypeFlag.OBSERVANT,
+        SkillPath.HERBALIST: SkillTypeFlag.SMART,
+        SkillPath.TRACKER: SkillTypeFlag.SMART | SkillTypeFlag.OBSERVANT,
+        SkillPath.GUARDIAN: SkillTypeFlag.STRONG | SkillTypeFlag.OBSERVANT,
+        SkillPath.TUNNELER: SkillTypeFlag.STRONG | SkillTypeFlag.AGILE | SkillTypeFlag.OBSERVANT,
+        SkillPath.NAVIGATOR: SkillTypeFlag.SMART | SkillTypeFlag.OBSERVANT,
+        SkillPath.COMFORTER: SkillTypeFlag.SOCIAL | SkillTypeFlag.OBSERVANT,
+        SkillPath.MATCHMAKER: SkillTypeFlag.SOCIAL | SkillTypeFlag.SMART | SkillTypeFlag.OBSERVANT,
+        SkillPath.COOPERATIVE: SkillTypeFlag.SOCIAL | SkillTypeFlag.OBSERVANT,
+        SkillPath.FISHER: SkillTypeFlag.STRONG | SkillTypeFlag.AGILE | SkillTypeFlag.OBSERVANT,
+        SkillPath.LANGUAGE: SkillTypeFlag.SOCIAL,
     }
 
     # pylint: enable=unsupported-binary-operation

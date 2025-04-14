@@ -99,7 +99,10 @@
                     "CLEVER,1",
                     "INSIGHTFUL,1",
                     "SENSE,1",
-                    "HEALER,1"
+                    "HEALER,1",
+                    "GARDENER,1",
+                    "HERBALIST,1",
+                    "TRACKER,1"
                 ],
                 "relationships": [
                     {
@@ -297,7 +300,11 @@
                     "HEALER,1",
                     "CLEVER,1",
                     "SENSE,1",
-                    "INSIGHTFUL,1"
+                    "INSIGHTFUL,1",
+                    "GARDENER,1",
+                    "MEMORY,1",
+                    "HERBALIST,1",
+                    "TRACKER,1"
                 ],
                 "herbs": ["many_herbs", "random_herbs"]
             },
@@ -517,7 +524,8 @@
                 "weight": 20,
                 "stat_skill": [
                     "DREAM,1",
-                    "STAR,2"
+                    "STAR,2",
+                    "GHOST,2"
                 ],
                 "herbs": ["random_herbs"],
                 "relationships": [
@@ -670,7 +678,8 @@
                 "weight": 20,
                 "stat_skill": [
                     "DREAM,1",
-                    "STAR,2"
+                    "STAR,2",
+                    "GHOST,2"
                 ],
                 "herbs": ["random_herbs"],
                 "relationships": [
@@ -719,7 +728,7 @@
                 "text": "s_c often feels like StarClan walks with {PRONOUN/s_c/object}, and this is just another instance on the path. {PRONOUN/s_c/subject/CAP} {VERB/s_c/use/uses} the solo patrol to collect {PRONOUN/s_c/poss} thoughts, and by the time {PRONOUN/s_c/subject} {VERB/s_c/pad/pads} home with a good bundle of cobwebs, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} ready for the next step {PRONOUN/s_c/poss} vision hinted at.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["STAR,1"],
+                "stat_skill": ["STAR,2", "GHOST,2", "OMEN,2", "PROPHET,2"],
                 "herbs": ["cobwebs"]
             },
             {
@@ -798,7 +807,7 @@
                 "text": "s_c often feels like StarClan walks with {PRONOUN/s_c/object}, and this is just another instance on the path. However, as s_c reflects on the vision, {PRONOUN/s_c/subject} {VERB/s_c/find/finds} that {PRONOUN/s_c/subject} can't decipher the meaning.",
                 "exp": 0,
                 "weight": 20,
-                "stat_skill": ["STAR,1"]
+                "stat_skill": ["STAR,1", "GHOST,1", "OMEN,1", "PROPHET,1"]
             }
         ]
     },
@@ -881,7 +890,7 @@
                 "weight": 20,
                 "art":"gen_train_talkingMA",
                 "herbs": ["random_herbs"],
-                "stat_skill": ["DREAM,1", "STAR,2"],
+                "stat_skill": ["DREAM,1", "STAR,2", "GHOST,2"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -1170,7 +1179,7 @@
                 "text": "With the familiarity brought by {PRONOUN/s_c/poss} connection to StarClan, s_c turns to the ghost haunting {PRONOUN/s_c/poss} path, meeting {PRONOUN/s_c/poss} star-walking ancestor with a purr and quiet confidence.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["CLAIRVOYANT,2", "STAR,2"],
+                "stat_skill": ["CLAIRVOYANT,2", "STAR,2", "GHOST,2"],
                 "herbs": ["random_herbs"]
             },
             {
@@ -1302,7 +1311,7 @@
                 "text": "With the familiarity brought by {PRONOUN/s_c/poss} connection to StarClan, s_c turns to the ghost haunting {PRONOUN/s_c/poss} path, meeting {PRONOUN/s_c/poss} star-walking ancestor with a purr and quiet confidence.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["CLAIRVOYANT,2", "STAR,2"],
+                "stat_skill": ["CLAIRVOYANT,2", "STAR,2", "GHOST,2"],
                 "herbs": ["random_herbs"],
                 "relationships": [
                     {
@@ -1513,7 +1522,7 @@
                 "text": "With the familiarity brought by {PRONOUN/s_c/poss} connection to StarClan, s_c turns to the ghost haunting {PRONOUN/s_c/poss} path, meeting {PRONOUN/s_c/poss} star-walking ancestor with a purr and quiet confidence. app1 watches with eyes as round and dark as the new moon.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["CLAIRVOYANT,2"],
+                "stat_skill": ["CLAIRVOYANT,2", "STAR,2", "GHOST,2"],
                 "can_have_stat": ["adult"],
                 "herbs": ["random_herbs"],
                 "relationships": [
@@ -1637,7 +1646,7 @@
                 "text": "p_l had seen before how connected r_c was to StarClan, and began telling {PRONOUN/r_c/object} more than {PRONOUN/p_l/subject} would have told any other Clan cat about their ancestors. p_l and r_c spend much of their patrol gathering herbs and discussing the hard-hitting questions on prophecies and StarClan's gifts.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["LORE,1", "STAR,1"],
+                "stat_skill": ["STAR,1", "GHOST,1", "OMEN,1", "PROPHET,1"],
                 "herbs": ["random_herbs"],
                 "relationships": [
                     {
@@ -1791,7 +1800,7 @@
                 "text": "As the cats walk and chat, s_c begins to lag behind. r_c looks back to ask {PRONOUN/s_c/object} what's up, and spots {PRONOUN/s_c/object} veering down a side path. r_c motions for the others as {PRONOUN/r_c/subject} {VERB/r_c/follow/follows}, finding s_c purring loudly at the sight of a huge herb patch! There's far more than the patrol can carry, and {PRONOUN/r_c/subject} {VERB/r_c/know/knows} this will keep the Clan healthy for ages.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["SENSE,2", "CLEVER,2"],
+                "stat_skill": ["SENSE,2", "CLEVER,2", "TRACKER,2"],
                 "herbs": ["many_herbs", "random_herbs"],
                 "relationships": [
                     {
@@ -2283,7 +2292,7 @@
                 "text": "s_c sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about how visits from StarClan work. s_c is probably the best cat {PRONOUN/app1/subject} could have asked that question to. The older cat takes pride in the way app1 listens to {PRONOUN/s_c/object} talk, wonder shining in {PRONOUN/app1/poss} eyes.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["STAR,2"],
+                "stat_skill": ["STAR,2", "GHOST,2", "DREAM,2"],
                 "herbs": ["random_herbs"],
                 "relationships": [
                     {
@@ -2299,7 +2308,7 @@
                 "text": "s_c sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about how visits from StarClan work. s_c is probably the best cat {PRONOUN/app1/subject} could have asked that question to. The older cat takes pride in the way app1 listens to {PRONOUN/s_c/object} talk, wonder shining in {PRONOUN/app1/poss} eyes.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["STAR,2"],
+                "stat_skill": ["STAR,2", "GHOST,2", "DREAM,2"],
                 "herbs": ["random_herbs"],
                 "relationships": [
                     {
@@ -2460,7 +2469,7 @@
                 "text": "r_c hums, and asks s_c what {PRONOUN/s_c/subject} {VERB/s_c/think/thinks} the nature of StarClan is. s_c doesn't hesitate before answering, {PRONOUN/s_c/poss} deep connection to {PRONOUN/s_c/poss} ancestors granting {PRONOUN/s_c/object} knowledge and insight r_c doesn't necessarily have. r_c is enthralled, and it feels all too soon that they pick the herbs and have their mouths too full to continue talking.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["STAR,2"],
+                "stat_skill": ["STAR,2", "GHOST,2", "OMEN,2", "PROPHET,2"],
                 "herbs": ["random_herbs"],
                 "relationships": [
                     {
@@ -3261,6 +3270,7 @@
                     "SENSE,2",
                     "OMEN,2",
                     "STAR,2",
+                    "GHOST,2",
                     "LORE,2"
                 ]
             }
@@ -3334,7 +3344,7 @@
                 "text": "The patrol continues on as normal, but when p_l returns to the medicine cat den later that day, {PRONOUN/p_l/subject} {VERB/p_l/find/finds} something special waiting for {PRONOUN/p_l/object} in {PRONOUN/p_l/poss} nest.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1", "SENSE,2"],
+                "stat_skill": ["HUNTER,1", "SENSE,2", "STEALTHY,1"],
                 "can_have_stat": ["r_c"],
                 "herbs": ["random_herbs"],
                 "relationships": [
@@ -3439,7 +3449,7 @@
                 "text": "The patrol continues on as normal, but when p_l returns to the medicine cat den later that day, {PRONOUN/p_l/subject} {VERB/p_l/find/finds} something special waiting for {PRONOUN/p_l/object} in {PRONOUN/p_l/poss} nest.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1", "SENSE,2"],
+                "stat_skill": ["HUNTER,1", "SENSE,2", "STEALTHY,1"],
                 "can_have_stat": ["r_c"],
                 "herbs": ["random_herbs"],
                 "relationships": [
@@ -3546,7 +3556,7 @@
                 "text": "The patrol continues on as normal, but when r_c returns to camp later that day, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} something special waiting for {PRONOUN/r_c/object} in {PRONOUN/r_c/poss} nest.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1", "SENSE,2"],
+                "stat_skill": ["HUNTER,1", "SENSE,2", "STEALTHY,1"],
                 "can_have_stat": ["p_l"],
                 "herbs": ["random_herbs"],
                 "relationships": [
@@ -3714,7 +3724,7 @@
                 "text": "Turning to face app1, s_c reminds {PRONOUN/app1/object} that {PRONOUN/app1/subject} {VERB/app1/were/was} chosen by <i>StarClan</i> - their ancestors know that app1 is good enough, so {PRONOUN/app1/subject} should, too. Smiling, app1 nods, raising {PRONOUN/app1/poss} tail with a new-found confidence.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["STAR,0"],
+                "stat_skill": ["STAR,0", "GHOST,0", "OMEN,0", "PROPHET,0"],
                 "can_have_stat": ["p_l"],
                 "herbs": ["random_herbs"],
                 "relationships": [
@@ -4111,7 +4121,7 @@
                 "text": "Come on, s_c persuades {PRONOUN/p_l/object}. Just one little look? A look isn't harming any cat. No cat's gotten poisoned from <i>looking</i> at deathberries, right? p_l caves and shows s_c the way to the deathberry bush, but neither apprentice manages to actually gather any of the herbs they were looking for along the way.",
                 "exp": 0,
                 "weight": 40,
-                "stat_skill": [ "SPEAKER,1"],
+                "stat_skill": [ "SPEAKER,0"],
                 "can_have_stat": [ "r_c" ],
                 "relationship": [
                     {
@@ -4143,7 +4153,7 @@
                 "text": "p_l agrees hesitantly, darting looks back at app2 as {PRONOUN/p_l/subject} {VERB/p_l/lead/leads} {PRONOUN/app2/object} to the bushes. The glistening red berries reflect in app2's eyes, obscuring whatever thoughts might be swirling within. p_l shivers and suggests they get back to camp before any cat notices they're in the wrong part of the territory.",
                 "exp": 0,
                 "weight": 40,
-                "stat_skill": [ "DARK,1", "GHOST,1"],
+                "stat_skill": [ "DARK,0", "GHOST,0"],
                 "can_have_stat": [ "r_c" ],
                 "relationship": [
                     {
@@ -4199,7 +4209,7 @@
                 "text": "p_l tentatively leads app2 to the deathberry bush, and is relieved when app2 takes in the sight with the appropriate awe and respect. {PRONOUN/app2/subject/CAP} {VERB/app2/ask/asks} if p_l ever uses deathberries in healing. p_l shudders. That kind of healing is more advanced than where {PRONOUN/p_l/subject} {VERB/p_l/are/is} in {PRONOUN/p_l/poss} training. They may have wasted the time they were meant to use herb-gathering, but p_l has a new appreciation for app2's maturity.",
                 "exp": 0,
                 "weight": 40,
-                "stat_skill": [ "INSIGHTFUL,1", "HEALER,1" ],
+                "stat_skill": [ "INSIGHTFUL,0", "HEALER,0", "HERBALIST,0" ],
                 "can_have_stat": [ "r_c" ],
                 "relationship": [
                     {
@@ -4248,7 +4258,7 @@
                 "exp": 0,
                 "weight": 40,
                 "stat_trait": [ "fierce", "competitive", "ambitious", "bold", "daring", "bloodthirsty" ],
-                "stat_skill": [ "FIGHTER,1"],
+                "stat_skill": [ "FIGHTER,0", "GUARDIAN,0"],
                 "can_have_stat": [ "r_c" ],
                 "relationship": [
                     {

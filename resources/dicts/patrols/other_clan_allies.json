@@ -30,7 +30,7 @@
                 "text": "s_c approaches the other patrol first, calling out a greeting and smoothly beginning a friendly conversation. The two patrols sit and chat for a little while before once again parting to patrol their respective territories.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -104,7 +104,7 @@
                 "text": "s_c approaches the other patrol first, calling out a greeting and then remarking on a recent battle between o_c_n and one of the other Clans. s_c compliments the o_c_n cats on their battle prowess.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,2"],
                 "other_clan_rep": 2
             },
             {
@@ -185,7 +185,7 @@
                 "text": "s_c leaps for the rabbit, making a swift kill just before a o_c_n patrol comes into view. The o_c_n cats seem miffed by this trespass, but not yet hostile thanks to your alliance. Thankfully s_c smooths things over with the other patrol by graciously gifting them the rabbit. They part ways, fortunately without damaging the relationship between Clans.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "COMFORTER,1"],
                 "prey": ["small"]
             },
             {
@@ -281,7 +281,7 @@
                 "text": "p_l is about to step over the border when a hiss stops {PRONOUN/p_l/object} in {PRONOUN/p_l/poss} tracks. A o_c_n warrior bounds into view, bristling. However, when the warrior realizes who the other cat is, they quickly apologize to p_l and invite {PRONOUN/p_l/object} to gather herbs. o_c_n is happy to share with friends.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["MEDIATOR,1"],
+                "stat_skill": ["COMFORTER,1", "COOPERATIVE,1"],
                 "herbs": ["raspberry"],
                 "other_clan_rep": 2
             }
@@ -326,7 +326,7 @@
                 "text": "The patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat yowls a warning and the patrol scatters when they hear the cry. Just in time, too, as a large dog jumps at the patrol! s_c rallies the patrol to drive the dog away, thankfully avoiding any injuries. The o_c_n cat is grateful for the rescue.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,2"],
                 "other_clan_rep": 2
             },
             {
@@ -529,7 +529,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, and turns to follow the same marking path as them, keen to catch up on what their ally has been up to.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -605,7 +605,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/strike/strikes} up a friendly conversation, keen to catch up on what their ally has been up to. {PRONOUN/s_c/subject/CAP} {VERB/s_c/send/sends} the patrol off with several friendly messages to pass on from different c_n cats and an update from c_n's leader.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -695,7 +695,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/strike/strikes} up a friendly conversation, keen to catch up on what their ally has been up to. The cats leave with several messages to pass on from both sides and a renewed sense of goodwill and trust between them.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -792,7 +792,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their deputy. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into a venting session, both deputies finally getting the chance to lift stress from their shoulders and talk to an equal.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COMFORTER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -858,7 +858,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to s_c with their leader. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into a venting session, both leaders finally getting the chance to lift stress from their shoulders and talk to an equal.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COMFORTER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -931,7 +931,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, and turns to follow the same marking path as them, keen to catch up on what their ally has been up to.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1007,7 +1007,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/strike/strikes} up a friendly conversation, keen to catch up on what their ally has been up to. {PRONOUN/s_c/subject/CAP} {VERB/s_c/send/sends} the patrol off with several friendly messages to pass on from different c_n cats and an update from c_n's leader.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1097,7 +1097,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/strike/strikes} up a friendly conversation, keen to catch up on what their ally has been up to. The cats leave with several messages to pass on from both sides and a renewed sense of goodwill and trust between them.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1194,7 +1194,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their deputy. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into a venting session, both deputies finally getting the chance to lift stress from their shoulders and talk to an equal.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COMFORTER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1260,7 +1260,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to s_c with their leader. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into a venting session, both leaders finally getting the chance to lift stress from their shoulders and talk to an equal.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COMFORTER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1333,7 +1333,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, and turns to follow the same marking path as them, keen to catch up on what their ally has been up to.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1409,7 +1409,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/strike/strikes} up a friendly conversation, keen to catch up on what their ally has been up to. {PRONOUN/s_c/subject/CAP} {VERB/s_c/send/sends} the patrol off with several friendly messages to pass on from different c_n cats and an update from c_n's leader.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1499,7 +1499,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/strike/strikes} up a friendly conversation, keen to catch up on what their ally has been up to. The cats leave with several messages to pass on from both sides and a renewed sense of goodwill and trust between them.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1596,7 +1596,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their deputy. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into a venting session, both deputies finally getting the chance to lift stress from their shoulders and talk to an equal.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COMFORTER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1662,7 +1662,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to s_c with their leader. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into a venting session, both leaders finally getting the chance to lift stress from their shoulders and talk to an equal.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COMFORTER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1735,7 +1735,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, and turns to follow the same marking path as them, keen to catch up on what their ally has been up to.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1811,7 +1811,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/strike/strikes} up a friendly conversation, keen to catch up on what their ally has been up to. {PRONOUN/s_c/subject/CAP} {VERB/s_c/send/sends} the patrol off with several friendly messages to pass on from different c_n cats and an update from c_n's leader.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1901,7 +1901,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/strike/strikes} up a friendly conversation, keen to catch up on what their ally has been up to. The cats leave with several messages to pass on from both sides and a renewed sense of goodwill and trust between them.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -1998,7 +1998,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their deputy. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into a venting session, both deputies finally getting the chance to lift stress from their shoulders and talk to an equal.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COMFORTER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
@@ -2064,7 +2064,7 @@
                 "text": "s_c comes across a patrol from o_c_n, out on a similar mission to s_c with their leader. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into a venting session, both leaders finally getting the chance to lift stress from their shoulders and talk to an equal.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["COMFORTER,1", "COOPERATIVE,1"],
                 "other_clan_rep": 2
             },
             {
