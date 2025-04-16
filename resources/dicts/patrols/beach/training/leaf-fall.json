@@ -46,7 +46,7 @@
                 "text": "s_c laughs! The ginger cat statues are Twoleg objects; {PRONOUN/s_c/subject} {VERB/s_c/spin/spins} a tale almost unbelievable, but {PRONOUN/s_c/subject} {VERB/s_c/swear/swears} it's true! The ginger cat statues used to live on something called a 'boat.'",
                 "exp": 5,
                 "weight": 40,
-                "stat_skill": ["STORY,1", "SPEAKER,3"],
+                "stat_skill": ["SPEAKER,3", "STORY,1", "LANGUAGE,2"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -150,7 +150,7 @@
                 "text": "s_c remembers seeing these green and black lizards being shown to {PRONOUN/s_c/object} by a kittypet before, who called them 'lego dragons'. s_c wonders if Legodragon would be a proper name for a warrior.",
                 "exp": 5,
                 "weight": 40,
-                "stat_skill": ["LORE,1"]
+                "stat_skill": ["LORE,1", "MEMORY,1"]
             }
         ],
         "fail_outcomes": [
@@ -383,7 +383,7 @@
             },
         "weight": 40,
         "chance_of_success": 60,
-        "pl_skill_constraint": ["STORY,1", "LORE,1", "SWIMMER,1"],
+        "pl_skill_constraint": ["STORY,1", "LORE,1", "SWIMMER,1", "FISHER,1"],
         "intro_text": "The large patrol practices holding another cat's head above the water, using the calm (but <i>very</i> chilly) waters of a rock pool. app1 shivers, despite being huddled with p_l. Why couldn't {PRONOUN/app1/subject} practice this on a hot sunny day?",
         "decline_text": "Taking a break turns into ending the patrol early.",
         "success_outcomes": [
@@ -392,7 +392,7 @@
                     "exp": 30,
                     "weight": 20,
                     "art": "gen_train_soggykitty_happy_app",
-                    "stat_skill": ["SWIMMER,1"],
+                    "stat_skill": ["SWIMMER,1", "FISHER,1"],
                     "can_have_stat": ["p_l"],
                     "relationships": [
                         {

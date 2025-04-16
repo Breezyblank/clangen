@@ -112,7 +112,7 @@
                 "text": "Without letting {PRONOUN/r_c/object} panic, s_c carefully assesses the collapsed dune trapping {PRONOUN/s_c/poss} Clanmate. {PRONOUN/s_c/subject/CAP} {VERB/s_c/point/points} out stable footing for the patrol to dig {PRONOUN/r_c/object} out from above, and r_c is recovered, scared but okay.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "NAVIGATOR,1"],
                 "relationships": [
                     {
                         "cats_to": ["s_c", "p_l", "p_l", "s_c"],
@@ -286,7 +286,7 @@
                 "text": "Without letting {PRONOUN/r_c/object} panic, s_c carefully assesses the collapsed dune trapping {PRONOUN/s_c/poss} Clanmate. {PRONOUN/s_c/subject/CAP} {VERB/s_c/find/finds} stable footing to dig {PRONOUN/r_c/object} out from above, and r_c is recovered, scared but okay.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "NAVIGATOR,1"],
                 "relationships": [
                     {
                         "cats_to": ["s_c", "p_l", "p_l", "s_c"],
@@ -454,7 +454,7 @@
                 "text": "Without letting {PRONOUN/r_c/object} panic, s_c carefully assesses the collapsed dune trapping {PRONOUN/s_c/poss} Clanmate. {PRONOUN/s_c/subject/CAP} {VERB/s_c/find/finds} stable footing to dig {PRONOUN/r_c/object} out from above, and r_c is recovered, scared but okay. r_c finds {PRONOUN/r_c/self} seeing s_c in a different light.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "NAVIGATOR,1"],
                 "can_have_stat": ["p_l"],
                 "relationships": [
                     {
@@ -602,7 +602,7 @@
                 "text": "s_c tries to remain calm, clawing sand away from {PRONOUN/s_c/poss} muzzle so {PRONOUN/s_c/subject} can breathe. As the shock wears off, {PRONOUN/s_c/subject} {VERB/s_c/realize/realizes} the sand seems thinner on one side of {PRONOUN/s_c/poss} body. With a surge of energy, {PRONOUN/s_c/subject} {VERB/s_c/burst/bursts} through the weak point, terrified and caked in damp sand. {PRONOUN/s_c/subject/CAP} may have a new nightmare to take back with {PRONOUN/s_c/object}, but at least {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} alive.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"]
+                "stat_skill": ["CLEVER,1", "NAVIGATOR,1"]
             }
         ],
         "fail_outcomes": [
@@ -966,7 +966,7 @@
                 "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a Dark Forest cat who tried to escape into the ocean, only to be cursed by StarClan into becoming a monster with legs sprouting from each claw. As app1 watches the octopus contort itself, more liquid than animal, {PRONOUN/app1/subject} can see how it could be a sea cat.",
                 "exp": 15,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,2", "STORY,1", "LORE,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -1074,7 +1074,7 @@
                 "text": "s_c points out the dangers of the creature, showing app1 exactly how the octopus has no direction that it can't move its limbs, as the octopus sways around in the rockpool waiting for the tides to free it. It's dangerous, s_c teaches, and app1 wouldn't be able to predict how it can move in a fight. Something to be careful of.",
                 "exp": 15,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1"],
+                "stat_skill": ["TEACHER,1", "INSIGHTFUL,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -1183,7 +1183,7 @@
                 "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a Dark Forest cat who tried to escape into the ocean, only to be cursed by StarClan into a monster with legs sprouting from each claw. app1 and app2 watch the octopus contort itself, more liquid than animal, and they can see how it could be a sea cat.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SPEAKER,1"],
+                "stat_skill": ["SPEAKER,2", "STORY,1", "LORE,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -1292,7 +1292,7 @@
                 "text": "s_c points out the dangers of the creature, showing app1 exactly how the octopus has no direction that it can't move its limbs, as the octopus sways around in the rockpool waiting for the tides to free it. It's dangerous, s_c teaches, and app2 wouldn't be able to predict how it can move in a fight. Something to be careful of.",
                 "exp": 15,
                 "weight": 20,
-                "stat_skill": ["TEACHER,1"],
+                "stat_skill": ["TEACHER,1", "INSIGHTFUL,1"],
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
@@ -1651,7 +1651,7 @@
                 "text": "s_c is a fantastic hunter, and p_l isn't shy about telling {PRONOUN/s_c/object} so. {PRONOUN/s_c/subject/CAP} {VERB/s_c/blush/blushes} but {VERB/s_c/work/works} through it, showing p_l how to use the scraps of old crowfood from the fresh-kill pile to attract crabs and fish in the rockpools out of their hidey-holes.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,3"],
+                "stat_skill": ["HUNTER,3", "STEALTHY,3"],
                 "can_have_stat": ["r_c"],
                 "relationships": [
                     {
@@ -1756,7 +1756,7 @@
                 "text": "s_c is a fantastic hunter, and p_l isn't shy about telling {PRONOUN/s_c/object} so. {PRONOUN/s_c/subject/CAP} {VERB/s_c/blush/blushes} but {VERB/s_c/work/works} through it, showing p_l how to use the scraps of old crowfood from the fresh-kill pile to attract crabs and fish in the rockpools out of their hidey-holes.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,3"],
+                "stat_skill": ["HUNTER,3", "STEALTHY,3"],
                 "can_have_stat": ["r_c"],
                 "relationships": [
                     {

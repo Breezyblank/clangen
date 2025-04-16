@@ -188,7 +188,7 @@
             },
         "weight": 40,
         "chance_of_success": 60,
-        "pl_skill_constraint": ["LORE,1", "TEACHER,1", "SWIMMER,1", "RUNNER,1"],
+        "pl_skill_constraint": ["LORE,1", "TEACHER,1", "SWIMMER,1", "RUNNER,1", "NAVIGATOR,1", "FISHER,2"],
         "intro_text": "app1 doesn't understand what 'footing' training is supposed to mean. {PRONOUN/app1/subject/CAP} {VERB/app1/know/knows} how to <i>walk</i>. What're they <i>really</i> here to train?",
         "decline_text": "Unable to convince app1 of the importance of training to keep {PRONOUN/app1/poss} footing, p_l gives up and takes the patrol home.",
         "success_outcomes": [
@@ -228,7 +228,7 @@
                     "exp": 30,
                     "weight": 20,
                     "art": "gen_train_soggykitty_happy_app",
-                    "stat_skill": ["TEACHER,1"],
+                    "stat_skill": ["TEACHER,1", "NAVIGATOR,1"],
                     "can_have_stat": ["p_l"],
                     "relationships": [
                         {
@@ -252,7 +252,7 @@
                     "exp": 30,
                     "weight": 20,
                     "art": "gen_train_soggykitty_happy_app",
-                    "stat_skill": ["SWIMMER,1"],
+                    "stat_skill": ["SWIMMER,1", "FISHER,2"],
                     "can_have_stat": ["p_l"],
                     "relationships": [
                         {

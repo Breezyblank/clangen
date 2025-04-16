@@ -24,7 +24,7 @@
                 "text": "s_c scrambles back the way {PRONOUN/s_c/subject} came and watches the beach disappear under a flood of water. It leaves behind a changed landscape, tons of debris - and a large dead sheep. s_c pounces on the opportunity to scavenge.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,3"],
+                "stat_skill": ["RUNNER,3", "SWIMMER,3", "CLEVER,3", "SENSE,3", "CLAIRVOYANT,1", "FISHER,3"],
                 "prey": ["large"]
             },
             {

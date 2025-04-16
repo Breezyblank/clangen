@@ -153,7 +153,7 @@
                 "text": "s_c leads them to some seaweed on the beach - it's not clean, but it's extremely effective, and the patrol hunts well.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2"],
+                "stat_skill": ["CLEVER,2", "STEALTHY,2"],
                 "prey": ["large"],
                 "relationships": [
                     {
@@ -395,7 +395,7 @@
                 "text": "s_c gets the chance to try out an idea {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} been sitting on for a while. There's a poorly built rabbit warren in the sand dunes that {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} spotted, and {PRONOUN/s_c/subject} {VERB/s_c/dig/digs} down into one of the dens, fishing baby rabbits out by the pawful.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1", "TUNNELER,1", "NAVIGATOR,1"],
                 "prey": ["large"]
             },
             {
@@ -471,7 +471,7 @@
                 "text": "s_c gets the chance to try out an idea {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} been sitting on for a while. There's a poorly built rabbit warren that {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} spotted in the sand dunes, and {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} to dig down into one of the dens, fishing a couple of baby rabbits out. This is a good spot to remember if c_n hits hard times.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1", "TUNNELER,1", "NAVIGATOR,1"],
                 "prey": ["large"]
             },
             {
@@ -547,7 +547,7 @@
                 "text": "s_c gets the chance to try out an idea {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} been sitting on for a while. There's a poorly built rabbit warren that {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} spotted in the sand dunes, and {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} to dig down into one of the dens, fishing a couple baby rabbits out. This is a good spot to remember if c_n hits hard times.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1", "TUNNELER,1", "NAVIGATOR,1"],
                 "prey": ["large"]
             },
             {
@@ -615,7 +615,7 @@
                 "text": "p_l pads towards the grass to check on the noise when a rabbit bursts out! s_c is quick to react and snags the rabbit before it can disappear.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "RUNNER,1"],
                 "prey": ["medium"]
             }
         ],
@@ -686,7 +686,7 @@
                 "text": "p_l pads towards the grass to check on the noise when a rabbit bursts out! s_c is quick to react and snags the rabbit before it can disappear.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "RUNNER,1"],
                 "prey": ["medium"]
             }
         ],
@@ -764,7 +764,7 @@
                 "text": "s_c pads towards the grass to check on the noise when a rabbit bursts out! s_c is quick to react and snags the rabbit before it can disappear.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1"],
+                "stat_skill": ["HUNTER,1", "RUNNER,1"],
                 "prey": ["small"]
             }
         ],
@@ -848,7 +848,7 @@
                 "text": "s_c spots the Twolegs unloading metal boxes from their monsters and abruptly tells the patrol they need to leave. Now.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,3"]
+                "stat_skill": ["CLEVER,3", "INSIGHTFUL,2", "LANGUAGE,2"]
             },
             {
                 "text": "A Twoleg spots s_c and crouches down, clicking softly. s_c hisses and flees.",
@@ -923,7 +923,7 @@
                 "text": "s_c spots the Twolegs unloading metal boxes from their monsters and abruptly tells the patrol they need to leave. Now.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,3"]
+                "stat_skill": ["CLEVER,3", "INSIGHTFUL,3", "LANGUAGE,2"]
             },
             {
                 "text": "A Twoleg spots s_c and crouches down, clicking softly. s_c hisses and flees.",
@@ -998,7 +998,7 @@
                 "text": "s_c spots the Twolegs unloading metal boxes from their monsters and abruptly tells the patrol they need to leave. Now.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,3"]
+                "stat_skill": ["CLEVER,3", "INSIGHTFUL,3", "LANGUAGE,2"]
             },
             {
                 "text": "A Twoleg spots s_c and crouches down, clicking softly. s_c hisses and flees.",
@@ -1075,7 +1075,7 @@
                 "text": "s_c gets distracted from hunting by strange Twoleg activity around one of their dens. They appear to be hauling all their many, many varieties of nest lining out and into a big monster. s_c takes the opportunity to grab a little soft thing, something almost shaped like prey. It'll be good for the nursery.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"]
+                "stat_skill": ["CLEVER,1", "KIT,1", "DECORATOR,1", "STEALTHY,1", "COMFORTER,2"]
             },
             {
                 "text": "Calmly, s_c weaves around the Twoleg dens, picking out the mice from the tunnels and the birds off the strange metal hanging fruit. A successful, sneaky hunt.",
@@ -1263,7 +1263,7 @@
                 "text": "s_c shows the other cat all around the outskirts of the Twoleg dens, showing off how much {PRONOUN/s_c/subject} {VERB/s_c/know/knows} about the weird animals' behavior and enjoying getting to feel clever.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,3", "INSIGHTFUL,3", "LANGUAGE,2"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -1490,7 +1490,7 @@
                 "text": "Something about this situation sets all of s_c's instincts off. {PRONOUN/s_c/subject/CAP} {VERB/s_c/investigate/investigates} carefully and {VERB/s_c/strip/strips} the cover of the sand away from a Twoleg trap underneath.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"]
+                "stat_skill": ["CLEVER,1", "CLAIRVOYANT,1"]
             },
             {
                 "text": "Something isn't right. Nervously pawing at the sand, s_c thinks that the smell is too good to be true. {PRONOUN/s_c/subject/CAP} {VERB/s_c/leave/leaves} it, deciding to return to camp and report it to the deputy instead.",
@@ -1560,7 +1560,7 @@
                 "text": "Something about this situation sets all of s_c's instincts off. {PRONOUN/s_c/subject/CAP} {VERB/s_c/investigate/investigates}, carefully, and the patrol helps {PRONOUN/s_c/object} strip the cover of the sand away from a Twoleg trap underneath.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"]
+                "stat_skill": ["CLEVER,1", "CLAIRVOYANT,1"]
             },
             {
                 "text": "Something isn't right. Nervously pawing at the sand, s_c thinks that the smell is too good to be true. {PRONOUN/s_c/subject/CAP} {VERB/s_c/leave/leaves} it, convincing the patrol to return to camp and report it to the deputy instead.",
@@ -1632,7 +1632,7 @@
                 "text": "The patrol stops on the edge of the Thunderpath, and s_c organizes a thorough search that finds a flattened squirrel. It's both a reminder of the danger of the Thunderpath and a good source of scavenged meat.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1"],
                 "prey": ["medium"]
             },
             {
@@ -1718,7 +1718,7 @@
                 "text": "The patrol stops on the edge of the Thunderpath, and s_c organizes a thorough search that finds a flattened squirrel. It's both a reminder of the danger of the Thunderpath and a good source of scavenged meat.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1"],
                 "prey": ["medium"]
             },
             {
@@ -1804,7 +1804,7 @@
                 "text": "The patrol stops on the edge of the Thunderpath, and s_c organizes a thorough search that finds several flattened pieces of roadkill. It's both a reminder of the danger of the Thunderpath and a good source of scavenged meat.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1"],
                 "prey": ["large"]
             },
             {
@@ -1886,7 +1886,7 @@
                 "text": "The patrol stops on the edge of the Thunderpath, and s_c organizes a thorough search that finds several flattened pieces of roadkill. It's both a reminder of the danger of the Thunderpath and a good source of scavenged meat.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,1"],
+                "stat_skill": ["CLEVER,1", "TRACKER,1"],
                 "prey": ["large"]
             },
             {
@@ -2498,7 +2498,7 @@
                 "text": "As the rest of the patrol discusses whether they can steal the catch, s_c fixates on the bird that caught it. The eagle works its way awkwardly towards shore, and just as it's going to climb out, s_c pounces, fighting in the shallows where s_c has the edge over the bird in swimming. {PRONOUN/s_c/subject/CAP} {VERB/s_c/win/wins} both the fish and the predator as prey for c_n.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,3"],
+                "stat_skill": ["FIGHTER,3", "GUARDIAN,3"],
                 "prey": ["huge"],
                 "relationships": [
                     {
@@ -2651,7 +2651,7 @@
                 "text": "As the rest of the patrol discusses whether they can steal the catch, s_c fixates on the bird that caught it. The eagle works its way awkwardly towards shore, and just as it's going to climb out, s_c pounces, fighting in the shallows where s_c has the edge over the bird in swimming. {PRONOUN/s_c/subject/CAP} {VERB/s_c/win/wins} both the fish and the predator as prey for c_n.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,3"],
+                "stat_skill": ["FIGHTER,3", "GUARDIAN,3"],
                 "prey": ["huge"],
                 "relationships": [
                     {
@@ -2796,7 +2796,7 @@
                 "text": "s_c shows {PRONOUN/s_c/poss} strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until it gives up and runs.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "prey": ["large"],
                 "relationships": [
                     {
@@ -2969,7 +2969,7 @@
                 "text": "s_c shows {PRONOUN/s_c/poss} strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hindlegs. The fox runs, but there's no way it'll live long with such a severe injury.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "prey": ["large"],
                 "relationships": [
                     {
@@ -3142,7 +3142,7 @@
                 "text": "s_c uses every trick in {PRONOUN/s_c/poss} talented fighting skillset to attack the fox with no one to watch {PRONOUN/s_c/poss} flank, biding {PRONOUN/s_c/poss} time until the perfect opportunity opens up. Then, {PRONOUN/s_c/subject} {VERB/s_c/pounce/pounces} onto the fox's back, digging in {PRONOUN/s_c/poss} claws. It's a wild ride across the beach, until the fox bucks {PRONOUN/s_c/object} off, but it wins {PRONOUN/s_c/object} the shark carcass.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,2"],
+                "stat_skill": ["FIGHTER,2", "GUARDIAN,2"],
                 "prey": ["large"],
                 "relationships": [
                     {
@@ -3338,7 +3338,7 @@
                 "text": "s_c shows {PRONOUN/s_c/poss} strength, leading the fight against the gray fox. By working together and keeping it distracted, the cats harry and harass the fox until it gives up and runs.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "prey": ["large"],
                 "relationships": [
                     {
@@ -3530,7 +3530,7 @@
                 "text": "s_c shows {PRONOUN/s_c/poss} strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hindlegs. The fox runs, but there's no way it'll live long with such a severe injury.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "prey": ["large"],
                 "relationships": [
                     {
@@ -3679,7 +3679,7 @@
                 "text": "s_c uses every trick in {PRONOUN/s_c/poss} talented fighting skillset to attack the fox with no one to watch {PRONOUN/s_c/poss} flank, until the perfect opportunity opens up, and {PRONOUN/s_c/subject} {VERB/s_c/pounce/pounces} onto the fox's back, digging in {PRONOUN/s_c/poss} claws. It's enough to convince the gray fox to back off, and s_c claims {PRONOUN/s_c/poss} share of the carcass.",
                 "exp": 30,
                 "weight": 20,
-                "stat_skill": ["FIGHTER,2"],
+                "stat_skill": ["FIGHTER,2", "GUARDIAN,2"],
                 "prey": ["large"],
                 "relationships": [
                     {
@@ -3859,7 +3859,7 @@
                 "text": "They're a small patrol but a skilled one. When they track down the red fox at the end of the scent trail, they have enough skill and muscle to drive it off from the fish it was gnawing on. The cats gather around the prey, congratulating each other.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1", "FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "prey": ["small"],
                 "relationships": [
                     {
@@ -4093,7 +4093,7 @@
                 "text": "With such a big patrol and with s_c there, when they track down the red fox at the end of the scent trail, they have more than enough skill and muscle to drive it off from the fish it was gnawing on. The cats gather around it, congratulating each other.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1", "FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "prey": ["small"],
                 "relationships": [
                     {
@@ -4319,7 +4319,7 @@
                 "text": "s_c uses some of {PRONOUN/s_c/poss} best tricks to {VERB/s_c/sneak/sneaks} close to the red fox at the end of the scent trail, {PRONOUN/s_c/poss} eyes on the fish the fox carries. The creature puts down its fresh-kill to start digging at a dune, and s_c takes the opportunity, grabbing the fish and pelting away. It's a good prize, and {PRONOUN/s_c/subject} {VERB/s_c/feel/feels} proud to present it to the elders when {PRONOUN/s_c/subject} {VERB/s_c/pad/pads} into camp, tired but satisfied.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1", "FIGHTER,1"],
+                "stat_skill": ["CLEVER,1", "STEALTHY,1"],
                 "prey": ["small"],
                 "relationships": [
                     {
@@ -4532,7 +4532,7 @@
                 "text": "The trail leads to a gray fox, and s_c makes sure it both relinquishes its poached prey and flees for the border with its tail between its legs. The smaller predator can't stand up to a patrol working together.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1", "FIGHTER,2"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "prey": ["small"],
                 "relationships": [
                     {
@@ -4789,7 +4789,7 @@
                 "text": "The trail leads to a gray fox, and s_c makes sure it both relinquishes its poached prey and flees for the border with its tail between its legs. The smaller predator can't stand up to a patrol working together.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1", "FIGHTER,2"],
+                "stat_skill": ["FIGHTER,1", "GUARDIAN,1"],
                 "prey": ["small"],
                 "relationships": [
                     {
@@ -5008,7 +5008,7 @@
                 "text": "s_c tracks down a gray fox and carefully considers it as an opponent. Stocky, yes, but {PRONOUN/s_c/subject} finally {VERB/s_c/decide/decides} {PRONOUN/s_c/subject} can take it. s_c bursts from cover, using surprise to get in a couple vicious swipes to the fox's face while its jaws are still full of prey. Yelping, the gray fox retreats from the cat, unwilling to risk more split blood, and s_c picks up the rat it carried with a proud grin.",
                 "exp": 15,
                 "weight": 20,
-                "stat_skill": ["HUNTER,1", "FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1", "STEALTHY,1", "GUARDIAN,1"],
                 "prey": ["small"]
             },
             {

@@ -1642,7 +1642,7 @@
                 "text": "With warmth in the air and ground, s_c doesn't need to try very hard to find an excellent haul of dandelions to bring back to camp. Instead, {PRONOUN/s_c/subject} {VERB/s_c/let/lets} app1 take the lead in finding the plants and {VERB/s_c/praise/praises} {PRONOUN/app1/object} for all the progress {PRONOUN/app1/subject}{VERB/app1/'ve/'s} made in herbcraft.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1"],
+                "stat_skill": ["SENSE,1", "GARDENER,1", "MEMORY,1", "TRACKER,1", "COOPERATIVE,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "dandelion"],
                 "relationships": [
@@ -4165,7 +4165,7 @@
                 "text": "Go to the trails of other animals who move through c_n's territory; wander around until you bump nose-first into a plantain plant; harvest. Simple.",
                 "exp": 10,
                 "weight": 20,
-                "stat_skill": ["CLEVER,2", "SENSE,2", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
+                "stat_skill": ["CLEVER,2", "SENSE,2", "GARDENER,2", "TRACKER,1"],
                 "herbs": ["many_herbs", "plantain"]
             }
         ],
@@ -4246,7 +4246,7 @@
                 "text": "Go to the trails of other animals who move through c_n's territory; wander around until you bump nose-first into a plantain plant; harvest. Simple, p_l teaches app1.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["TEACHER,2", "INSIGHTFUL,1", "CLEVER,2", "SENSE,2", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
+                "stat_skill": ["TEACHER,2", "INSIGHTFUL,2", "CLEVER,2", "SENSE,2", "GARDENER,2", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "plantain"],
                 "relationships": [

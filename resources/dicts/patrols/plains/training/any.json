@@ -1181,7 +1181,7 @@
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_happy_cat",
-                "stat_skill": ["CLEVER,1", "SENSE,1", "TRACKER,1"]
+                "stat_skill": ["CLEVER,1"]
             },
             {
                 "text": "s_c pads confidently through c_n territory. There's a particular peace in exploring {PRONOUN/s_c/poss} beloved home, ears pricked up curiously whenever {PRONOUN/s_c/subject} {VERB/s_c/spot/spots} how the seasons and weather have reshaped it since {PRONOUN/s_c/subject} last passed this way.",
@@ -1249,7 +1249,7 @@
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_warrior_crouching",
-                "stat_skill": ["CLEVER,1", "SENSE,1", "TRACKER,1"]
+                "stat_skill": ["CLEVER,1"]
             },
             {
                 "text": "s_c pads confidently through c_n territory. There's a particular peace in exploring {PRONOUN/s_c/poss} beloved home, ears pricked up curiously whenever {PRONOUN/s_c/subject} {VERB/s_c/spot/spots} how the seasons and weather have reshaped it since {PRONOUN/s_c/subject} last passed this way.",
@@ -1318,7 +1318,7 @@
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_warrior_crouching",
-                "stat_skill": ["CLEVER,1", "SENSE,1", "TRACKER,1"]
+                "stat_skill": ["CLEVER,1"]
             },
             {
                 "text": "s_c pads confidently through c_n territory. There's a particular peace in exploring {PRONOUN/s_c/poss} beloved home, ears pricked up curiously whenever {PRONOUN/s_c/subject} {VERB/s_c/spot/spots} how the seasons and weather have reshaped it since {PRONOUN/s_c/subject} last passed this way.",

@@ -52,7 +52,7 @@
                 "text": "s_c has always been good at talking, so it isn't a big surprise that p_l finds it so easy to chat with {PRONOUN/s_c/object}. It's just an herb gathering patrol, but p_l feels more relaxed than {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} felt in moons when {PRONOUN/p_l/subject} {VERB/p_l/come/comes} back to camp, smiling softly.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SPEAKER,1", "MEDIATOR,1"],
+                "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "COMFORTER,1"],
                 "can_have_stat": ["r_c"],
                 "herbs": ["random_herbs"],
                 "relationships": [
@@ -153,7 +153,7 @@
                 "text": "s_c has always been good at talking, so it isn't a big surprise that p_l finds it so easy to chat with {PRONOUN/s_c/object}. It's just an herb gathering patrol, but p_l feels more relaxed than {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} felt in moons when {PRONOUN/p_l/subject} {VERB/p_l/come/comes} back to camp, smiling softly.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SPEAKER,1", "MEDIATOR,1"],
+                "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "COMFORTER,1"],
                 "can_have_stat": ["r_c"],
                 "herbs": ["random_herbs"],
                 "relationships": [
@@ -235,7 +235,7 @@
                 "text": "s_c spots a sheltered corner that has protected a branch of blackberry from the cold and expertly maneuvers in to pluck the leaves for c_n.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "TRACKER,1"],
                 "herbs": ["blackberry"]
             }
         ],
@@ -341,7 +341,7 @@
                 "text": "s_c spots a sheltered corner that has protected a branch of blackberry from the cold and expertly maneuvers in to pluck the leaves for c_n. {PRONOUN/s_c/subject/CAP} {VERB/s_c/leave/leaves} app1 outside, not wanting to risk {PRONOUN/s_c/poss} apprentice in the snow and thorns.",
                 "exp": 30,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["blackberry"],
                 "relationships": [
@@ -551,7 +551,7 @@
                 "text": "s_c spots a sheltered corner that has protected a branch of blackberry from the cold and expertly maneuvers in to pluck the leaves for c_n. {PRONOUN/s_c/subject/CAP} {VERB/s_c/pass/passes} them out to the members of the patrol from within the thicket, and {PRONOUN/s_c/poss} entourage ensures that s_c is able to bring a huge quantity of fresh blackberry leaves home.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "TRACKER,1"],
                 "can_have_stat": ["p_l"],
                 "herbs": ["blackberry"],
                 "relationships": [
@@ -729,7 +729,7 @@
                 "text": "s_c remembers exactly where the burdock plant grew in greenleaf, even if it's buried under snow now. After all, s_c is after the roots, and those are still perfectly harvestable in leaf-bare.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "GARDENER,2", "MEMORY,2", "TRACKER,2", "TUNNELER,2"],
                 "herbs": ["burdock"]
             }
         ],
@@ -835,7 +835,7 @@
                 "text": "s_c remembers exactly where the burdock plant grew in greenleaf, even if it's buried under snow now. After all, s_c and app1 are after the roots, and those are still perfectly harvestable in leaf-bare.",
                 "exp": 30,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "GARDENER,2", "MEMORY,2", "TRACKER,2", "TUNNELER,2"],
                 "can_have_stat": ["adult"],
                 "herbs": ["burdock"],
                 "relationships": [
@@ -1061,7 +1061,7 @@
                 "text": "s_c wows the patrol by remembering exactly where the burdock plant grew in greenleaf, even if it's buried under snow now. After all, it's the roots that the patrol is after, and those are still perfectly harvestable in leaf-bare.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "GARDENER,2", "MEMORY,2", "TRACKER,2", "TUNNELER,2"],
                 "can_have_stat": ["p_l"],
                 "herbs": ["burdock"],
                 "relationships": [
@@ -1255,7 +1255,7 @@
                 "text": "It's not just spotting things that s_c is talented at - finding daisies in leaf-bare is hard enough, but finding good, non-wilted leaves is next to impossible, and it's a mark of s_c's unique skills that {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} it.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "TRACKER,1"],
                 "herbs": ["daisy"]
             }
         ],
@@ -1361,7 +1361,7 @@
                 "text": "It's not just spotting things that s_c is talented at - finding daisies in leaf-bare is hard enough, but finding good, non-wilted leaves is next to impossible, and it's a mark of s_c's unique skills that {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} it. app1 trails in {PRONOUN/s_c/poss} wake, wide-eyed and impressed.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["daisy"],
                 "relationships": [
@@ -1587,7 +1587,7 @@
                 "text": "It's not just spotting things that s_c is talented at - finding daisies in leaf-bare is hard enough, but finding good, non-wilted leaves is next to impossible, and it's a mark of s_c's unique skills that {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} it. It reminds everyone on the patrol just how lucky c_n is to have s_c as a medicine cat.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "TRACKER,1"],
                 "can_have_stat": ["p_l"],
                 "herbs": ["daisy"],
                 "relationships": [
@@ -1781,7 +1781,7 @@
                 "text": "It's not just spotting things that s_c is talented at - finding dandelions in leaf-bare is hard enough, but finding good, non-wilted leaves is next to impossible, and it's a mark of s_c's unique skills that {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} it.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "TRACKER,1"],
                 "herbs": ["dandelion"]
             }
         ],
@@ -1887,7 +1887,7 @@
                 "text": "It's not just spotting things that s_c is talented at - finding dandelions in leaf-bare is hard enough, but finding good, non-wilted leaves is next to impossible, and it's a mark of s_c's unique skills that {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} it. app1 trails in {PRONOUN/s_c/poss} wake, wide-eyed and impressed.",
                 "exp": 40,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "TRACKER,1"],
                 "can_have_stat": ["adult"],
                 "herbs": ["dandelion"],
                 "relationships": [
@@ -2113,7 +2113,7 @@
                 "text": "It's not just spotting things that s_c is talented at - finding dandelions in leaf-bare is hard enough, but finding good, non-wilted leaves is next to impossible, and it's a mark of s_c's unique skills that {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} it. It reminds everyone on the patrol just how lucky c_n is to have s_c as a medicine cat.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "TRACKER,1"],
                 "can_have_stat": ["p_l"],
                 "herbs": ["dandelion"],
                 "relationships": [
@@ -2307,7 +2307,7 @@
                 "text": "Sometimes, it's not finding plants to harvest that is the problem, it's finding plants to <i>safely</i> harvest. s_c finds a juniper tree on a slope with easily accessible lower branches to harvest from without needing to risk {PRONOUN/s_c/object} climbing in leaf-bare.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "SENSE,2", "TRACKER,2"],
                 "herbs": ["juniper"]
             }
         ],
@@ -2413,7 +2413,7 @@
                 "text": "Sometimes, it's not finding plants to harvest that is the problem, it's finding plants to <i>safely</i> harvest. s_c finds a juniper tree on a slope with easily accessible lower branches to harvest from without having to risk {PRONOUN/p_l/poss} or app1's safety climbing in leaf-bare.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "SENSE,2", "TRACKER,2"],
                 "can_have_stat": ["adult"],
                 "herbs": ["juniper"],
                 "relationships": [
@@ -2639,7 +2639,7 @@
                 "text": "Sometimes, it's not finding plants to harvest that is the problem, it's finding plants to <i>safely</i> harvest. s_c finds a juniper tree on a slope with easily accessible lower branches to harvest from without any cat needing to risk their safety climbing in leaf-bare.",
                 "exp": 10,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["CLIMBER,1", "SENSE,2", "TRACKER,2"],
                 "can_have_stat": ["p_l"],
                 "herbs": ["juniper"],
                 "relationships": [
@@ -2833,7 +2833,7 @@
                 "text": "s_c knows exactly where to go - there was a thick patch of wild garlic that grew in an exposed area. {PRONOUN/s_c/subject/CAP} {VERB/s_c/prove/proves} {PRONOUN/s_c/self} right, and it's only an utter and complete pain to dig out the bulbs. Well, at least {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} got them now.",
                 "exp": 30,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "GARDENER,2", "MEMORY,2", "TRACKER,2"],
                 "herbs": ["many_herbs", "wild_garlic"]
             }
         ],
@@ -2944,7 +2944,7 @@
                 "text": "s_c knows exactly where to go - there was a thick patch of wild garlic that grew in an exposed area. {PRONOUN/s_c/subject/CAP} {VERB/s_c/prove/proves} {PRONOUN/s_c/self} right, and it's only an utter and complete pain to dig out the bulbs. Well, at least {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} got them now.",
                 "exp": 40,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "GARDENER,2", "MEMORY,2", "TRACKER,2"],
                 "can_have_stat": ["adult"],
                 "herbs": ["many_herbs", "wild_garlic"],
                 "relationships": [
@@ -3234,7 +3234,7 @@
                 "text": "s_c knows exactly where to go - there was a thick patch of wild garlic that grew in an exposed area. {PRONOUN/s_c/subject/CAP} {VERB/s_c/prove/proves} {PRONOUN/s_c/self} right, and it's only an utter and complete pain to dig out the bulbs. Well, at least {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} got them now.",
                 "exp": 30,
                 "weight": 40,
-                "stat_skill": ["SENSE,2"],
+                "stat_skill": ["SENSE,2", "GARDENER,2", "MEMORY,2", "TRACKER,2"],
                 "can_have_stat": ["p_l"],
                 "herbs": ["many_herbs", "wild_garlic"],
                 "relationships": [

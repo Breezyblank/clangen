@@ -684,7 +684,7 @@
                 "text": "s_c deftly picks out an entire horsetail shoot, bringing back quite the addition to the Clan's herb stores as {PRONOUN/s_c/subject} {VERB/s_c/describe/describes} the plant's uses to app1.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
+                "stat_skill": ["TEACHER,1", "SENSE,1", "GARDENER,2", "MEMORY,1", "TRACKER,1"],
                 "herbs": ["many_herbs", "horsetail"],
                 "relationships": [
                     {
