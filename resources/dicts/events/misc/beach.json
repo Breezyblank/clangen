@@ -73,5 +73,18 @@
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     }
+  },
+  {
+    "event_id": "bch_misc_stuff3",
+    "location": ["beach"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 20,
+    "event_text": "m_c came back from the beach, carrying colorful transparent stones in {PRONOUN/m_c/poss} mouth to {PRONOUN/m_c/poss} den.",
+    "new_accessory": ["SEA GLASS"],
+    "m_c":{
+      "age": ["any"],
+      "status": ["any"]
+    }
   }
 ]

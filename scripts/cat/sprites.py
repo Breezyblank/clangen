@@ -159,6 +159,9 @@ class Sprites:
             "fadestarclan",
             "fadedarkforest",
             "symbols",
+            'bonesacc',
+            'butterflymothacc',
+            'twolegstuff'
         ]:
             if "lineart" in x and game.config["fun"]["april_fools"]:
                 self.spritesheet(f"sprites/aprilfools{x}.png", x)
@@ -650,6 +653,25 @@ class Sprites:
             ["PINKNYLON", "PURPLENYLON", "MULTINYLON", "INDIGONYLON"],
         ]
 
+        bones_data = [
+            ["SNAKE", "BAT WINGS", "CANIDAE SKULL", "DEER ANTLERS", "RAM HORN", "GOAT HORN", "OX SKULL",
+             "RAT SKULL", "TEETH COLLAR", "ROE SKULL"],
+            ["BIRD SKULL", "RIBS", "FISH BONES"]
+        ]
+        
+        butterflymoth_data = [
+            ["PEACOCK BUTTERFLY", "DEATH HEAD HAWKMOTH", "GARDEN TIGER MOTH", "ATLAS MOTH", "CECOROPIA MOTH", "WHITE ERMINE MOTH",
+             "IO MOTH", "COMET MOTH", "JADE HAWKMOTH", "HUMMINGBIRD HAWKMOTH"],
+            ["OWL BUTTERFLY", "GLASSWING BUTTERFLY", "QUEEN ALEXANDRA BIRDWING BUTTERFLY", "GREEN DRAGONTAIL BUTTERFLY",
+             "MENELAUS BLUE MORPHO BUTTERFLY", "DEAD LEAF BUTTERFLY"]
+        ]
+        
+        twolegstuff_data = [
+            ["OLD GOLD WATCH", "OLD SILVER WATCH", "GOLDEN KEY", "SILVER KEY", "DVD", "OLD PENCIL", "OLD BRUSH",
+             "BANANA PEEL", "BROKEN VHS TAPE", "OLD NEWSPAPER"],
+            ["SEA GLASS", "BAUBLES", "MUD AND DIRT"]
+        ]
+
         # medcatherbs
         for row, herbs in enumerate(medcatherbs_data):
             for col, herb in enumerate(herbs):
@@ -682,6 +704,20 @@ class Sprites:
         for row, nyloncollars in enumerate(nyloncollars_data):
             for col, nyloncollar in enumerate(nyloncollars):
                 self.make_group("nyloncollars", (col, row), f"collars{nyloncollar}")
+        # eragona bones
+        for row, bones in enumerate(bones_data):
+            for col, bone in enumerate(bones):
+                self.make_group('bonesacc', (col, row), f'acc_bones{bone}')
+                
+        # eragona butterflies and moths
+        for row, butterflymoth in enumerate(butterflymoth_data):
+            for col, butterflies in enumerate(butterflymoth):
+                self.make_group('butterflymothacc', (col, row), f'acc_butterflymoth{butterflies}')
+
+        # eragona twoleg stuff
+        for row, twolegstuff in enumerate(twolegstuff_data):
+            for col, stuff in enumerate(twolegstuff):
+                self.make_group('twolegstuff', (col, row), f'acc_twolegstuff{stuff}')
 
     def load_symbols(self):
         """

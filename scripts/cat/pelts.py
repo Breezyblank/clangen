@@ -88,6 +88,7 @@ class Pelt:
     wild_accessories = ["RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS", "GULL FEATHERS", "SPARROW FEATHERS", "MOTH WINGS", "ROSY MOTH WINGS", "MORPHO BUTTERFLY", "MONARCH BUTTERFLY", "CICADA WINGS", "BLACK CICADA"]
 
     tail_accessories = ["RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS", "GULL FEATHERS", "SPARROW FEATHERS", "CLOVER", "DAISY"]
+
     collars = [
         "CRIMSON", "BLUE", "YELLOW", "CYAN", "RED", "LIME", "GREEN", "RAINBOW",
         "BLACK", "SPIKES", "WHITE", "PINK", "PURPLE", "MULTI", "INDIGO", "CRIMSONBELL", "BLUEBELL",
@@ -98,6 +99,26 @@ class Pelt:
         "PURPLEBOW", "MULTIBOW", "INDIGOBOW", "CRIMSONNYLON", "BLUENYLON", "YELLOWNYLON", "CYANNYLON",
         "REDNYLON", "LIMENYLON", "GREENNYLON", "RAINBOWNYLON",
         "BLACKNYLON", "SPIKESNYLON", "WHITENYLON", "PINKNYLON", "PURPLENYLON", "MULTINYLON", "INDIGONYLON",
+    ]
+
+    bone_accessories = [
+        "SNAKE", "BAT WINGS", "CANIDAE SKULL", "DEER ANTLERS", "RAM HORN", "GOAT HORN", "OX SKULL",
+        "RAT SKULL", "TEETH COLLAR", "ROE SKULL",
+        "BIRD SKULL", "RIBS", "FISH BONES"
+    ]
+    
+    butterflies_accessories = [
+        "PEACOCK BUTTERFLY", "DEATH HEAD HAWKMOTH", "GARDEN TIGER MOTH", "ATLAS MOTH",
+        "CECOROPIA MOTH", "WHITE ERMINE MOTH", "IO MOTH", "COMET MOTH",
+        "JADE HAWKMOTH", "HUMMINGBIRD HAWKMOTH", "OWL BUTTERFLY", "GLASSWING BUTTERFLY",
+        "QUEEN ALEXANDRA BIRDWING BUTTERFLY", "GREEN DRAGONTAIL BUTTERFLY",
+        "MENELAUS BLUE MORPHO BUTTERFLY", "DEAD LEAF BUTTERFLY"
+        ]
+
+    stuff_accessories = [
+        "OLD SILVER WATCH", "OLD GOLD WATCH", "GOLDEN KEY", "SILVER KEY",
+        "DVD", "OLD PENCIL", "OLD BRUSH", "BANANA PEEL", "BROKEN VHS TAPE",
+        "OLD NEWSPAPER", "SEA GLASS", "BAUBLES", "MUD AND DIRT"
     ]
 
     tabbies = ["Tabby", "Ticked", "Mackerel", "Classic", "Sokoke", "Agouti"]
@@ -687,7 +708,10 @@ class Pelt:
         if acc_display_choice == 1:
             self.accessory = choice([
                 choice(Pelt.plant_accessories),
-                choice(Pelt.wild_accessories)
+                choice(Pelt.wild_accessories),
+                choice(Pelt.bone_accessories),
+                choice(Pelt.butterflies_accessories),
+                choice(Pelt.stuff_accessories)
             ])
         else:
             self.accessory = None

@@ -69,5 +69,18 @@
         }
     ]
     }
+  },
+  {
+    "event_id": "mtn_misc_bone3",
+    "location": ["mountainous"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 25,
+    "event_text": "m_c was walking through a meadow on a hill. When {PRONOUN/m_c/subject} {VERB/m_c/were/was} about to return, {PRONOUN/m_c/subject} noticed something sticking out of the ground. It was a acc_singular. {PRONOUN/m_c/subject/CAP} decided to take it back to the Clan, even though it was very heavy.",
+    "new_accessory": ["DEER ANTLERS", "RAM HORN", "GOAT HORN", "ROE SKULL"],
+    "m_c":{
+      "age": ["any"],
+      "status": ["any"]
+    }
   }
 ]
