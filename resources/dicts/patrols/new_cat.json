@@ -3334,5 +3334,122 @@
                 "outsider_rep": -2
             }
         ]
+    },
+    {
+        "patrol_id": "gen_bord_factoryescapee1",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": ["new_cat"],
+        "patrol_art": "gen_bord_rescue",
+        "patrol_art_clean": null,
+        "min_cats": 1,
+        "max_cats": 1,
+        "min_max_status": {
+            "apprentice": [-1, -1]
+    },
+        "weight": 20,
+        "chance_of_success": 75,
+        "relationship_constraint": [],
+        "pl_skill_constraint": [],
+        "intro_text": "As p_l walks along, {PRONOUN/p_l/subject} suddenly {VERB/hear/hears} something coming towards {PRONOUN/p_l/object}- and fast!",
+        "decline_text": "p_l {VERB/turn/turns} tail and runs back to camp in an instant.",
+        "success_outcomes": [
+                {
+                    "text": "{PRONOUN/p_l/subject} {VERB/step/steps} back, shielding {PRONOUN/p_l/self} behind a bush. Just then, a very young-looking cat comes barreling out! {PRONOUN/n_c:0/subject/CAP} {VERB/n_c:0/tumble/tumbles}, smacking into a tree next to p_l. p_l approaches the clumsy cat, and makes sure {PRONOUN/n_c:0/subject}'{VERB/n_c:0/re/s} okay before inquiring about {PRONOUN/n_c:0/poss} situation. The cat explains {PRONOUN/n_c:0/subject} {VERB/n_c:0/come/comes} from a 'kitten farm', where {PRONOUN/n_c:0/subject}, along with the other cats in the place, were isolated and not fed much. p_l feels pity for the poor cat, and offers to let {PRONOUN/n_c:0/object} join c_n.",
+                    "exp": 15,
+                    "weight": 20,
+                    "new_cat": [
+                        ["new_name", "status:apprentice", "age:adolescent", "backstory:refugee7"]
+                    ],
+                    "relationships": [
+                        {
+                            "cats_from": ["n_c:0"],
+                            "cats_to": ["p_l"],
+                            "values": ["platonic", "trust", "comfort"],
+                            "amount": 15
+                        }
+                    ],
+                    "outsider_rep": 1,
+                    "art": "gen_bord_newcat"
+                }
+        ],
+        "fail_outcomes": [
+            {
+                    "text": "p_l is frozen in the spot, a load of different ideas of what the creature could be flashing through {PRONOUN/p_l/poss} head. Suddenly, a blob of color comes ramming into {PRONOUN/p_l/object}, sending {PRONOUN/p_l/object} crashing to the ground. When p_l opens {PRONOUN/p_l/poss} eyes, {PRONOUN/p_l/subject} {VERB/see/sees} a young cat. Disgruntled, dirty, and fuming, p_l spits and curses at the cat, causing them to dash off in fear.",
+                    "exp": 0,
+                    "weight": 20,
+                    "injury": [
+                        {
+                            "cats": ["p_l"],
+                            "injuries": ["scrapes", "bruises"],
+                            "scars": []
+                        }
+                    ],
+                    "new_cat": ["meeting", "age:adolescent", "backstory:refugee7"],
+                    "outsider_rep": 0,
+                    "art": "running_loner_warrior"
+                }
+        ],
+        "antag_success_outcomes": [
+            {
+                    "text": "p_l backs to the side, prepared to meet whatever comes at {PRONOUN/p_l/object}. In a few moments, a cat comes zooming out from the area p_l {VERB/were/was} once standing in front of. {PRONOUN/p_l/subject/CAP} {VERB/pounce/pounces} on the cat before they can get away, pinning them to the ground. It turns out to be a young cat, no older than an apprentice. p_l hisses and growls at the cat, warning them to never trespass on c_n territory again. {PRONOUN/p_l/subject} also {VERB/give/gives} them a scratch on the cheek and a nip out of their ear. They won't be forgetting this anytime soon!",
+                    "exp": 15,
+                    "weight": 20,
+                    "new_cat": ["meeting", "age:adolescent", "backstory:refugee7"],
+                    "relationships": [
+                        {
+                            "cats_from": ["n_c:0"],
+                            "cats_to": ["p_l"],
+                            "values": ["dislike"],
+                            "amount": 15
+                        }
+                    ],
+                    "outsider_rep": -2,
+                    "art": "gen_angry_cat_warrior"
+                }
+        ],
+        "antag_fail_outcomes": [
+                {
+                    "text": "p_l backs to the side, prepared to meet whatever comes at {PRONOUN/p_l/object}. In a few moments, a cat comes zooming out from the area p_l {VERB/were/was} once standing in front of. {PRONOUN/p_l/subject/CAP} {VERB/attempt/attempts} to pin the cat in place, preventing them from moving, but the cat sees p_l before {PRONOUN/p_l/subject} can do a thing and runs away.",
+                    "exp": 0,
+                    "weight": 20,
+                    "new_cat": ["meeting", "age:adolescent", "backstory:refugee7"],
+                    "relationships": [
+                        {
+                            "cats_from": ["n_c:0"],
+                            "cats_to": ["p_l"],
+                            "values": ["dislike"],
+                            "amount": 10
+                        }
+                    ],
+                    "outsider_rep": -1,
+                    "art": "running_loner_warrior"
+                },
+                {
+                    "text": "p_l backs to the side, prepared to meet whatever comes at {PRONOUN/p_l/object}. In a few moments, a cat comes zooming out from the area p_l {VERB/were/was} once standing. {PRONOUN/p_l/subject/CAP} {VERB/pin/pins} the cat in place, preventing them from moving, but the cat is apparently a bit more experienced than p_l thought and slashes at {PRONOUN/p_l/object} before jumping up from the caught-off-guard grip and running off.",
+                    "exp": 0,
+                    "weight": 20,
+                    "injury": [
+                        {
+                            "cats": ["p_l"],
+                            "injuries": ["claw-wound"],
+                            "scars": ["SCRATCHSIDE"]
+                        }
+                    ],
+                    "history_text": {"scar": "This cat gained a scar from a scuffle with a loner."},
+                    "new_cat": ["meeting", "age:adolescent", "backstory:refugee7"],
+                    "relationships": [
+                        {
+                            "cats_from": ["n_c:0"],
+                            "cats_to": ["p_l"],
+                            "values": ["dislike"],
+                            "amount": 15
+                        }
+                    ],
+                    "outsider_rep": -1,
+                    "art": "gen_battle_warrior_loner"
+                }
+            ]
     }
 ]

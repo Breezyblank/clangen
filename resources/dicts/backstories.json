@@ -18,6 +18,8 @@
         "kittypet2": "m_c used to live on something called a 'boat' with Twolegs, but decided to join the Clan.",
         "kittypet3": "m_c used to be a kittypet. {PRONOUN/m_c/subject/CAP} got lost after wandering away, and when {PRONOUN/m_c/subject} returned home, {PRONOUN/m_c/subject} found {PRONOUN/m_c/poss} Twolegs were gone. {PRONOUN/m_c/subject/CAP} eventually found {PRONOUN/m_c/poss} way to the Clan.",
         "kittypet4": "m_c used to be a kittypet. One day, {PRONOUN/m_c/subject} got sick, and {PRONOUN/m_c/poss} Twolegs brought {PRONOUN/m_c/object} into the belly of a monster. The Twolegs then left {PRONOUN/m_c/object} to fend for {PRONOUN/m_c/self}.",
+        "kittypet5": "m_c used to live on a 'farm' with some Twolegs. {PRONOUN/m_c/subject/CAP} never really interacted much with the Twolegs though, and eventually decided to join the Clan.",
+        "kittypet6": "m_c used to live on a 'farm' with some Twolegs. One day, however, the Twolegs left and a new pair arrived. They tried to catch m_c in a weird metal cage, so {PRONOUN/m_c/subject} {VERB/m_c/were/was} forced to flee and eventually found the Clan.",
 
         "rogue1": "m_c joined the Clan by choice after living life as a rogue.",
         "rogue2": "m_c used to live in a Twolegplace, scrounging for what {PRONOUN/m_c/subject} could find. {PRONOUN/m_c/subject/CAP} thought the Clan might offer {PRONOUN/m_c/object} more security.",
@@ -46,16 +48,20 @@
         "refugee2": "m_c used to live as a loner, but after another cat chased {PRONOUN/m_c/object} from {PRONOUN/m_c/poss} home, {PRONOUN/m_c/subject} took refuge in the Clan.",
         "refugee3": "m_c used to be a kittypet, but joined the Clan after fleeing from {PRONOUN/m_c/poss} cruel Twoleg.",
         "refugee4": "m_c used to be in a rogue group, but joined the Clan after fleeing from the group's tyrannical leader.",
-        "refugee5": "m_c got washed away from {PRONOUN/m_c/poss} former territory in a flood that destroyed {PRONOUN/m_c/poss} home but was glad to find a new home in {PRONOUN/m_c/poss} new Clan here.",
+        "refugee5": "m_c got washed away from {PRONOUN/m_c/poss} former territory in a flood that destroyed {PRONOUN/m_c/poss} home, but was glad to find a new home in {PRONOUN/m_c/poss} new Clan here.",
         "refugee6": "m_c used to be a kittypet, but joined the Clan, sick and weak after eating something {PRONOUN/m_c/subject} shouldn't have.",
+        "refugee7": "m_c used to live in, and was born in, a kitten mill. One day, one of the guards accidentally left the side door open, and {PRONOUN/m_c/subject} {VERB/m_c/were/was} finally able to escape that horrific place. {PRONOUN/m_c/subject/CAP} eventually stumbled upon a patrol of this Clan's cats, and took refuge here.",
 
         "tragedy_survivor1": "Something horrible happened to m_c's previous Clan. {PRONOUN/m_c/subject/CAP} {VERB/m_c/refuse/refuses} to speak about it.",
         "tragedy_survivor2": "m_c used to be part of a rogue group, but joined the Clan after something terrible happened to it.",
         "tragedy_survivor3": "m_c used to be a kittypet, but joined the Clan after something terrible happened to {PRONOUN/m_c/poss} Twolegs.",
         "tragedy_survivor4": "m_c used to be a loner, but joined the Clan after something terrible made {PRONOUN/m_c/object} leave {PRONOUN/m_c/poss} old home behind.",
+        "tragedy_survivor5": "m_c used to be a kittypet who lived on a farm with {PRONOUN/m_c/poss} Twolegs, but one day the farm caught on fire, forcing {PRONOUN/m_c/object} to leave {PRONOUN/m_c/poss} old home behind.",
+        "tragedy_survivor6": "m_c was born in a kitten factory where {PRONOUN/m_c/subject} lived all {PRONOUN/m_c/poss} life. One day, a terrible accident happened, and {PRONOUN/m_c/subject} {VERB/m_c/were/was} one of the few cats who escaped. {PRONOUN/m_c/subject/CAP} ran all the way to the Clan, seeking shelter.",
 
         "wandering_healer1": "m_c used to wander, helping those where {PRONOUN/m_c/subject} could, and eventually found the Clan.",
         "wandering_healer2": "m_c used to live in a specific spot, offering help to all who wandered by, but eventually found {PRONOUN/m_c/poss} way to the Clan.",
+        "wandering_healer3": "m_c used to wander, offering healing to those who passed by. One night, a starry-furred cat guided {PRONOUN/m_c/object} to the Clans through {PRONOUN/m_c/poss} dreams. {PRONOUN/m_c/subject/CAP} joined the Clan shortly after awakening.",
 
         "guided1": "m_c used to be a kittypet, but after dreaming of starry-furred cats, {PRONOUN/m_c/subject} followed their whispers to the Clan.",
         "guided2": "m_c used to live a rough life as a rogue. While wandering, {PRONOUN/m_c/subject} found a set of starry pawprints, and followed them to the Clan.",
@@ -102,19 +108,19 @@
       "halfclan1", "halfclan2"
     ],
     "loner_backstories": [
-      "loner1", "loner2", "loner3", "loner4", "refugee2", "tragedy_survivor4", "guided3", "refugee5", "wandering_healer2"
+      "loner1", "loner2", "loner3", "loner4", "refugee2", "tragedy_survivor4", "guided3", "refugee5", "wandering_healer2", "wandering_healer3"
     ],
     "rogue_backstories": [
       "rogue1", "rogue2", "rogue3", "refugee4", "tragedy_survivor2", "guided2", "refugee5", "wandering_healer1"
     ],
     "kittypet_backstories": [
-      "kittypet1", "kittypet2", "kittypet3", "kittypet4", "refugee3", "tragedy_survivor3", "guided1", "refugee6"
+      "kittypet1", "kittypet2", "kittypet3", "kittypet4", "refugee3", "tragedy_survivor3", "guided1", "refugee6", "kittypet6", "tragedy_survivor5"
     ],
     "former_clancat_backstories": [
       "otherclan1", "otherclan2", "otherclan3", "otherclan4", "ostracized_warrior", "disgraced1", "disgraced2", "disgraced3", "retired_leader", "refugee1", "tragedy_survivor1", "medicine_cat", "guided4", "refugee5"
     ],
     "healer_backstories": [
-      "medicine_cat", "wandering_healer1", "wandering_healer2"
+      "medicine_cat", "wandering_healer1", "wandering_healer2", "wandering_healer3"
     ],
     "orphaned_backstories": [
       "orphaned1", "orphaned2", "orphaned3", "orphaned4", "orphaned5", "orphaned6"
@@ -123,7 +129,7 @@
       "abandoned1", "abandoned2", "abandoned3", "abandoned4"
     ],
     "outsider_backstories": [
-      "outsider1", "outsider2", "outsider3"
+      "outsider1", "outsider2", "outsider3", "refugee7", "tragedy_survivor6"
     ]
   },
 

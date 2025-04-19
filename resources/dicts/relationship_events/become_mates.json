@@ -35,7 +35,8 @@
 		"No one is going to blame m_c for the pride {PRONOUN/m_c/subject} display in succcessfully asking r_c to become {PRONOUN/m_c/poss} mate. It's a wonderful life event to celebrate, and something to rightfully congratulate the couple on.",
 		"Truth be told, while a spark is evident between m_c and r_c, it's no large wildfire-- more like a humble flicker. However, there was no better honour than to expend and gain respect from their Clan. And so, the two have become mates.",
 		"Throughout their days together, m_c and r_c have expressed similar thoughts; who are they, in a romantic sense? Romance is a tricky subject, and neither quite fully understands it. But they've seen their Clanmates pairing up, and, to see what all the fuss is about it, the two have agreed to become mates",
-		"Anyone can aid the Clans' surplus of kits, but lately it's hard with the constant illness and battles hovering about. To help with the cause, though there's no burning romance between the two, m_c and r_c have become mates."
+		"Anyone can aid the Clans' surplus of kits, but lately it's hard with the constant illness and battles hovering about. To help with the cause, though there's no burning romance between the two, m_c and r_c have become mates.",
+		"After many moons of subtle pining for each other, m_c and r_c have become mates."
 	],
 	"platonic_to_romantic": [
 		"m_c and r_c see each other in a different light and have become mates.",
@@ -48,7 +49,8 @@
 		"Love blooms from platonic to romantic, and m_c is now mates with r_c.",
 		"m_c and r_c don't make any big announcements. But when they combine their nests, the Clan realizes that their relationship isn't so platonic anymore.",
 		"Ever since they entered each other's lives, m_c and r_c became inseparable-how they spoke to each other, swapped their prey, or were found snoozing in intangible curls. Initially, it was just friendship, but as time passed, blushing and throbbing hearts became too common and overwhelming, prompting them to become mates.",
-		"Like a singular spark, m_c and r_c never anticipated that their connection would scorch and become a wildfire. The stinging burns were felt by m_c, and {PRONOUN/m_c/subject} could tell r_c felt them too. Not wanting to be consumed by their raging longing, the two leaped into the flames and became mates."
+		"Like a singular spark, m_c and r_c never anticipated that their connection would scorch and become a wildfire. The stinging burns were felt by m_c, and {PRONOUN/m_c/subject} could tell r_c felt them too. Not wanting to be consumed by their raging longing, the two leaped into the flames and became mates.",
+		"The entirety of c_n is taken aback when m_c and r_c confess their newfound love for each other. How could two friends become mates all of a sudden like that? Nonetheless, the Clan congratulates the pair."
 	],
 	"rejected": [
 		"m_c confessed {PRONOUN/m_c/poss} feelings to r_c but {PRONOUN/m_c/subject} got rejected.",
@@ -68,6 +70,7 @@
 		"They say declaring oneself to a lover is the pinnacle of romance, as depicted countless times before. However, tradition was not on m_c's side when r_c simply grimaced and turned down the awkward advance, leaving m_c to mask {PRONOUN/m_c/poss} broken heart behind a tense chuckle.",
 		"m_c, pacing nervously, repeatedly went over a proposal {PRONOUN/m_c/subject} had memorized ever since {PRONOUN/m_c/subject} first laid eyes on r_c. When the moment came, however, it was all for naught, as r_c calmly, yet with a sting of sadness, did not reciprocate the feelings. Nonetheless, {PRONOUN/r_c/subject} hopes their friendship can be mended.",
 		"It was well known that m_c and r_c synchronized with each other so well that even their Clanmates thought they were mates. m_c loved this idea, thinking who better to be both a best friend and a mate. However, when the topic came up over prey, r_c, after mulling it over, decided to end the conversation with a refusal, preferring to remain just friends. For now, at least.",
-		"m_c and r_c made such a perfect couple, or so m_c told {PRONOUN/m_c/self} repeatedly as if it were the truth. However, this was far from reality. So, when {PRONOUN/m_c/subject} tried to serenade {PRONOUN/m_c/poss} love for r_c, it was no surprise that r_c bluntly refused. However, as m_c's fiery temper took over, it took the entire Clan to separate the two after m_c accused {PRONOUN/r_c/object} of being in an imaginary affair."
+		"m_c and r_c made such a perfect couple, or so m_c told {PRONOUN/m_c/self} repeatedly as if it were the truth. However, this was far from reality. So, when {PRONOUN/m_c/subject} tried to serenade {PRONOUN/m_c/poss} love for r_c, it was no surprise that r_c bluntly refused. However, as m_c's fiery temper took over, it took the entire Clan to separate the two after m_c accused {PRONOUN/r_c/object} of being in an imaginary affair.",
+		"m_c confessed {PRONOUN/m_c/poss} feelings to r_c, but {PRONOUN/m_c/subject} got rejected. Heartbroken and hurt, m_c slumps away, tail between {PRONOUN/m_c/poss} legs."
 	]
 }
