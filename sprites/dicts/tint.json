@@ -22,12 +22,24 @@
     "CHOCOLATE": "brown"
   },
   "possible_tints": {
-    "basic": ["pink", "gray", "red", "orange", "warmdilute"],
-    "warm": ["yellow", "purple", "dilute", "cooldilute"],
-    "cool": ["purple", "black", "dilute"],
-    "white": ["yellow"],
-    "monochrome": ["blue", "black", "dilute", "cooldilute"],
-    "brown": ["yellow", "purple", "black", "dilute", "cooldilute"]
+    "basic": [
+      "pink", "gray", "red", "orange", "purple", "lilac", "plum", "tan", "lightpink"
+    ],
+    "warm": [
+      "yellow", "dilute", "warmdilute", "cooldilute", "blush", "willow", "rosy", "redwood", "sandy", "beige", "coral", "cream", "sunny", "peach", "salmon", "buttercup", "banana", "fall", "flower"
+    ],
+    "cool": [
+      "blue", "black", "dilute", "warmdilute", "cooldilute", "willow", "bluegray", "cadet", "cobalt", "green", "flower"
+    ],
+    "white": [
+      "yellow", "blue", "willow", "cream"
+    ],
+    "monochrome": [
+      "blue", "black", "dilute", "warmdilute", "cooldilute", "willow", "bluegray", "cadet", "midgray", "flint", "cobalt", "steel", "periwinkle", "navy"
+    ],
+    "brown": [
+      "yellow", "black", "dilute", "warmdilute", "cooldilute", "blush", "flint", "acacia", "bronze", "dust", "coral", "rosy", "redwood", "beige", "cream", "peach", "salmon", "periwinkle", "flower"
+    ]
   },
   "tint_colours":
   {
@@ -39,6 +51,38 @@
     "yellow": [250, 248, 225],
     "purple": [235, 225, 244],
     "blue": [218, 237, 245],
+    "blush": [218, 149, 149],
+    "willow": [231, 241, 229],
+    "bluegray": [199, 213, 232],
+    "lilac": [226, 208, 226],
+    "sandy": [238, 238, 206],
+    "plum": [225, 207, 243],
+    "midgray": [100, 99, 107],
+    "flint": [105, 100, 95],
+    "cadet": [187, 223, 245],
+    "coral": [212, 145, 82],
+    "maroon": [63, 41, 43],
+    "tan": [252, 234, 222],
+    "bronze": [102, 70, 44],
+    "acacia": [91, 48, 0],
+    "rosy": [174, 132, 126],
+    "redwood": [167, 109, 96],
+    "beige": [184, 150, 133],
+    "cream": [247, 220, 182],
+    "steel": [63, 69, 72],
+    "cobalt": [66, 71, 100],
+    "lightpink": [253, 221, 246],
+    "peach": [255, 214, 172],
+    "salmon": [233, 173, 140],
+    "buttercup": [255, 237, 159],
+    "banana": [255, 247, 122],
+    "periwinkle": [199, 216, 230],
+    "navy": [102, 126, 153],
+    "dust": [156, 129, 81],
+    "fall": [214, 128, 39],
+    "sunny": [235, 199, 110],
+    "green": [174, 191, 174],
+    "flower": [223, 161, 173],
     "none": null
   },
   "dilute_tint_colours":
