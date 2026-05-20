@@ -178,13 +178,13 @@
     "White", "White", "Pale", "Snow", "Snowy", "Cloud", "Cloudy", "Milk", "Hail", "Frost", "Frozen", "Freeze", "Ice", "Icy", "Icicle",
     "Blizzard", "Flurry", "Moon", "Light", "Bone", "Bright", "Swan", "Dove", "Cotton", "Hawthorn", "Laurel", "Wisp",
     "Fringe", "Ibis", "Air", "Bright", "Rime", "Ghost", "Privet", "Egg",
-    "Daisy", "Chamomile", "Egret", "Pelican", "Cold", "Frigid", "Marble", "Ivory", "Foxglove", "Moonflower", "Ermine",
+    "Daisy", "Chamomile", "Egret", "Pelican", "Cold", "Frigid", "Marble", "Ivory", "Foxglove", "Ermine",
     "Stoat", "Bleak", "Gossamer", "Mistle", "Orchid", "Jasmine", "Skull", "Birch"
     ],
     "PALEGREY": [
     "Gray", "Gray", "Silver", "Pale", "Light", "Cloud", "Cloudy", "Hail", "Frost", "Ice", "Icy", "Mouse", "Bright", "Fog",
     "Foggy", "Freeze", "Frozen", "Stone", "Pebble", "Dove", "Sky", "Cotton", "Heather", "Ashen", "Fringe", "Mistle",
-    "Icicle", "Rime", "Egret", "Cold", "Frigid", "Pelican", "Marble", "Moonflower", "Bleak", "Gossamer", "Bone", "Skull"
+    "Icicle", "Rime", "Egret", "Cold", "Frigid", "Pelican", "Marble", "Bleak", "Gossamer", "Bone", "Skull"
     ],
     "SILVER": [
     "Gray", "Silver", "Silver", "Cinder", "Ice", "Icy", "Frost", "Frozen", "Freeze", "Rain", "Rainy", "Blue",
@@ -359,26 +359,52 @@
   },
 
   "eye_prefixes": {
-    "YELLOW": ["Yellow", "Moon", "Daisy", "Honey", "Light", "Sun", "Lemon"],
-    "AMBER": ["Amber", "Sun", "Fire", "Gold", "Honey", "Scorch", "Flame", "Blaze", "Pumpkin"],
-    "HAZEL": ["Hazel", "Tawny", "Hazel", "Gold", "Daisy", "Sand", "Almond"],
-    "PALEGREEN": ["Pale", "Green", "Mint", "Fern", "Weed", "Olive", "Stem", "Lime", "Agave"],
-    "GREEN": ["Green", "Green", "Fern", "Weed", "Holly", "Clover", "Olive", "Jade", "Tree", "Algae", "Aloe"],
+    "YELLOW": [
+      "Yellow", "Moon", "Daisy", "Honey", "Light", "Sun", "Sunny", "Lemon", "Celandine", "Chamomile",
+      "Goldenrod", "Durian", "Buttercup", "Sunflower", "Bright"
+    ],
+    "AMBER": [
+      "Amber", "Sun", "Sunny", "Fire", "Gold", "Honey", "Scorch", "Flame", "Blaze", "Pumpkin", "Buttercup",
+      "Sunflower"
+    ],
+    "HAZEL": [
+      "Hazel", "Tawny", "Almond", "Kiwi", "Durian"
+    ],
+    "PALEGREEN": [
+      "Pale", "Green", "Mint", "Fern", "Olive", "Stem", "Lime", "Agave", "Chameleon", "Light", "Grape"
+    ],
+    "GREEN": [
+      "Green", "Green", "Fern", "Holly", "Clover", "Olive", "Jade", "Tree", "Algae", "Aloe",
+      "Chameleon"
+    ],
     "BLUE": ["Blue", "Blue", "Ice", "Sky", "Lake", "Frost", "Water", "Icicle", "Frosty", "Cold", "Rime"],
-    "DARKBLUE": ["Dark", "Blue", "Blue", "Sky", "Lake", "Berry", "Water", "Deep", "Cobalt", "River", "Night", "Rain"],
-    "GREY": ["Gray", "Stone", "Silver", "Ripple", "Moon", "Rain", "Storm", "Heather"],
-    "CYAN": ["Sky", "Blue", "River", "Rapid", "Ice", "Frost", "Cold", "Rime"],
-    "EMERALD": ["Emerald", "Green", "Shine", "Green", "Pine", "Weed"],
-    "PALEBLUE": ["Pale", "Blue", "Blue", "Sky", "River", "Ripple", "Day", "Cloud", "Rime"],
-    "PALEYELLOW": ["Pale", "Yellow", "Sun", "Gold", "Light", "Daisy"],
-    "GOLD": ["Gold", "Golden", "Sun", "Amber", "Sap", "Honey", "Yellow"],
-    "HEATHERBLUE": ["Heather", "Blue", "Lilac", "Rosemary", "Lavender", "Wisteria"],
-    "COPPER": ["Copper", "Red", "Amber", "Brown", "Fire", "Cinnamon"],
-    "SAGE": ["Sage", "Leaf", "Olive", "Bush", "Clove", "Green", "Weed"],
-    "COBALT": ["Blue", "Blue", "Ice", "Icy", "Sky", "Lake", "Frost", "Water", "Frosty", "Rime"],
+    "DARKBLUE": [
+      "Dark", "Blue", "Sky", "Lake", "Berry", "Water", "Deep", "Cobalt", "River", "Night", "Rain",
+      "Cornflower", "Bluebell"
+    ],
+    "GREY": ["Gray", "Stone", "Silver", "Ripple", "Moon", "Rain", "Storm", "Stormy", "Heather"],
+    "CYAN": [
+      "Sky", "Blue", "River", "Rapid", "Ice", "Icy", "Frost", "Cold", "Rime", "Light", "Pale"
+    ],
+    "EMERALD": [
+      "Emerald", "Green", "Pine", "Moss", "Mossy"
+    ],
+    "PALEBLUE": ["Pale", "Blue", "Blue", "Sky", "River", "Ripple", "Day", "Rime", "Light"],
+    "PALEYELLOW": ["Pale", "Yellow", "Sun", "Sunny", "Gold", "Light", "Daisy"],
+    "GOLD": ["Gold", "Golden", "Sun", "Sunny", "Amber", "Sap", "Honey", "Yellow"],
+    "HEATHERBLUE": [
+      "Heather", "Blue", "Lilac", "Rosemary", "Lavender", "Wisteria", "Bellflower", "Violet",
+      "Cornflower", "Bluebell"
+    ],
+    "COPPER": ["Copper", "Red", "Amber", "Brown", "Fire", "Cinnamon", "Rust", "Rusty"],
+    "SAGE": ["Sage", "Leaf", "Olive", "Bush", "Clove", "Green"],
+    "COBALT": [
+      "Dark", "Blue", "Sky", "Lake", "Berry", "Water", "Deep", "Cobalt", "River", "Night", "Rain",
+      "Cornflower", "Bluebell"
+    ],
     "SUNLITICE": ["Sun", "Ice", "Icy", "Frost", "Dawn", "Dusk", "Odd", "Glow", "Mouse"],
-    "GREENYELLOW": ["Green", "Yellow", "Tawny", "Hazel", "Gold", "Daisy", "Sand", "Sandy", "Weed"],
-    "SILVER": ["Gray", "Stone", "Silver", "Silver", "Moon", "Rain", "Storm", "Pale", "Light"],
+    "GREENYELLOW": ["Green", "Yellow", "Hazel", "Gold", "Daisy", "Durian"],
+    "SILVER": ["Gray", "Stone", "Silver", "Silver", "Moon", "Rain", "Storm", "Stormy", "Pale", "Light"],
     "ORANGE": ["Amber", "Sun", "Fire", "Honey", "Flame", "Blaze", "Pumpkin", "Red", "Ember", "Orange"]
   },
 
