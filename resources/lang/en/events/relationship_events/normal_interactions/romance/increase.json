@@ -6,7 +6,8 @@
 			"m_c is developing a crush on r_c.",
 			"m_c might be reading a little too far into r_c's kindness.",
 			"m_c never realized how much {PRONOUN/m_c/subject} {VERB/m_c/love/loves} spending time with r_c.",
-			"m_c just noticed how beautiful r_c's eyes are."
+			"m_c just noticed how beautiful r_c's eyes are.",
+			"m_c wonders if love is what {PRONOUN/m_c/subject} {VERB/m_c/feel/feels} when {PRONOUN/m_c/subject} {VERB/m_c/think/thinks} about r_c."
 		],
 		"relationship_constraint": [
 			"-mates",
@@ -23,7 +24,10 @@
 			"m_c had a dream about r_c.",
             "m_c thinks r_c has very soft fur.",
             "m_c and r_c sunbathe together.",
-            "m_c and r_c take a nap together."
+            "m_c and r_c take a nap together.",
+			"m_c trails off while in a conversation, admiring r_c's pelt...",
+			"m_c thinks r_c is really pretty.",
+			"m_c always goes with r_c's ideas, no matter how bizarre they are."
 		]
 	},
 	{
@@ -52,12 +56,96 @@
 		"intensity": "low",
 		"interactions": [
 			"m_c thinks r_c is really charming.",
-			"m_c can't help but smile when around r_c."
+			"m_c can't help but smile when around r_c.",
+			"m_c thinks r_c smells sweet like honey and lavender.",
+			"m_c always wants to be in r_c's presence."
 		],
 		"random_trait_constraint": [
 			"charming",
             "charismatic",
             "flamboyant"
+		]
+	},
+	{
+		"id": "rom_inc_low_sprout_platonic_to_romantic",
+		"intensity": "low",
+		"interactions": [
+			"m_c is bewildered by the new feelings {PRONOUN/m_c/subject} {VERB/m_c/feel/feels} when {PRONOUN/m_c/subject} {VERB/m_c/hear/hears} r_c's soft, velvety laugh.",
+			"m_c denies even the slightest semblance of a crush on r_c. Well, {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} just a friend, so m_c definitely isn't feeling anything <i>else</i>, right?",
+			"m_c can't help the new butterflies fluttering in {PRONOUN/m_c/poss} gut, watching r_c strut into camp with prey and wink at {PRONOUN/m_c/object}."
+		],
+		"relationship_constraint": [
+			"-mates",
+			"fancies_only",
+			"enjoys"
+		]
+	},
+	{
+		"id": "rom_inc_low_sprout_kit1",
+		"intensity": "low",
+		"interactions": [
+			"m_c feels things in {PRONOUN/m_c/poss} belly when {PRONOUN/m_c/subject} {VERB/m_c/see/sees} r_c.",
+            "m_c wonders if r_c feels the same things {PRONOUN/m_c/subject} {VERB/m_c/do/does} when they see each other.",
+            "m_c loves playing games with r_c even if {PRONOUN/r_c/subject} {VERB/r_c/win/wins} every time.",
+            "m_c wonders if r_c has a 'crush' on {PRONOUN/m_c/object} too?"
+		],
+		"main_age_constraint": [
+			"kitten"
+		]
+	},
+	{
+		"id": "rom_inc_low_sprout_kit2",
+		"intensity": "low",
+		"interactions": [
+			"m_c is always so enchanted playing r_c's games.",
+            "m_c bluntly tells r_c how pretty {PRONOUN/r_c/subject} {VERB/r_c/look/looks}!"
+		],
+		"main_age_constraint": [
+			"kitten"
+		],
+		"random_age_constraint": [
+			"kitten"
+		],
+		"reaction_random_cat": {
+			"romance": "increase",
+			"like": "increase"
+		}
+	},
+	{
+		"id": "rom_inc_low_sprout_clan_meeting1",
+		"intensity": "low",
+		"interactions": [
+			"m_c always chooses to sit next to r_c when watching Clan meetings."
+		],
+		"main_status_constraint": [
+			"-kitten",
+			"-leader",
+			"-elder"
+		],
+		"random_status_constraint": [
+			"-kitten",
+			"-leader",
+			"-elder"
+		]
+	},
+	{
+		"id": "rom_inc_low_sprout_clan_meeting2",
+		"intensity": "low",
+		"interactions": [
+			"m_c sneaks glances at r_c during Clan meetings."
+		],
+		"main_status_constraint": [
+			"-kitten",
+			"-elder"
+		],
+		"random_status_constraint": [
+			"-kitten",
+			"-leader",
+			"-elder"
+		],
+		"relationship_constraint": [
+			"-mates",
+			"fancies"
 		]
 	},
 	{
@@ -67,7 +155,8 @@
 			"m_c laughs at bad jokes from r_c.",
 			"m_c made r_c laugh again and again.",
 			"m_c goes for a nice long walk with r_c.",
-			"m_c nuzzles against r_c and purrs."
+			"m_c nuzzles against r_c and purrs.",
+			"m_c finds {PRONOUN/m_c/self} purring, watching r_c stumble on some rocks and quickly compose {PRONOUN/r_c/self} elegantly."
 		],
 		"reaction_random_cat": {
 			"like": "increase",
@@ -80,7 +169,8 @@
 		"interactions": [
 			"m_c ensnares r_c with a charming smile.",
 			"m_c knows exactly what to say to make r_c blush.",
-            "m_c charms r_c with endless compliments."
+            "m_c charms r_c with endless compliments.",
+			"m_c brushes {PRONOUN/m_c/poss} tail under r_c's chin as {PRONOUN/m_c/subject} {VERB/m_c/pass/passes} by. By mistake, {PRONOUN/m_c/subject} claims."
 		],
 		"main_trait_constraint": [
 			"charming",
@@ -93,7 +183,7 @@
 		}
 	},
 	{
-		"id": "rom_inc_medium4",
+		"id": "rom_inc_medium3",
 		"intensity": "medium",
 		"interactions": [
 			"m_c is hoping that r_c notices {PRONOUN/m_c/object}.",
@@ -120,7 +210,8 @@
     		"m_c talked generally about the idea of mates with r_c.",
     		"m_c realizes {PRONOUN/m_c/poss} chest hurts when {PRONOUN/m_c/subject} {VERB/m_c/see/sees} r_c in pain or upset...",
 			"m_c sees r_c stumble while hunting and thinks it's cute.",
-    		"m_c realizes {PRONOUN/m_c/subject} {VERB/m_c/have/has} more than just a crush on r_c."
+    		"m_c realizes {PRONOUN/m_c/subject} {VERB/m_c/have/has} more than just a crush on r_c.",
+			"m_c's face burns thinking about r_c."
 		],
 		"relationship_constraint": [
 			"-mates",
@@ -134,7 +225,9 @@
 			"m_c brushes against r_c while correcting {PRONOUN/r_c/poss} stance and looks away with a purr.",
 			"m_c left a gift in r_c's nest for {PRONOUN/r_c/object} to find.",
 			"m_c picked out the best piece of prey to share with r_c.",
-			"m_c overhears r_c tell another cat {PRONOUN/r_c/subject} kind of {VERB/r_c/like/likes} m_c."
+			"m_c overhears r_c tell another cat {PRONOUN/r_c/subject} kind of {VERB/r_c/like/likes} m_c.",
+			"m_c listens admiringly as r_c excitedly tells {PRONOUN/m_c/object} facts about bugs.",
+			"m_c encourages r_c to rest - {PRONOUN/m_c/subject} can handle r_c's workload."
 		],
 		"reaction_random_cat": {
 			"romance": "increase",
@@ -234,6 +327,97 @@
 		}
 	},
 	{
+		"id": "rom_inc_medium_sprout_clan_meeting_charismatic",
+		"intensity": "medium",
+		"interactions": [
+			"m_c catches r_c's eyes in the crowd at a Clan meeting and winks at {PRONOUN/r_c/object}."
+		],
+		"main_trait_constraint": [
+			"charming",
+            "flamboyant",
+            "charismatic"
+		],
+		"main_status_constraint": [
+			"-kitten",
+			"-leader",
+			"-elder"
+		],
+		"random_status_constraint": [
+			"-kitten",
+			"-leader",
+			"-elder"
+		],
+		"reaction_random_cat": {
+			"romance": "increase"
+		}
+	},
+	{
+		"id": "rom_inc_medium_sprout_to_charismatic",
+		"intensity": "medium",
+		"interactions": [
+			"Despite m_c's inner protests, {PRONOUN/m_c/subject} can't help remembering r_c's face, brilliant under the sunlight, and feeling {PRONOUN/m_c/poss} stomach flip."
+		],
+		"relationship_constraint": [
+			"-mates",
+			"fancies"
+		],
+		"random_trait_constraint": [
+			"charming",
+            "flamboyant",
+            "charismatic"
+		]
+	},
+	{
+		"id": "rom_inc_medium_sprout_clan_meeting",
+		"intensity": "medium",
+		"interactions": [
+			"m_c purrs thinking about a comedic remark r_c made at the Clan meeting."
+		],
+		"main_status_constraint": [
+			"-kitten",
+			"-elder"
+		],
+		"random_status_constraint": [
+			"-kitten",
+			"-elder"
+		]
+	},
+	{
+		"id": "rom_inc_medium_sprout_kit",
+		"intensity": "medium",
+		"interactions": [
+			"m_c helps r_c clean the nursery just to spend time with {PRONOUN/r_c/object}.",
+            "m_c grows flustered when r_c squeaks that m_c's the best playmate ever!",
+            "m_c chooses to sleep in r_c's nest instead of {PRONOUN/m_c/poss} own.",
+            "m_c makes sure r_c always wins during games."
+		],
+		"main_status_constraint": [
+			"kitten"
+		],
+		"random_status_constraint": [
+			"kitten"
+		],
+		"reaction_random_cat": {
+			"romance": "increase"
+		}
+	},
+	{
+		"id": "rom_inc_medium_sprout_med",
+		"intensity": "medium",
+		"interactions": [
+			"m_c thinks it's cute when r_c goes on a tangent about herbs.",
+			"m_c listens eagerly as r_c talks about different herbs in full detail.",
+			"m_c helps around the medicine den for r_c."
+		],
+		"random_status_constraint": [
+			"medicine cat",
+			"medicine cat apprentice"
+		],
+		"reaction_random_cat": {
+			"romance": "increase"
+		}
+	},
+	{
 		"id": "rom_inc_high1",
 		"intensity": "high",
 		"interactions": [
@@ -248,7 +432,8 @@
 			"m_c gives r_c a wonderfully colored pebble {PRONOUN/m_c/subject} found, and hides behind {PRONOUN/m_c/poss} whiskers when thanked.",
 			"m_c gives r_c a circular Twoleg object {PRONOUN/m_c/subject} found, and hides behind {PRONOUN/m_c/poss} whiskers when thanked.",
 			"m_c compliments r_c on how well groomed {PRONOUN/r_c/poss} pelt is today.",
-			"m_c compliments r_c on how sharp {PRONOUN/r_c/poss} claws are today."
+			"m_c compliments r_c on how sharp {PRONOUN/r_c/poss} claws are today.",
+			"m_c offers {PRONOUN/m_c/poss} favorite prey to r_c, who was already planning to do the same for m_c!"
 		],
 		"reaction_random_cat": {
 			"romance": "increase",
@@ -282,7 +467,8 @@
 			"m_c is rolling around a little too playfully with r_c...",
 			"m_c could spend hours listening to r_c's voice.",
 			"m_c hopes to dream of r_c tonight.",
-			"m_c is the only cat who can make r_c laugh."
+			"m_c is the only cat who can make r_c laugh.",
+			"m_c picks a large piece of r_c's favorite prey and drops it off at {PRONOUN/r_c/poss} nest."
 		],
 		"relationship_constraint": [
 			"adores"
@@ -318,7 +504,8 @@
 		"intensity": "high",
 		"interactions": [
 			"m_c purrs for a long time at one of r_c's lame jokes.",
-			"m_c can't stop gushing over r_c."
+			"m_c can't stop gushing over r_c.",
+			"m_c hopes that {PRONOUN/m_c/subject} can spend the rest of {PRONOUN/m_c/poss} life with r_c."
 		],
 		"relationship_constraint": [
 			"mates"

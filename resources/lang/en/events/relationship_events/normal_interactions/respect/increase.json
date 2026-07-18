@@ -80,6 +80,25 @@
 		]
 	},
 	{
+		"id": "respect_inc_low_sprout_warrior",
+		"intensity": "low",
+		"interactions": [
+			"m_c quietly admires r_c's plump catch out on a patrol."
+		],
+		"main_status_constraint": [
+			"apprentice",
+			"warrior",
+			"deputy",
+			"leader"
+		],
+		"random_status_constraint": [
+			"apprentice",
+			"warrior",
+			"deputy",
+			"leader"
+		]
+	},
+	{
 		"id": "respect_inc_medium0",
 		"intensity": "medium",
 		"interactions": [
@@ -396,6 +415,36 @@
 		]
 	},
 	{
+		"id": "respect_inc_med_sprout_den",
+		"intensity": "medium",
+		"interactions": [
+			"m_c watches in admiration as r_c skillfully weaves brambles along the den entrances, commanding {PRONOUN/r_c/poss} fellow Clanmates to help."
+		],
+		"random_skill_constraint": [
+			"CAMP,2"
+		],
+		"random_status_constraint": [
+			"-kitten",
+			"-apprentice",
+			"-mediator apprentice",
+			"-medicine cat apprentice"
+		]
+	},
+	{
+		"id": "respect_inc_med_sprout_patrol_story",
+		"intensity": "medium",
+		"interactions": [
+			"m_c listens to r_c retell a story of a patrol to a few Clanmates, {PRONOUN/r_c/poss} storytelling quickly captivating {PRONOUN/m_c/object}."
+		],
+		"random_skill_constraint": [
+			"STORY,2"
+		],
+		"random_status_constraint": [
+			"-kitten",
+			"-elder"
+		]
+	},
+	{
 		"id": "respect_inc_high0",
 		"intensity": "high",
 		"interactions": [
@@ -499,6 +548,21 @@
 		],
 		"reaction_random_cat": {
 			"like": "increase"
+		}
+	},
+	{
+		"id": "respect_inc_high_sprout_med",
+		"intensity": "high",
+		"interactions": [
+			"m_c listens eagerly as r_c talks about different herbs in full detail."
+		],
+		"random_status_constraint": [
+			"medicine cat",
+			"medicine cat apprentice"
+		],
+		"reaction_random_cat": {
+			"like": "increase",
+			"comfort": "increase"
 		}
 	},
 		{
