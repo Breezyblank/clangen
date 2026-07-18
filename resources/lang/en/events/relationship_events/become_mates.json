@@ -12,7 +12,9 @@
 		"m_c and r_c announce they've become mates in the least showy way possible, by combining their nests into one.",
 		"There's such happiness in the promises they make to each other. m_c and r_c leap into their new life as mates without question or hesitation.",
 		"For just this one perfect moment, heads pressed together and speaking their commitment in front of the Clan, there's nothing in m_c and r_c's worlds but love.",
-		"m_c and r_c are very proud to announce their new status as mates — it's quite cute."
+		"m_c and r_c are very proud to announce their new status as mates — it's quite cute.",
+		"m_c and r_c have been eyeing each other for a while, and c_n knows it. No one, absolutely no one, is surprised when m_c declares their mateship, and the Clan even looks forward to finding them doing romantic, couple-y things in the future.",
+		"m_c practically drags r_c to a secluded part of camp, shoving {PRONOUN/r_c/object} against a large tree and screaming at {PRONOUN/r_c/object} {PRONOUN/m_c/poss} love. Flustered and worried, r_c nervously admits {PRONOUN/r_c/poss} reciprocation with a laugh, and m_c forces {PRONOUN/m_c/poss} fur to lie flat, smiling at r_c."
 	],
 	"low_romantic":[
 		"m_c and r_c have become mates.",
@@ -26,7 +28,8 @@
 		"This moon marks the beginning of the rest of their lives together for m_c and r_c.",
 		"Tails twined together, m_c and r_c announce that love has blossomed between them. They've become mates.",
         "It's endearing how embarrassed m_c is, with {PRONOUN/m_c/object} and r_c briefly becoming the center of attention as new mates.",
-        "No one is going to blame m_c for the pride {PRONOUN/m_c/subject} {VERB/m_c/display/displays} in successfully asking r_c to become {PRONOUN/m_c/poss} mate. It's a wonderful life event to celebrate, and something to rightfully congratulate the couple on."
+        "No one is going to blame m_c for the pride {PRONOUN/m_c/subject} {VERB/m_c/display/displays} in successfully asking r_c to become {PRONOUN/m_c/poss} mate. It's a wonderful life event to celebrate, and something to rightfully congratulate the couple on.",
+		"The Clan has always assumed m_c and r_c loved cats that weren't each other, so it was a bit of a shock when some cats saw them twirling their tails together, purring, pressing their pelts against the other's, and grooming each other thoughtfully in the clearing."
 	],
 	"like_to_romance":[
 		"m_c and r_c see each other in a different light and have become mates.",
